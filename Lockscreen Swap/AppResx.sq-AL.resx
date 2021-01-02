@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>për</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>ngjyra Accent</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 Ekrani i bllokimit</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>ngjyra e sfondit</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>8.1 Ekrani i bllokimit</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Blej këtë app</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>kliko këtu</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>ngjyrë</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Copy folder</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Copy imazhe për</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Pritini imazh</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Fshij dosjen</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Fshij imazhe ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>GABIM ! Shkruani emrin !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>GABIM ! Emri tashmë në përdorim ose shenja të pavlefshme !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>GABIM : Agjentët sfond për këtë aplikim janë me aftësi të kufizuara nga përdoruesi !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( të rastit)</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>ngjyra Frame</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>Madhësia Frame</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>ngjyra Info</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>transparenca Info</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>zgjedhur tashmë</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>Ashtu si xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Ju tha se nuk ka , kështu që unë nuk mund update sfond tuaj .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>dosje</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Set dosje të rastit</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Nuk ka dosje për të zgjedhur . Së pari të krijojë një dosje fotografi dhe importit.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Nuk ka asnjë foto në dosjen e zgjedhur . Hapni dosje dhe fotografi importi .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Krijo dosje të re</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>emri i ri</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nuk</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>njoftim</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>nuk</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>po</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>dosje hapur</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Apps tjera xtrose</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>background Phone</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Piktura</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Vlerësoni këtë app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Rename dosje</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>zgjedh</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Zgjidh imazhe të kopjoni</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Zgjidhni imazhet për të fshirë</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Set ngjyra</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Burimi dhe objektivi janë tënjëjta</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Ndrysho Lock ekran</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Faleminderit për shkarkimin</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Faleminderit për shkarkimin</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>transparente</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>KUJDES!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>po</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>orë</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Image Lock ekran ( kliko)</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minutë</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuta</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Faleminderit për blerjen e këtij app</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Version gjyq skaduar!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Version gjyq skaduar! Për të krijuar Apps do të kushtojë një shumë kohë . Çmimi për këtë punë nuk është e shtrenjtë . Të vazhdojë të krijojë ekranet bllokohet Images , ju duhet të blerë app . Faleminderit !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>version gjyq</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>i përgjithshëm</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Përdoreni këtë kërkesë për të krijuar imazhe të mëdha sfond . Kjo ngarkesa e cilësimet janë në dispozicion për ty . Imazhin tuaj sfond është rikrijuar çdo tridhjetë minuta . Kjo mund të ndodhë që ndalon shërbimin e sfondit të këtij aplikacioni . Për të filluar përsëri ,kërkesa duhet të hapen thjesht.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>i llojllojshëm</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Ju lutemi të mirë normë të aplikimit të kësaj , nëse ju pëlqen . Nëse keni probleme me këtë kërkesë, atëherë ju lutemi të kontaktoni përkrahjen ! Pyetjet dhe çështjet kanë humbur asgjë në shqyrtime.
+Thank you very much!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Piktura</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Krijo një dosje , të hapur atë dhe importit , si shumë imazhe .
+Kurimporti i imazheve çdo imazh mund të jetë një linjë .
+Ju mund të krijoni dosje të shumta për të shpejt të krijojë një sfond krejtësisht të ndryshme .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>udhëzime</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Cilësimet</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Sfond mund të rregullohen në faqen settings . Është vendosur aplikimin si një aplikim sfondit ,background image është rikrijuar për çdo switch. Image krijuar rishtazi është shfaqur , kështu që ju mund menjëherë të kontrolloni vendosjen e saj .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>mbështetje</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>klikoni ekran për të kaloni</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Lehtë të krijojë një Lock ekran të bllokoj si në Windows 8.1 .
+Përdorimi fotot tuaja dhe shikoni se si tuaj bllokoj ekran ndryshon çdo orë e gjysmë .
+Ka shumë opsione në dispozicion për këtë.
+Ju do të jetë i habitur !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>8.1 Ekrani i bllokimit</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>background image</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>Wallpaper</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>dizajn</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>shtoj</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Copy</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>qartë</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>shtuar më shumë</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>zgjidhni të gjitha</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individ shtuar</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>deselektoni gjitha</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>ndërpres</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Të gjitha Piktura</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>afërt</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>i mëparshëm</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>imazhet e ruajtura</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>zgjedh</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automatikisht</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Zgjidhni imazhet për të shtuar</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>fton</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>sizing</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>informacioni i mësipërm</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Save Settings</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>imazhet Copy</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Pritini imazh</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Pritini imazhe</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>dosje</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>krijuar</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Krijo të ri</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Përdorni aplikacionin si lock screen app që ne mund të ndryshojë ekranin e tyre lock</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>tim</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Folder Random</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Random Image</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>zgjidhni profilin</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>fshij</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Fshij profilin</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Profile Rename</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>rekord</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Zgjidh kontekstin</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Parametrat aktuale janë të fshihen kurështë aplikuar profilin</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informacioni për baterinë</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>gjuhë</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Ndrysho Language</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Restart aplikimin</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Zgjidh Gjuhën</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>Lidhje</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Save and share</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>e drejtë</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>nga ana e majtë</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>nga ana e djathtë</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Save and share</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Përdoreni këtë kërkesë për të krijuar imazhe të mëdha sfond . Për këtë qëllim , ju jeni gati ton të settings. Imazhin tuaj sfond është krijuar përsëri çdo orë e gjysmë .
+Windows Phone kërkon një lidhje aktive në internet për shërbimet sfond . Me asnjë lidhje në internet ekziston,background image nuk mund të rikrijuar .
+Për fat të keq , vetëm një kujtim të vogël të kufizuar në dispozicion për shërbimin sfond . Kjo mund të ndodhë që ndalon përdorimin e shërbimit sfond të tillë . Nevoja për të filloni atë përsëri , vetëm vetëm hapi aplikacionin. Nga cilësimet e tjera ngjyra e këtij problemi mund të jetë fikse .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Shtypni për të krijuar</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponentet</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>hapje</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>më vonë</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>nuk</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>vlerësoj</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Ju duket se si këtë kërkesë .
+Apps program është kohë dhe e vështirë .
+Një vlerësim i mirë mund të na ndihmojë për të përhapur atë më tej .
+
+ju faleminderit shumë</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Shfaq logo në fillimin</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Piktura Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Lidhu me xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Rregullime të Mëtejshëm</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>strukturë</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>instalon</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Lidhja .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Lidhja dështoi</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Tejkaluar apo jo të kombinuara herë</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Download .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Me udhëzime</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Nuk ka komponentët janë të pranishme</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>ruaj</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>A doni të fshini këtë kornizë ?
+
+Kornizë Deleted mund të rivendoset vetëm përmes instalimit online.</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Kornizë nuk mund të fshihet .
+
+Kjo është kornizë juaj e fundit . Duhet të ketë të paktën një instaluar .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>përzgjedhje</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>kthej</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Zgjidhni një kornizë për të uninstall atë . Kliko këtu për të rivendosur kornizë para- instaluar .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Rikthe të gjitha kornizë para- instaluar</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>mbështetje</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+    <value>10.0 Lock Screen</value>
+  </data>
+  <data name="Z05_T1" xml:space="preserve">
+    <value>We have developed a completely new app!</value>
+  </data>
+  <data name="Z05_T2" xml:space="preserve">
+    <value>Adapted to Windows 10.</value>
+  </data>
+  <data name="Z05_T3" xml:space="preserve">
+    <value>Higher resolution. Adapted to the display size.</value>
+  </data>
+  <data name="Z05_T4" xml:space="preserve">
+    <value>Different image formats.</value>
+  </data>
+  <data name="Z05_T5" xml:space="preserve">
+    <value>Background pictures.</value>
+  </data>
+  <data name="Z05_T6" xml:space="preserve">
+    <value>Field for user informations.</value>
+  </data>
+  <data name="Z05_T7" xml:space="preserve">
+    <value>Many more opportunities.</value>
+  </data>
+  <data name="Z05_T8" xml:space="preserve">
+    <value>The new and absolutely brilliant engine creates your new lock screen again and again. And without grid as a template. This make the app easy and brings an infinite variety of combinations.</value>
+  </data>
+  <data name="Z05_TestNow" xml:space="preserve">
+    <value>Test now</value>
+  </data>
+  
+  
+  
+  
+  
+</root>

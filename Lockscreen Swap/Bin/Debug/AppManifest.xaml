@@ -1,0 +1,67 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Lockscreen Swap" EntryPointType="Lockscreen_Swap.App" RuntimeVersion="4.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Lockscreen Swap" Source="Lockscreen Swap.dll" />
+    <AssemblyPart x:Name="Coding4Fun.Toolkit.Audio" Source="Coding4Fun.Toolkit.Audio.dll" />
+    <AssemblyPart x:Name="Coding4Fun.Toolkit.Controls" Source="Coding4Fun.Toolkit.Controls.dll" />
+    <AssemblyPart x:Name="Coding4Fun.Toolkit.Net" Source="Coding4Fun.Toolkit.Net.dll" />
+    <AssemblyPart x:Name="Coding4Fun.Toolkit.Storage" Source="Coding4Fun.Toolkit.Storage.dll" />
+    <AssemblyPart x:Name="ICSharpCode.SharpZLib.Phone" Source="ICSharpCode.SharpZLib.Phone.dll" />
+    <AssemblyPart x:Name="ImageTools.Controls" Source="ImageTools.Controls.dll" />
+    <AssemblyPart x:Name="ImageTools" Source="ImageTools.dll" />
+    <AssemblyPart x:Name="ImageTools.Filtering" Source="ImageTools.Filtering.dll" />
+    <AssemblyPart x:Name="ImageTools.IO.Bmp" Source="ImageTools.IO.Bmp.dll" />
+    <AssemblyPart x:Name="ImageTools.IO.Gif" Source="ImageTools.IO.Gif.dll" />
+    <AssemblyPart x:Name="ImageTools.IO.Png" Source="ImageTools.IO.Png.dll" />
+    <AssemblyPart x:Name="ImageTools.Utils" Source="ImageTools.Utils.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart x:Name="MyScheduledTaskAgent" Source="MyScheduledTaskAgent.dll" />
+    <AssemblyPart x:Name="PhoneCodeContractsAssemblies" Source="PhoneCodeContractsAssemblies.dll" />
+    <AssemblyPart x:Name="WriteableBitmapExWinPhone" Source="WriteableBitmapExWinPhone.dll" />
+    <AssemblyPart Source="ar-SA/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="Az-Latn-AZ/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="be-BY/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="bg-BG/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ca-ES/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="cs-CZ/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="da-DK/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="el-GR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="en-GB/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="en/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="es-ES/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="es-MX/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="fa-IR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="fi-FI/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="fil-PH/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="fr-FR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="he-IL/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="hi-IN/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="hr-HR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="hu-HU/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="id-ID/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="it-IT/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ja-JP/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ko-KR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="lt-LT/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="lv-LV/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="mk-MK/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ms-MY/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="nb-NO/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="nl-NL/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="pl-PL/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="pt-BR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="pt-PT/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ro-RO/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="ru-RU/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="sk-SK/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="sq-AL/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="sr-Latn-CS/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="sv-SE/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="th-TH/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="tr-TR/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="uk-UA/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="vi-VN/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="zh-CN/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="zh-TW/Lockscreen Swap.resources.dll" />
+    <AssemblyPart Source="de-DE/Lockscreen Swap.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

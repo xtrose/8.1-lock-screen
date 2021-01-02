@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>על</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>צבע מבטא</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>מסך נעילת 8.1</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>צבע רקע</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>נעילת מסך מחליף</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>קנה את היישום הזה</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>לחץ כאן</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>צבע</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>העתקת תיקייה</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>העתק את התמונות ל</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>לחתוך תמונה</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>מחק את התיקייה</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>מחק את התמונות ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>שגיאה! הזן את השם !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>שגיאה! שם כבר בשימוש או בתווים לא חוקיים !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>שגיאה: סוכני רקעלבקשה זו הושבתו על ידי המשתמש !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>(אקראי )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>צבע מסגרת</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>גודל מסגרת</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>צבע מידע</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>שקיפות מידע</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>כבר נבחר</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>כמו xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>אתה אמר שלא, אז אני לא יכול לעדכן את הרקע שלך.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>אוגדן</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>להגדיר תיקייה אקראית</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>אין תיקיות לבחירה . ליצור תחילה תיקיית תמונותויבוא.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>אין תמונהבתיקייה שנבחרה. פתח את התיקייהולייבא תמונות .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>צור תיקייה חדשה</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>שם חדש</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>הודעה</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>פתיחת תיקייה</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Apps xtrose אחר</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>רקע טלפון</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>שיעור יישום זה</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>שינוי שם תיקייה</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>לבחור</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>בחר תמונות להעתקה</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>בחר למחוק תמונות</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>קבע את הצבע</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>מקור והיעד הם אותו הדבר</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>שינוי מסך נעילה</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>תודה על ההורדה</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>תודה על ההורדה</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>שקוף</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>אזהרה!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>כן</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>שעה</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>שעות</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>תמונת מסך נעילה ( קליק)</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>דקה</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>פרוטוקול</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>תודה שרכשת את היישום הזה</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>גרסת ניסיון !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>גרסת ניסיון ! כדי ליצור אפליקציות יעלוהרבה זמן . המחיר עבור עבודה זו הוא לא יקר . כדי להמשיך ליצור תמונות מסכי נעילה , אתה חייב לקנות את היישום. תודה לך !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>גרסת ניסיון</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>כללי</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>להשתמש ביישום זה כדי ליצור תמונות רקע גדולות. זו יש המון הגדרות זמינים עבורך . תמונת הרקע שלך נוצרת מחדש כל שלושים דקות. זה יכול לקרות כי עוצר את שירות הרקע של יישום זה. כדי להתחיל אותו שוב , את הבקשה יש לפתוח בפשטות.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>שונות</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>אנא דרג את יישום זה טוב אם אתה רוצה. אם יש לך בעיות עם יישום זה, אז אנא צור קשר עם תמיכה ! שאלות וסוגיות איבדו שום דברבחוות הדעת.
+תודה רבה לך !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>תמונות</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>צור תיקייה , לפתוח אותו ולייבא , כמה שיותר תמונות .
+כשהיבוא של תמונות ניתן ליישר כל תמונה.
+באפשרותך ליצור מספר תיקיות כדי ליצוררקע שונה לחלוטין במהירות.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>הוראות</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>הגדרות</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>הרקע יכול להיות מותאם בעמוד ההגדרות . יישום מוגדרכיישום רקע,תמונת הרקע נוצרת מחדשלכל מתג. התמונה חדשה שנוצרה יוצג , כך שאתה יכול מייד לבדוק את ההגדרה שלו.</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>תמיכה</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>לחץ על מסך כדי לדלג</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>בקלות ליצורמסך נעילה כמו ב-Windows 8.1 .
+השתמש בתמונות שלך ולראות איך משנה את מסך הנעילה שלך כל חצי שעה.
+ישנן אפשרויות רבות זמינות עבור זה.
+אתה תהיה מופתע !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value> מסך נעילת</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>תמונת רקע</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>טפט</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>לעצב</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>להוסיף</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>העתק</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>ברור</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>עוד הוסיף</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>בחר את כל</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>פרט נוסף</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>ביטול בחירה כל</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>להצטלב</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>כל התמונות</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>הקרוב ביותר</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>קודם</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>תמונות מאוחסנות</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>לבחור</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>באופן אוטומטי</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>בחר תמונות להוסיף</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>מזמין את</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>שינוי גודל</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>מידע אמור לעיל</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>פרופיל</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>לשמור את הגדרות</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>תמונות העתקה</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>לחתוך תמונה</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>לחתוך תמונות</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>אוגדן</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>נוצר</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>יצירה חדש</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>השתמש באפליקציהכאפליקציה לנעילת מסךשאנחנו יכולים לשנות את מסך הנעילה שלהם</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>שלי</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>תיקייה אקראי</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>תמונה אקראית</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>בחר פרופיל</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>למחוק</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>מחק את הפרופיל</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>שינוי שם פרופיל</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>שיא</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>בחר הקשר</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>ההגדרות הנוכחיות נמחקות כאשר הפרופיל מוחל</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>מידע על סוללות</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>שפה</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>שינוי שפה</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>הפעל מחדש את היישום</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>בחר שפה</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>קישורים</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>לשמור ולשתף</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>נכון</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>פונה שמאלה</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>פונה ימינה</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>לשמור ולשתף</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>להשתמש ביישום זה כדי ליצור תמונות רקע גדולות. לצורך כך , אתה טונות מוכנות של הגדרות. תמונת הרקע שלך נוצרה בכל דקה שלושים חדשה.
+Windows Phone דורשחיבור אינטרנט פעיללשירותים ברקע. ללא חיבור לאינטרנט קיים, לא ניתן ליצור מחדש את תמונת הרקע .
+למרבה הצער, הוא רקמגבלת זיכרון קטן זמינה עבורשירות הרקע. זה יכול לקרות כי עוצר את השירות ברקע לשימוש שכזה . צריך להתחיל את זה שוב רק לפתוח את היישום בקלות. על ידי הגדרות צבע אחרות לבעיה זו יכולה להיפתר.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>לחץ כדי ליצור</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>רכיבים</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>פתיחה</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>מאוחר יותר</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>לא</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>להעריך</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>נראה שאתה אוהב את היישום הזה.
+תכנית Apps היא זמן רב וקשה .
+הערכה טובה יכולה לעזור לנו להפיץ אותו עוד יותר .
+
+רב תודות</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>הצג את לוגו בעת האתחול</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Erstellen טייל תמונות</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>להתחבר עם xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>הגדרות מתקדמות</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>מסגרת</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>התקנות</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>באינטרנט</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>חיבור .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>ההתחברותנכשלה</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>זמן חלף, או שלא בשילוב</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>הורד .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>קובץ כבר קיים</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>אין רכיבים נמצאים</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>להציל</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>האם ברצונך למחוק מסגרת זו ?
+
+מסגרת שנמחקה ניתן לשחזר רק באמצעותההתקנה באינטרנט.</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>מסגרת לא ניתן למחוק .
+
+זו המסגרת האחרונה שלך. חייב להיות לפחות אחת מותקנת.</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>בחירה</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>לשחזר</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>מגע</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>בחרמסגרת כדי להסיר אותה. לחץ כאן כדי לשחזר את המסגרת המותקנת מראש .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>לשחזר את כל המסגרת המותקנת מראש</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>תמיכה</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>מסך הנעילה 10.0</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>פיתחנו יישום חדש לגמרי!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>הותאם ל- Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>רזולוציה גבוהה יותר. מותאם לגודל התצוגה.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>פורמטים שונים של תמונות.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>תמונות רקע.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>שדה עבור המשתמש ידיעות.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>הרבה יותר הזדמנויות.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>החדש ואת מבריק מנוע יוצר את מסך הנעילה החדשה שוב ושוב. ללא רשת כתבנית. זה מקל את האפליקציה ומביא מבחר עצום של שילובים.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>הבדיקה עכשיו</value>
+</data>
+
+
+
+
+
+</root>

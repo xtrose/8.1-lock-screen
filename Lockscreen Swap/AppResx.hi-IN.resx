@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>के बारे में</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>एक्सेंट रंग</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 लॉक स्क्रीन</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>पृष्ठभूमि का रंग</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>लॉक स्क्रीन परिवर्तक</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>इस app खरीदें</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>यहाँ क्लिक करें</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>रंग</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>कॉपी फ़ोल्डर</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>के लिए छवियों की प्रतिलिपि बनाएँ</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>छवि कट</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>फ़ोल्डर हटाएँ</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>छवियों को हटाना चाहते हैं?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>त्रुटि! नाम दर्ज करें !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>त्रुटि! पहले से ही उपयोग करें या अमान्य वर्ण में नाम !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>त्रुटि: इस आवेदन के लिए पृष्ठभूमि एजेंटों उपयोगकर्ता द्वारा निष्क्रिय कर दिया गया है !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( यादृच्छिक )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>फ़्रेम रंग</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>फ़्रेम आकार</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>जानकारी रंग</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>जानकारी पारदर्शिता</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>पहले से ही चयनित</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>xtrose तरह</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>तुम नहीं कहा , तो मैं अपनी पृष्ठभूमि को अद्यतन नहीं कर सकते हैं .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>फोल्डर</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>यादृच्छिक फ़ोल्डर सेट</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>चयन करने के लिए कोई फ़ोल्डरों है . सबसे पहले एक फोल्डर और आयात चित्र बना .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>चयनित फोल्डर में कोई तस्वीर नहीं है. फ़ोल्डर और आयात चित्र खोलें.</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>नया फ़ोल्डर बनाएँ</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>नया नाम</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>अधिसूचना</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>ओपन फ़ोल्डर</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>अन्य xtrose ऐप्स</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>फोन पृष्ठभूमि</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>तस्वीरें</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>इस अनुप्रयोग</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>फ़ोल्डर का नाम बदलें</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>चयन</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>कॉपी करने के लिए छवियों का चयन करें</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>नष्ट करने के लिए छवियों का चयन करें</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>रंग सेट</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>स्रोत और लक्ष्य एक ही हैं</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>लॉक स्क्रीन बदलें</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>डाउनलोड करने के लिए धन्यवाद</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>डाउनलोड करने के लिए धन्यवाद</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>पारदर्शी</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>चेतावनी!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>हां</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>घंटा</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>घंटे</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>लॉक स्क्रीन छवि (क्लिक करें )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>मिनट</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>इस एप्लिकेशन को खरीदने के लिये धन्यवाद</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>परीक्षण संस्करण समय सीमा समाप्त !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>परीक्षण संस्करण समय सीमा समाप्त ! क्षुधा बनाने के लिए समय की एक बहुत खर्च होंगे . इस काम के लिए कीमत विचार नहीं है . लॉक स्क्रीन छवियाँ बनाने जारी रखने के लिए , आप बॉक्स खरीदना चाहिए . धन्यवाद!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>परीक्षण संस्करण</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>सामान्य</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>महान पृष्ठभूमि चित्र बनाने के लिए इस आवेदन का उपयोग करें. सेटिंग की यह भार आप के लिए उपलब्ध हैं . आपकी पृष्ठभूमि छवि हर तीस मिनट निर्मित है. यह इस आवेदन की पृष्ठभूमि सेवा बंद हो जाता है कि हो सकता है . इसे फिर से शुरू करने के लिए आवेदन बस खोला जाना चाहिए .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>विविध</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>अगर आप की तरह दर अच्छा यह आवेदन करें. आप इस आवेदन के साथ समस्या है , तो समर्थन से संपर्क करें कृपया ! सवालों और मुद्दों की समीक्षा में कुछ भी नहीं खोया है.
+बहुत बहुत धन्यवाद!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>तस्वीरें</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>, एक फ़ोल्डर बनाने के लिए इसे खोलने और कई छवियों के रूप में , आयात करते हैं.
+छवियों का आयात प्रत्येक छवि गठबंधन किया जा सकता है.
+आप जल्दी से एक पूरी तरह से अलग अलग पृष्ठभूमि बनाने के लिए कई फ़ोल्डर बना सकते हैं .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>निर्देश</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>सेटिंग्स</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>पृष्ठभूमि सेटिंग पेज पर समायोजित किया जा सकता है . एक पृष्ठभूमि आवेदन के रूप में आवेदन निर्धारित है , पृष्ठभूमि छवि एक स्विच के लिए निर्मित है. नव निर्मित छवि आप तुरंत अपनी सेटिंग की जाँच कर सकते हैं , इसलिए है कि प्रदर्शित किया जाता है .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>समर्थन</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>छोड़ करने के लिए स्क्रीन पर क्लिक करें</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>आसानी से विंडोज 8.1 के रूप में एक लॉक स्क्रीन बनाने .
+अपने खुद के चित्र का प्रयोग करें और अपने लॉक स्क्रीन हर आधे घंटे में परिवर्तन कैसे देखते हैं.
+इस के लिए कई विकल्प उपलब्ध हैं.
+आप हैरान हो जाएगा!</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>लॉक स्क्रीन</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>पृष्ठभूमि छवि</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>वॉलपेपर</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>डिज़ाइन</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>जोड़ना</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>कॉपी करें</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>साफ है</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>अधिक जोड़ा</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>सभी का चयन करें</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>व्यक्तिगत जोड़ा</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>सभी अचयनित</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>एक दूसरे को काटना</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>सभी तस्वीरें</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>निकटतम</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>पिछला</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>संग्रहीत छवियों</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>चयन</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>स्वतः</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>जोड़ने के लिए छवियों का चयन करें</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>आमंत्रित</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>नौकरशाही का आकार घटाने</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>उपरोक्त जानकारी</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>प्रोफ़ाइल</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>सेटिंग्स सहेजें</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>कॉपी छवियों</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>छवि कट</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>छवियों कट</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>फोल्डर</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>बनाया गया</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>नया बनाएँ</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>हम उनके लॉक स्क्रीन को बदल सकते हैं कि लॉक स्क्रीन अनुप्रयोग के रूप में अनुप्रयोग का उपयोग</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>मेरे</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>रैंडम फ़ोल्डर</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>रैंडम छवि</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>प्रोफ़ाइल का चयन करें</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>हटाना</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>प्रोफ़ाइल हटाएं</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>नाम बदलें प्रोफ़ाइल</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>रिकॉर्ड</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>संदर्भ का चयन करें</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>प्रोफ़ाइल लागू किया जाता है जब वर्तमान सेटिंग्स नष्ट हो जाती हैं</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>बैटरी जानकारी</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>भाषा</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>भाषा बदलें</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>आवेदन फिर से शुरू करें</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>भाषा का चयन</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>लिंक</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>सहेजें और साझा करें</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>सही</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>छोड़ दिया बारी</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>सही बारी</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>सहेजें और साझा करें</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>महान पृष्ठभूमि चित्र बनाने के लिए इस आवेदन का उपयोग करें. इस प्रयोजन के लिए , आप सेटिंग्स के लिए तैयार टन कर रहे हैं . अपनी पृष्ठभूमि छवि हर तीस मिनट नई बनाई गई है .
+विंडोज फोन पृष्ठभूमि सेवाओं के लिए एक सक्रिय इंटरनेट कनेक्शन की आवश्यकता है . इंटरनेट मौजूद है से कोई संबंध नहीं , पृष्ठभूमि छवि से निर्मित नहीं किया जा सकता .
+दुर्भाग्य से , पृष्ठभूमि सेवा के लिए उपलब्ध केवल एक छोटा सा स्मृति सीमा है . यह इस तरह के प्रयोग करने के लिए पृष्ठभूमि सेवा बंद हो जाता है कि ऐसा हो सकता है. आवेदन आसान खुला ही इसे फिर से शुरू करने की जरूरत . इस समस्या के अन्य रंग सेटिंग्स के द्वारा हल किया जा सकता है .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>बनाने के लिए प्रेस</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>अवयव</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>उद्घाटन</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>बाद में</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>नहीं</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>मूल्यांकन करें</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>आप इस आवेदन की तरह लग रहे हैं.
+Apps के कार्यक्रम समय लगता है और मुश्किल है .
+एक अच्छा मूल्यांकन हमें इसे आगे प्रसार में मदद कर सकते हैं .
+
+बहुत बहुत धन्यवाद</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>स्टार्टअप पर लोगो दिखाएँ</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>तस्वीर टाइल erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Xtrose साथ कनेक्ट</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>उन्नत सेटिंग्स</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>ढांचा</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>इंस्टॉल</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>ऑनलाइन</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>कनेक्शन .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>कनेक्शन विफल</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>संयुक्त पार हो गई है या नहीं समय</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>डाउनलोड करें .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>फ़ाइल पहले से मौजूद है</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>कोई घटक मौजूद हैं</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>बचाना</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>आप इस ढांचे को नष्ट करना चाहते हैं?
+
+हटाए गए फ्रेम केवल ऑनलाइन स्थापना के माध्यम से बहाल किया जा सकता है .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>फ़्रेम हटाया नहीं जा सकता .
+
+यह आपका अंतिम सीमा है . स्थापित कम से कम एक होना चाहिए.</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>चयन</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>पुनर्स्थापित</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>संपर्क</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>इसकी स्थापना रद्द करने के लिए एक फ्रेम चुनें . पूर्व स्थापित फ्रेम को बहाल करने के लिए यहां क्लिक करें.</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>सभी पूर्व स्थापित फ्रेम पुनर्स्थापित</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>समर्थन</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 ताला स्क्रीन</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>हम एक पूरी तरह से नए app विकसित किया है !</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>10 खिड़कियों को रूपांतरित किया।</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>उच्च संकल्प . प्रदर्शन आकार करने के लिए रूपांतरित किया।</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>अलग छवि प्रारूप .</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>पृष्ठभूमि चित्र .</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>फ़ील्ड उपयोगकर्ता informations के लिए .</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>कई और अधिक अवसर ।</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>नया और बिल्कुल प्रतिभाशाली इंजन और फिर अपने नए ताला स्क्रीन बनाता है। और एक टेम्पलेट के रूप में ग्रिड के बिना। इस app आसान बनाने और संयोजनों की एक अनंत किस्म लाता है।</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>अब टेस्ट</value>
+</data>
+
+
+
+
+
+</root>

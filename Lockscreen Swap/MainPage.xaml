@@ -1,0 +1,545 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="Lockscreen_Swap.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:Controls="clr-namespace:Coding4Fun.Toolkit.Controls;assembly=Coding4Fun.Toolkit.Controls"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="False">
+
+
+
+
+
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource PhoneBackgroundBrush}">
+
+
+
+
+        <Image Name="ImgLogo" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Logo.Dark.png" Margin="-30,-30"/>
+
+
+
+
+
+        <!--Pivot Control-->
+        <phone:Pivot Name="MainPivotItem" Title="{Binding Path=MyLocalizedResx.AppName, Source={StaticResource LocalizedResx}}" Foreground="{StaticResource PhoneForegroundBrush}">
+
+
+
+
+
+            <!--Pictures-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.AA1, Source={StaticResource LocalizedResx}}" Foreground="{StaticResource PhoneForegroundBrush}">
+
+                <ScrollViewer Margin="12,0,0,0">
+                    <StackPanel>
+
+                        <Image Name="DemoImage" Source="/Images/LockscreenImage.jpg" Width="180" HorizontalAlignment="Left" />
+                        <StackPanel Name="BtnCreateNew" Orientation="Horizontal" Margin="0,24,0,0">
+                            <Image Name="ImgCreateNew" Source="/Images/Logo.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnGenerateNew" Opacity="0.8" />
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.Z02_GenerateNew, Source={StaticResource LocalizedResx}}" FontSize="40" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnGenerateNew" Margin="12,0,0,0" Opacity="0.8"/>
+                        </StackPanel>
+                        <StackPanel Name="BtnShare" Orientation="Horizontal" Margin="0,12,0,0">
+                            <Image Name="ImgShare" Source="/Images/Share.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnShareFacebook" Opacity="0.8" />
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.Z03_Share, Source={StaticResource LocalizedResx}}" FontSize="40" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnShareFacebook" Margin="12,0,0,0" Opacity="0.8"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="-14,18,0,0">
+                            <Image Name="ImgLS10" Source="/Images/ImgLS10.png" Width="76" Height="76" VerticalAlignment="Center" MouseLeftButtonUp="BtnLS10" Opacity="0.8" />
+                            <StackPanel>
+                                <TextBlock Text="{Binding Path=MyLocalizedResx.Z05_TestNow, Source={StaticResource LocalizedResx}}" FontSize="24" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnLS10" Margin="6,0,0,0" Opacity="0.6"/>
+                                <TextBlock Text="{Binding Path=MyLocalizedResx.Z05_10_0_LockScreen, Source={StaticResource LocalizedResx}}" FontSize="30" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnLS10" Margin="6,0,0,0" Opacity="0.8"/>
+                            </StackPanel>
+                        </StackPanel>
+
+
+                        <StackPanel Margin="0,18,0,0" Name="SPTrial" >
+                            <TextBlock Name="TBTrial" Text="{Binding Path=MyLocalizedResx.TrialVersion, Source={StaticResource LocalizedResx}}" FontFamily="Segoe WP" FontSize="26"/>
+                            <TextBlock Name="TBTialTime" FontFamily="Segoe WP Light" FontSize="22" />
+                        </StackPanel>
+                    </StackPanel>
+                </ScrollViewer>
+
+            </phone:PivotItem>
+
+
+
+
+
+            <!--Pictures-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.Pictures, Source={StaticResource LocalizedResx}}" Foreground="{StaticResource PhoneForegroundBrush}">
+                <StackPanel Margin="12,0,0,0">
+
+
+                    <!--Neuen Style erstellen-->
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="ImgPictures01" Source="/Images/Folder.Add.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnCreateFolder" Opacity="0.8" />
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.NewFolder, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnCreateFolder" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                    </StackPanel>
+
+
+                    <!--Auflistung der Styles-->
+                    <ListBox Name="LBFolders" Margin="0,12,0,0" Height="550" ItemsSource="{Binding ClassPictures}" SelectionChanged="BtnOpenFolderMenu" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Margin="0,12,0,0">
+                                    <TextBlock Text="{Binding name}" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Foreground="{StaticResource PhoneForegroundBrush}" Margin="0,0,0,0"/>
+                                    <TextBlock Text="{Binding images}" TextWrapping="NoWrap" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="20" VerticalAlignment="Center" Margin="0,0,0,0" Opacity="0.8"/>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </StackPanel>
+            </phone:PivotItem>
+
+
+
+
+
+
+            <!--Settings-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.Settings, Source={StaticResource LocalizedResx}}">
+
+                <StackPanel>
+                    <StackPanel Orientation="Horizontal">
+                        <Image Name="ImgProfile01" Source="/Images/Profile.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnProfil" Opacity="0.8" Margin="12,0,0,0" />
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Z02_Profile, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnProfil" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                    </StackPanel>
+
+                    <ScrollViewer Margin="0,24,0,0" Height="555">
+                        <StackPanel Margin="0,0,0,36">
+
+                            <Grid>
+                                <Image Name="ImgSet1" Source="/Images/Settings.Dark.png" Width="130" Opacity="0.15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,0,0"/>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.BackgroundTask, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" FontSize="24" />
+                                    <Button Name="TBLockscreenChanger" Content="Off" FontSize="23" FontFamily="Segoe WP Light" Click="BtnLockscreenOnOff" Margin="0,0,0,48" />
+                                </StackPanel>
+                            </Grid>
+
+
+
+                            <Grid>
+                                <Image Name="ImgSet2" Source="/Images/Profile.Dark.png" Width="130" Opacity="0.15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,0,0"/>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.LockscreenFolder, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" FontSize="24" />
+                                    <Button Name="TBLockscreenFolder" Content="(Random)" FontSize="23" FontFamily="Segoe WP Light" Click="BtnChangeFolder" />
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.BackgroundColor, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <Button Name="TBBGColor" Content="Phone background" FontSize="22" FontFamily="Segoe WP Light" Click="BtnSetBGColor"/>
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.FrameColor, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <Button Name="TBFrameColor" Content="Phone background" FontSize="22" FontFamily="Segoe WP Light" Click="BtnSetFRColor" />
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.FrameSize, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid x:Name="GRFrameSize0" Width="45" MouseLeftButtonUp="BtnFrameSize0">
+                                            <TextBlock Text="0" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize0" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize1" Width="45" MouseLeftButtonUp="BtnFrameSize1">
+                                            <TextBlock Text="1" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize1" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize2" Width="45" MouseLeftButtonUp="BtnFrameSize2">
+                                            <TextBlock Text="2" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize2" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize3" Width="45" MouseLeftButtonUp="BtnFrameSize3" >
+                                            <TextBlock Text="3" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize3" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize4" Width="45" MouseLeftButtonUp="BtnFrameSize4" >
+                                            <TextBlock Text="4" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize4" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize5" Width="45" MouseLeftButtonUp="BtnFrameSize5">
+                                            <TextBlock Text="5" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize5" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize6" Width="45" MouseLeftButtonUp="BtnFrameSize6" >
+                                            <TextBlock Text="6" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize6" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize7" Width="45" MouseLeftButtonUp="BtnFrameSize7" >
+                                            <TextBlock Text="7" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize7" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize8" Width="45" MouseLeftButtonUp="BtnFrameSize8" >
+                                            <TextBlock Text="8" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize8" />
+                                        </Grid>
+                                        <Grid x:Name="GRFrameSize9" Width="45" MouseLeftButtonUp="BtnFrameSize9">
+                                            <TextBlock Text="9" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFrameSize9" />
+                                        </Grid>
+                                    </StackPanel>
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.InfoColor, Source={StaticResource LocalizedResx}}" Margin="12,24,0,0" FontSize="24" />
+                                    <Button Name="TBInfoColor" Content="Phone background" FontSize="22" FontFamily="Segoe WP Light" Click="BtnSetALColor"/>
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.InfoTransparency, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid x:Name="GRInfoTrans0" Width="45" MouseLeftButtonUp="BtnInfoTrans0">
+                                            <TextBlock Text="0" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans0" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans1" Width="45" MouseLeftButtonUp="BtnInfoTrans1">
+                                            <TextBlock Text="1" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans1" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans2" Width="45" MouseLeftButtonUp="BtnInfoTrans2">
+                                            <TextBlock Text="2" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans2" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans3" Width="45" MouseLeftButtonUp="BtnInfoTrans3" >
+                                            <TextBlock Text="3" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans3" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans4" Width="45" MouseLeftButtonUp="BtnInfoTrans4" >
+                                            <TextBlock Text="4" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans4" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans5" Width="45" MouseLeftButtonUp="BtnInfoTrans5">
+                                            <TextBlock Text="5" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans5" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans6" Width="45" MouseLeftButtonUp="BtnInfoTrans6" >
+                                            <TextBlock Text="6" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans6" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans7" Width="45" MouseLeftButtonUp="BtnInfoTrans7" >
+                                            <TextBlock Text="7" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans7" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans8" Width="45" MouseLeftButtonUp="BtnInfoTrans8" >
+                                            <TextBlock Text="8" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans8" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoTrans9" Width="45" MouseLeftButtonUp="BtnInfoTrans9">
+                                            <TextBlock Text="9" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans9" />
+                                        </Grid>
+                                    </StackPanel>
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z02_InfoSize, Source={StaticResource LocalizedResx}}" Margin="12,24,0,0" FontSize="24" />
+                                    <StackPanel Orientation="Horizontal">
+                                        <Grid x:Name="GRInfoSize0" Width="45" MouseLeftButtonUp="BtnInfoSize0">
+                                            <TextBlock Text="0" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans0" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoSize1" Width="45" MouseLeftButtonUp="BtnInfoSize1">
+                                            <TextBlock Text="1" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans1" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoSize2" Width="45" MouseLeftButtonUp="BtnInfoSize2">
+                                            <TextBlock Text="2" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans2" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoSize3" Width="45" MouseLeftButtonUp="BtnInfoSize3" >
+                                            <TextBlock Text="3" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans3" />
+                                        </Grid>
+                                        <Grid x:Name="GRInfoSize4" Width="45" MouseLeftButtonUp="BtnInfoSize4" >
+                                            <TextBlock Text="4" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnInfoTrans3" />
+                                        </Grid>
+                                    </StackPanel>
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z02_InfoTop, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <Button Name="TBInfoTop" Content="off" FontSize="22" FontFamily="Segoe WP Light" Click="BtnInfoTop" Margin="0,0,0,48" />
+                                </StackPanel>
+                            </Grid>
+
+
+                            <Grid>
+                                <Image Name="ImgSet3" Source="/Images/Settings.Dark.png" Width="130" Opacity="0.15" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,12,0,0"/>
+                                <StackPanel>
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z04_Components, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" FontSize="24" />
+                                    <Button Name="TBExtended" Content="{Binding Path=MyLocalizedResx.Z04_Components, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnExtended" />
+
+                                    <TextBlock Name="TBCycleTileHeader" Text="{Binding Path=MyLocalizedResx.Z04_ShowTile, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" FontSize="24" />
+                                    <Button Name="TBCycleTile" Content="{Binding Path=MyLocalizedResx.Z04_ClickToCreate, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" Click="BtnCycleTile" />
+
+                                    <TextBlock Text="{Binding Path=MyLocalizedResx.Z04_ShowLogo, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="24" />
+                                    <Button Name="TBSetLogo" Content="CODE" FontSize="23" FontFamily="Segoe WP Light" Click="BtnSetLogo" />
+                                </StackPanel>
+                            </Grid>
+
+
+
+                        </StackPanel>
+
+                    </ScrollViewer>
+
+                </StackPanel>
+            </phone:PivotItem>
+
+
+
+
+
+            <!--About-->
+            <phone:PivotItem Header="{Binding Path=MyLocalizedResx.About, Source={StaticResource LocalizedResx}}">
+                <Grid>
+                    <StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                            <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnBuy" >
+                                <Image Source="/Images/buy.png" Height="46" Width="46" MouseLeftButtonUp="BtnBuy"/>
+                            </StackPanel>
+                            <StackPanel Height="46" Width="385" Margin="12,0,0,0" >
+                                <TextBlock FontSize="30" Text="{Binding Path=MyLocalizedResx.Buy, Source={StaticResource LocalizedResx}}" MouseLeftButtonUp="BtnBuy" FontFamily="Segoe WP Light" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                            <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnRate" >
+                                <Image Source="/Images/rate.png" Height="46" Width="46" MouseLeftButtonUp="BtnRate" />
+                            </StackPanel>
+                            <StackPanel Height="46" Width="386" Margin="12,0,0,0" >
+                                <TextBlock FontSize="30" Text="{Binding Path=MyLocalizedResx.Rate, Source={StaticResource LocalizedResx}}" MouseLeftButtonUp="BtnRate" FontFamily="Segoe WP Light" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                            <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnFacebook" >
+                                <Image Source="/Images/Facebook.png" Height="46" Width="46" MouseLeftButtonUp="BtnFacebook" />
+                            </StackPanel>
+                            <StackPanel Height="46" Width="385" Margin="12,0,0,0" >
+                                <TextBlock FontSize="30" Text="{Binding Path=MyLocalizedResx.Like, Source={StaticResource LocalizedResx}}" MouseLeftButtonUp="BtnFacebook" FontFamily="Segoe WP Light" />
+                            </StackPanel>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="12,0,0,20" HorizontalAlignment="Left" VerticalAlignment="Top" Width="444">
+                            <StackPanel Height="46" Width="46" MouseLeftButtonUp="BtnOther" >
+                                <Image Source="/Images/xtrose.png" Height="46" Width="46" MouseLeftButtonUp="BtnOther" />
+                            </StackPanel>
+                            <StackPanel Height="46" Width="387" Margin="12,0,0,0" MouseLeftButtonUp="BtnOther" >
+                                <TextBlock FontSize="30" Text="{Binding Path=MyLocalizedResx.Other, Source={StaticResource LocalizedResx}}"  MouseLeftButtonUp="BtnOther" FontFamily="Segoe WP Light" />
+                            </StackPanel>
+                        </StackPanel>
+
+                        <StackPanel Margin="12,280,0,0">
+                            <StackPanel Orientation="Horizontal">
+                                <TextBlock Text="{Binding Path=MyLocalizedResx.AppName, Source={StaticResource LocalizedResx}}" FontFamily="Segoe WP" FontSize="20" Width="443" />
+                                <TextBlock Text=" v1.0" FontFamily="Segoe WP" FontSize="20" Foreground="Black" />
+                            </StackPanel>
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.ThankYou, Source={StaticResource LocalizedResx}}" FontFamily="Segoe WP Light" FontSize="18"/>
+                            <TextBlock Text="Copyright xtrose 2012" FontFamily="Segoe WP Light" FontSize="18" />
+                        </StackPanel>
+                    </StackPanel>
+
+
+
+                    <StackPanel Margin="0,300,0,0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Name="ImgInstructions" Source="/Images/Instruction.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnInstructions" Opacity="0.8" Margin="12,0,0,0" />
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.Instructions, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnInstructions" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                            <Image Name="ImgSupport" Source="/Images/Support.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnSupport" Opacity="0.8" Margin="12,0,0,0" />
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.Z04_Contact, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnSupport" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Horizontal" Margin="0,12,0,0">
+                            <Image Name="ImgGlobe" Source="/Images/Globe.Dark.png" Width="45" Height="45" VerticalAlignment="Center" MouseLeftButtonUp="BtnLanguage" Opacity="0.8" Margin="12,0,0,0" />
+                            <TextBlock Text="{Binding Path=MyLocalizedResx.Z03_Language, Source={StaticResource LocalizedResx}}" Margin="12,0,0,0" Style="{StaticResource PhoneTextExtraLargeStyle}" FontFamily="Segoe WP Light" FontSize="40" VerticalAlignment="Center" Opacity="0.8" MouseLeftButtonUp="BtnLanguage" Foreground="{StaticResource PhoneForegroundBrush}"/>
+                        </StackPanel>
+                    </StackPanel>
+
+
+
+                </Grid>
+            </phone:PivotItem>
+
+
+
+
+
+        </phone:Pivot>
+
+
+
+
+
+        <!--Folder Menu-->
+        <Grid Name="GRFolderMenu" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}">
+            <Image Name="ImgFolderMenu" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Folder.Dark.png" Margin="-30,-30"/>
+            <StackPanel>
+                <TextBlock Name="TBFolderMenuName" Text="Hier kommt der Name" Margin="24,12,0,0" FontSize="40" FontFamily="Segoe WP" />
+                <TextBlock Name="TBFolderMenuPictures" Text="Hier kommt der Name" Margin="24,0,0,24" FontSize="20" FontFamily="Segoe WP" Opacity="0.8"/>
+                <StackPanel Orientation="Horizontal" Margin="24,12,0,0">
+                    <Image Name="ImgFolderOpen" Source="/Images/Folder.Dark.png" Height="45" MouseLeftButtonUp="BtnEditFolder" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.OpenFolder, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnEditFolder" FontFamily="Segoe WP Light" Width="404" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgFolderEdit" Source="/Images/Edit.Dark.png" Height="45" MouseLeftButtonUp="BtnRemaneFolder" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.RenameFolder, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" MouseLeftButtonUp="BtnRemaneFolder" FontFamily="Segoe WP Light" Width="404" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgFolderCopy" Source="/Images/Copy.Dark.png" Height="45" MouseLeftButtonUp="BtnCopyFolder" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.CopyFolder, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnCopyFolder" Width="403" />
+                </StackPanel>
+                <StackPanel Orientation="Horizontal" Margin="24,24,0,0">
+                    <Image Name="ImgFolderDelete" Source="/Images/Delete.Dark.png" Height="45" MouseLeftButtonUp="BtnDeleteFolder" />
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.DeleteFolder, Source={StaticResource LocalizedResx}}" FontSize="40" Margin="12,0,0,0" FontFamily="Segoe WP Light" MouseLeftButtonUp="BtnDeleteFolder" Width="404" />
+                </StackPanel>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Folder Select-->
+        <Grid x:Name="GRFolder" Width="480" Height="800" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-600,0,0,0" Background="{StaticResource PhoneBackgroundBrush}">
+            <Image Name="ImgFolderMenu2" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Folder.Dark.png" Margin="-30,-30"/>
+            <ListBox x:Name="LBFolder" ItemsSource="{Binding Source=ClassFolders}" Margin="12" SelectionChanged="FolderChange">
+                <ListBox.ItemTemplate>
+                    <DataTemplate>
+                        <StackPanel Margin="12">
+                            <TextBlock x:Name="TBFolder" Text="{Binding name}" FontFamily="Segoe WP Light" FontSize="40" />
+                        </StackPanel>
+                    </DataTemplate>
+                </ListBox.ItemTemplate>
+            </ListBox>
+        </Grid>
+
+
+
+
+
+        <!--Background Color Menü -->
+        <Grid x:Name="GRBGColor" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}" >
+            <StackPanel>
+                <Controls:ColorPicker x:Name="CP" HorizontalAlignment="Left" VerticalAlignment="Top" Height="456" Width="456" Margin="12" ColorChanged="ColorChanged"/>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.Color, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,36,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="24,0,0,0">
+                    <TextBlock x:Name="TBCPColor" FontSize="30" Width="200" FontFamily="Segoe WP Light" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.SetColor, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,6,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="12,0,0,0">
+                    <Grid Width="116" MouseLeftButtonUp="BtnSetColor" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Yes, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnSetColor" Foreground="White"/>
+                    </Grid>
+                    <Grid Width="116" MouseLeftButtonUp="BtnBackColor" Margin="12,0,0,0" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.No, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnBackColor" Foreground="White" />
+                    </Grid>
+                </StackPanel>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnDeleteColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.PhoneBackground, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnDeleteColor" Foreground="White" />
+                </Grid>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnAccentColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.AccentColor, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnAccentColor" Foreground="White" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Frame Color Menü -->
+        <Grid x:Name="GRFRColor" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}">
+            <StackPanel>
+                <Controls:ColorPicker x:Name="CP2" HorizontalAlignment="Left" VerticalAlignment="Top" Height="456" Width="456" Margin="12" ColorChanged="FRColorChanged"/>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.Color, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,36,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="24,0,0,0">
+                    <TextBlock x:Name="TBCP2Color" FontSize="30" Width="200" FontFamily="Segoe WP Light" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.SetColor, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,6,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="12,0,0,0">
+                    <Grid Width="116" MouseLeftButtonUp="BtnFRSetColor" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Yes, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFRSetColor" Foreground="White"/>
+                    </Grid>
+                    <Grid Width="116" MouseLeftButtonUp="BtnFRBackColor" Margin="12,0,0,0" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.No, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFRBackColor" Foreground="White" />
+                    </Grid>
+                    <Grid Width="200" MouseLeftButtonUp="BtnFRTransColor" Margin="12,0,0,0" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Transparent, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnBackColor" Foreground="White" />
+                    </Grid>
+                </StackPanel>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnFRDeleteColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.PhoneBackground, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFRDeleteColor" Foreground="White" />
+                </Grid>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnFRAccentColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.AccentColor, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnFRAccentColor" Foreground="White" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Alpha Color Menü -->
+        <Grid x:Name="GRALColor" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}">
+            <StackPanel>
+                <Controls:ColorPicker x:Name="CP3" HorizontalAlignment="Left" VerticalAlignment="Top" Height="456" Width="456" Margin="12" ColorChanged="ALColorChanged"/>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.Color, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,36,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="24,0,0,0">
+                    <TextBlock x:Name="TBCP3Color" FontSize="30" Width="200" FontFamily="Segoe WP Light" HorizontalAlignment="Center"/>
+                </StackPanel>
+
+                <TextBlock Text="{Binding Path=MyLocalizedResx.SetColor, Source={StaticResource LocalizedResx}}" FontSize="18" Margin="12,6,0,0" FontFamily="Segoe WP" FontWeight="Bold"/>
+                <StackPanel Orientation="Horizontal" Margin="12,0,0,0">
+                    <Grid Width="116" MouseLeftButtonUp="BtnALSetColor" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Yes, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnALSetColor" Foreground="White"/>
+                    </Grid>
+                    <Grid Width="116" MouseLeftButtonUp="BtnALBackColor" Margin="12,0,0,0" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.No, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnALBackColor" Foreground="White" />
+                    </Grid>
+                    <Grid Width="200" MouseLeftButtonUp="BtnALTransColor" Margin="12,0,0,0" Background="{StaticResource PhoneAccentBrush}" >
+                        <TextBlock Text="{Binding Path=MyLocalizedResx.Transparent, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnALTransColor" Foreground="White" />
+                    </Grid>
+                </StackPanel>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnALDeleteColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.PhoneBackground, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnALDeleteColor" Foreground="White" />
+                </Grid>
+                <Grid Width="456" Margin="12,24,0,0" MouseLeftButtonUp="BtnALAccentColor" Background="{StaticResource PhoneAccentBrush}" HorizontalAlignment="Left" >
+                    <TextBlock Text="{Binding Path=MyLocalizedResx.AccentColor, Source={StaticResource LocalizedResx}}" FontSize="26" FontFamily="Segoe WP Light" HorizontalAlignment="Center" MouseLeftButtonUp="BtnALAccentColor" Foreground="White" />
+                </Grid>
+            </StackPanel>
+        </Grid>
+
+
+
+
+
+        <!--Image Menü -->
+        <Grid x:Name="GRImage" Width="480" Height="800" Margin="-600,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Background="{StaticResource PhoneBackgroundBrush}" MouseLeftButtonUp="HideImage">
+            <Image Name="ShowImage" Width="480" Height="800" MouseLeftButtonUp="HideImage"/>
+            <Rectangle Width="480" Height="42" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0.6"  MouseLeftButtonUp="HideImage" Fill="Black" />
+            <TextBlock Text="{Binding Path=MyLocalizedResx.LockscreenImage, Source={StaticResource LocalizedResx}}" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,6,0,0" FontSize="20" Foreground="White"/>
+        </Grid>
+
+
+
+
+
+        <!--Bewertung-->
+        <Grid Name="GRRate" Width="480" Height="800" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="-600,0,0,0" Background="{StaticResource PhoneBackgroundBrush}">
+            <Image Name="LogoRate" Width="200" VerticalAlignment="Top" HorizontalAlignment="Right" Opacity="0.2" Source="/Images/Logo.Dark.png" Margin="-30,-30"/>
+
+            <ScrollViewer>
+                <StackPanel >
+                    <TextBlock Name="TBTop" Text="{Binding Path=MyLocalizedResx.Rate, Source={StaticResource LocalizedResx}}" Margin="12,12,0,0" FontSize="40" FontFamily="Segoe WP"/>
+                    <TextBlock TextWrapping="Wrap" Text="{Binding Path=MyLocalizedResx.Z04_RateText, Source={StaticResource LocalizedResx}}" Margin="12,24,12,0" FontSize="25" />
+
+                    <Button Name="BtnRateRate" Content="{Binding Path=MyLocalizedResx.Z04_RateNow, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateRate_click" Margin="0,36,0,0" Width="480"/>
+                    <Button Name="BtnRateLater" Content="{Binding Path=MyLocalizedResx.Z04_RateLater, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateLater_click" Margin="0,12,0,0" Width="480"/>
+                    <Button Name="BtnRateNever" Content="{Binding Path=MyLocalizedResx.Z04_RateNever, Source={StaticResource LocalizedResx}}" FontSize="23" FontFamily="Segoe WP Light" HorizontalAlignment="Left" Click="BtnRateNever_click" Margin="0,12,0,0" Width="480"/>
+                </StackPanel>
+            </ScrollViewer>
+        </Grid>
+
+
+
+
+
+        <!--Animation-->
+        <Grid Name="GRAnimation" Background="{StaticResource PhoneBackgroundBrush}" Visibility="Collapsed" MouseLeftButtonUp="AnimationStop">
+            <Viewbox Margin="-150,-50,-150,50">
+                <Grid Background="{StaticResource PhoneBackgroundBrush}" Width="1920" Height="1080" HorizontalAlignment="Center" VerticalAlignment="Center">
+                    <Image Name="Img2" Height="225" Source="Images/StartUp/Logo800_2.png" HorizontalAlignment="Center" Margin="529,248,258,295" />
+                    <Image Name="ImgSchein" Width="1500" Height="450" Source="Images/StartUp/Schein.png" HorizontalAlignment="Center" Margin="-150,159,0,159" />
+                    <Image Name="Img1" Width="221" Source="Images/StartUp/Logo800_1.png" HorizontalAlignment="center" Margin="303,248,842,295" Opacity="0.0"/>
+                </Grid>
+            </Viewbox>
+            <StackPanel VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,6">
+                <TextBlock Name="StartUpInfo" Text="{Binding Path=MyLocalizedResx.StartUpInfo, Source={StaticResource LocalizedResx}}" Foreground="#FF232323" HorizontalAlignment="Center" FontWeight="Bold" FontSize="19" />
+                <TextBlock Name="Greetings" Text="[2014 Edition - Thank you to all users world wide]" Foreground="#FF232323" HorizontalAlignment="Center" FontSize="13" />
+            </StackPanel>
+        </Grid>
+
+
+
+    </Grid>
+
+</phone:PhoneApplicationPage>

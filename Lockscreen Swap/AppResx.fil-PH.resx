@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>tungkol sa</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>kulay ng tuldik</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 screen ng lock</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>kulay ng background</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>screen ng lock</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Bilhin ang app</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>mag-click dito</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>kulay</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopyahin ang folder</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopyahin ang mga larawan sa</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Gupitin larawan</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Tanggalin ang mga folder</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Tanggalin ang mga imahe ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ! Ipasok ang pangalan !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ! Pangalanan ang ginagamit o di-wastong character !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR: Background ng mga ahente para sa application na ito ay hindi pinagana sa pamamagitan ng ang user!</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( random )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>kulay ng frame</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>frame laki</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Impormasyon ng kulay</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Impormasyon ng transparency</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>napipili</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>Tulad xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Ikaw ay walang sinabi , kaya hindi ko ma -update ang iyong background.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>folder</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Itakda random folder</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Walang mga folder upang piliin . Unang lumikha ng isang larawan folder at pag-import.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Walang larawan sa napiling folder . Buksan ang folder at pag-import ng mga larawan .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Lumikha ng bagong folder</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>bagong pangalan</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>hindi</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>abiso</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>hindi</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>oo</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Buksan ang folder</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Iba xtrose Apps</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>telepono ng background</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Mga Larawan</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>I-rate ang app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Palitan ang pangalan ng folder</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>piliin</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Pumili ng mga larawan upang kopyahin</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Pumili ng mga larawan upang tanggalin</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>itakda ang kulay</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Pinagmulan at target ay pareho</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Baguhin ang lock ng screen</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Salamat sa iyo para sa pag-download</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Salamat sa iyo para sa pag-download</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>malinaw</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>BABALA!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>oo</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>oras</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>oras</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>I-lock ang screen na larawan ( click)</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuto</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Salamat sa pagbili ng app na ito</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Pagsubok Bersyon expire !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Pagsubok Bersyon expire ! Upang lumikha ng apps ay nagkakahalaga ng maraming oras . Ang presyo para sa trabahong ito ay hindi mahal . Upang patuloy na lumikha ng mga imahe lock screen , dapat mong bumili ng app . Salamat sa iyo!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>trial na bersyon</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>pangkalahatan</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Gamitin ang application na ito upang lumikha ng mahusay na mga imahe ng background . Ito naglo-load ng mga setting ay magagamit mo. Ang iyong mga larawan sa background ay recreated bawat tatlumpung minuto. Maaari itong mangyari na humihinto sa background ng serbisyo ng application na ito . Upang simulan itong muli, ang application ay dapat ay mabubuksan lamang .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>samut-sari</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Paki- rate mahusay ang application na ito kung nais mo. Kung mayroon kang mga problema sa application na ito, pagkatapos ay mangyaring makipag-ugnay sa suporta ! Mga tanong at mga isyu nawala wala sa mga review .
+Maraming salamat sa inyo !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Mga Larawan</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Lumikha ng isang folder, buksan ito at i-import , tulad ng maraming mga larawan .
+Kapag ang pag-import ng mga larawan na imahe sa bawat ay maaaring hile-hilera .
+Maaari kang lumikha ng maramihang mga folder upang mabilis na lumikha ng isang ganap na iba't ibang mga background.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>tagubilin</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Mga Setting</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Ang background ay maaaring nababagay sa pahina ng mga setting. Ay itakda ang application bilang isang application sa background , ang background na imahe ay recreated para sa bawat switch . Ang nilikhang bagong imahe ay ipinakita, sa gayon maaari mong agad na suriin ang setting nito .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>Suporta</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>i-click ang screen upang laktawan</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Madaling lumikha ng lock screen tulad ng sa Windows 8.1 .
+Gamitin ang iyong sariling mga larawan at makita kung paano ang iyong lock screen nagbabago tuwing kalahating oras .
+Mayroong maraming mga pagpipilian na magagamit para sa mga ito .
+Kayo ay namangha !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>screen ng lock</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Larawan sa Background</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>wolpeyper</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>disenyo</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>magdagdag</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>kopyahin</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>i-clear</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>idinagdag pa</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>piliin lahat</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>indibidwal na naidagdag</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>sa pagkakapili ang lahat</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>bumalagbag</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Lahat ng mga Larawan</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>pinakamalapit</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>nakaraan</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>mga larawan na naka-imbak</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>piliin</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>awtomatikong</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Pumili ng mga larawan upang magdagdag ng</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>Iniimbitahan</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>Sizing</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Impormasyon oben</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profile</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>I-save ang Mga Setting</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Kopyahin ang mga larawan</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Gupitin larawan</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Gupitin mga imahe</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>folder</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>likha</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Lumikha ng mga bagong</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Gamitin ang mga app tulad ng lock screen app na maaari naming baguhin ang kanilang lock screen</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>ko</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random na Folder</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Random na imahe</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>piliin profile</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>alisin</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Tanggalin ang profile</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Palitan ang Pangalan ng Profile</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>talaan</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>pumili ng konteksto</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Ang kasalukuyang mga setting ay tinanggal kapag ang profile ay inilapat</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Batterie impormasyon</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>wika</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>baguhin ang Wika</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>I-restart ang application</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>piliin ang Wika</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>mga link</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>I-save at ibahagi ang</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>karapatan</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>lumiko pakaliwa</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>lumiko pakanan</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>I-save at ibahagi ang</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Gamitin ang application na ito upang lumikha ng mahusay na mga imahe ng background . Para sa layuning ito , handa ka na tonelada ng mga setting. Ang iyong mga larawan sa background ay nalikha sa bawat oras na kalahati muli .
+Windows Phone ay nangangailangan ng isang aktibong koneksyon sa Internet para sa mga serbisyo sa background. Nang walang koneksyon sa Internet ay umiiral , ang background na imahe ay hindi maaaring recreated .
+Sa kasamaang palad , lamang ng isang maliit na memory limitahan ang magagamit para sa mga serbisyo ng background . Maaari itong mangyari na humihinto sa background serbisyo ang naturang paggamit . Kailangan mo upang simulan ito muli , lamang kabubukas lamang ang application. Sa pamamagitan ng iba pang mga kulay ng mga setting sa problemang ito ay maaaring maayos .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Pindutin upang lumikha ng</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>piraso</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>pambungad</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>mamaya</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>hindi</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>tumasa</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Mukhang ka upang gustuhin ang application na ito .
+Programa Apps ay maka-ubos ng oras at mahirap .
+Ang isang mabuting pagsusuri ay makakatulong sa amin na ikalat ito sa karagdagang .
+
+Maraming salamat sa inyo</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Ipakita ang logo sa startup</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Larawan ng tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Makipag-ugnay sa xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Advanced na Mga Setting</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>balangkas</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>Mga Pag-install</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Koneksyon .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Nabigong Koneksyon</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Lumagpas o hindi pinagsama oras</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>I-download ang .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>File Umiiral</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Walang mga bahagi ay naroroon</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>iligtas</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Nais mo bang tanggalin ang framework ?
+
+Tinanggal na frame ay maaari lamang ay ibabalik sa pamamagitan ng online na pag-install.</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Hindi matatanggal ang Frame .
+
+Ito ang iyong huling frame . Dapat na mayroong hindi bababa sa isang naka-install na .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>pagpili</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>ibalik</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>Makipag-ugnay sa</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Pumili ng isang frame i-uninstall ito . Mag-click dito upang ipanumbalik ang paunang naka-install na frame .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Ipanumbalik ang lahat ng mga pre- install na frame</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>tulong</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+    <value>10.0 Lock Screen</value>
+  </data>
+  <data name="Z05_T1" xml:space="preserve">
+    <value>We have developed a completely new app!</value>
+  </data>
+  <data name="Z05_T2" xml:space="preserve">
+    <value>Adapted to Windows 10.</value>
+  </data>
+  <data name="Z05_T3" xml:space="preserve">
+    <value>Higher resolution. Adapted to the display size.</value>
+  </data>
+  <data name="Z05_T4" xml:space="preserve">
+    <value>Different image formats.</value>
+  </data>
+  <data name="Z05_T5" xml:space="preserve">
+    <value>Background pictures.</value>
+  </data>
+  <data name="Z05_T6" xml:space="preserve">
+    <value>Field for user informations.</value>
+  </data>
+  <data name="Z05_T7" xml:space="preserve">
+    <value>Many more opportunities.</value>
+  </data>
+  <data name="Z05_T8" xml:space="preserve">
+    <value>The new and absolutely brilliant engine creates your new lock screen again and again. And without grid as a template. This make the app easy and brings an infinite variety of combinations.</value>
+  </data>
+  <data name="Z05_TestNow" xml:space="preserve">
+    <value>Test now</value>
+  </data>
+  
+  
+  
+  
+  
+</root>

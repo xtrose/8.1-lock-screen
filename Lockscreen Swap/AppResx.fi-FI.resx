@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>noin</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Accent väri</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 lukitusnäyttö</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>taustaväri</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>lukitusnäyttö vaihtaja</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Osta tämä sovellus</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>klikkaa tästä</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>väri</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopioi kansio</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopioida kuvia</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>leikkaa kuva</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Poista kansio</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Poistaa kuvia ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ! Anna nimi !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ! Nimi on jo käytössä tai virheellisiä merkkejä !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR : Taustaa aineita tätä sovellusta on poistettu käytöstä käyttäjä !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( random)</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>kehyksen väri</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>runkokoko</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>info väri</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>info avoimuutta</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>jo valittu</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>kuten xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Sanoit ei, joten en voi päivittää tausta .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>kansio</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Aseta satunnainen kansio</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Ei kansioita valita . Luo ensinkansio ja tuonti kuvia .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Ei kuvaa valittuun kansioon . Avaa kansio ja tuonti kuvia .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Luo uusi kansio</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>uusi nimi</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>ilmoitus</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>kyllä</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Avaa kansio</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Muut xtrose sovellukset</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Puhelin tausta</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>kuvat</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Arvostele tämä sovellus</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Nimeä kansio</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>valita</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Valitse kopioitavat kuvat</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Valitse poistettavia kuvia</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Aseta väri</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Lähde ja kohde ovatsamat</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Vaihda Lukitse näyttö</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Kiitos, että lataat</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Kiitos, että lataat</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>läpinäkyvä</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>VAROITUS !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>kyllä</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>tunti</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>tuntia</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Lukitse näytön kuva ( click )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minuutti</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuuttia</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Kiitos, että ostit tämän sovelluksen</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial Version vanhentunut !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial Version vanhentunut ! Voit luoda sovelluksia maksaapaljon aikaa . Hinta tämä työ ei ole kallista . Jos haluat jatkaa luoda lukitusruuduista Images , sinun täytyy ostaasovelluksen . Kiitos !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>kokeiluversio</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>yleinen</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Käytä tätä sovellusta luoda upeita taustakuvia . Tämä kuormien asetukset ovat käytettävissä . Sinun taustakuvan luodaan uudelleen puolen tunnin välein . Se voi tapahtua , joka pysäyttää tausta palvelun tämän hakemuksen . Käynnistää sen uudelleen ,hakemus on avattava yksinkertaisesti .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>sekalainen</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Arvioi hyvä tämä hakemus, jos haluat. Jos sinulla on ongelmia tämän sovelluksen , ota yhteyttä asiakaspalveluun ! Kysymyksiä ja kysymykset ovat menettäneet mitäänarvostelua .
+Kiitos paljon !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>kuvat</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Luokansio , avaa se ja tuomaan niin monta kuvaa .
+Kuntuonti kuvia jokainen kuva voidaan kohdistaa .
+Voit luoda useita kansioita nopeasti luodatäysin erilainen tausta .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>ohjeet</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Asetukset</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Tausta voidaan säätääasetukset-sivulla . On asetettuhakemuksentaustalla sovellus ,taustakuvan luodaan uudelleen jokaisen kytkin . Juuri luotu kuva näkyy , jotta voit tarkistaa välittömästi sen ympäristössä .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>tukea</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>klikkaa näytön hypätä</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Helposti luodalukko näyttö kuin Windows 8.1 .
+Käytä omia kuvia ja nähdä, miten lukko näyttö vaihtuu puolen tunnin välein .
+On monia vaihtoehtoja tähän .
+Tulet hämmästymään !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>lukitusnäyttö</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>taustakuva</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>tapetti</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>suunnittelu</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>lisätä</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Kopioi</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>Tyhjennä</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>enemmän lisätään</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>valitse kaikki</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>yksittäisten lisätty</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>Poista kaikki</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>leikata</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>kaikki kuvat</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>lähin</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>edellinen</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>tallennetut kuvat</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>valita</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automaattisesti</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Valitse kuvia lisätä</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>kutsuu</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>mitoitus</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Edellä mainitut tiedot</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profiili</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Tallenna asetukset</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Kopioi kuvat</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>leikkaa kuva</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>leikkaa kuvat</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>kansio</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>luotu</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Luo uusi</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Käytäapp Lukitse näyttö sovellus , että voimme muuttaa Lukitse näyttö</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>minun</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Satunnainen Kansio</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Satunnainen kuva</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Valitse profiili</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>poistaa</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Poista profiili</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Nimeä Profiili</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>ennätys</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Valitse yhteydessä</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Nykyiset asetukset poistetaan, kunprofiilia käytetään</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Tietoa akuista</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>kieli</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Muuta kieli</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Käynnistäsovellus</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Valitse kieli</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>linkkejä</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Tallentaa ja jakaa</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>oikea</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>käänny vasemmalle</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>käänny oikealle</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Tallentaa ja jakaa</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Käytä tätä sovellusta luoda upeita taustakuvia . Tätä varten olet valmis tonnia asetuksia . Sinun taustakuvatiedoston puolen tunnin välein uudelleen .
+Windows Phone vaatiiaktiivisen Internet-yhteyden tausta-palvelut . Joilla ei ole yhteyttäInternet on olemassa ,taustakuvan ei voida rekonstruoida .
+Valitettavasti vainpieni muisti rajoittaa käytettävissätausta palvelua . Se voi käydä niin, että pysähtyytaustapalvelun tällaisen käytön . Täytyy aloittaa uudelleen , vasta avattusovellus . Muiden väriasetuksiin tämä ongelma voidaan korjata .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Paina luoda</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponentit</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>aukko</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>myöhemmin</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>arvioida</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Tunnut pitävän tätä sovellusta .
+Sovellukset ohjelma on aikaa vievää ja vaikeaa.
+Hyvä arviointi voi auttaa meitä levittämään sitä edelleen .
+
+paljon kiitoksia</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Näytä logo käynnistettäessä</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Kuvat Laatta erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Yhdistä xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Lisäasetukset</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>puitteet</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>asennuksia</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Liitäntä .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>yhteys epäonnistui</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Ylittyvät tai yhdistettyinä aikaa</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Lataa .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Tiedosto on jo olemassa</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Mitkään osat eivät ole läsnä</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>tallentaa</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Haluatko poistaa tämän kehyksen ?
+
+Poistetaan runko voi palauttaa vain kauttaonline- asennuksen .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Kehys ei voi poistaa .
+
+Tämä on viimeinen kehys . On oltava ainakin yksi on asennettu .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>valinta</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>palauttaa</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>yhteyshenkilö</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Valitsekehys poistaa sen . Klikkaa tästä palauttaaesiasennettuna runko .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Palauta kaikki esiasennettuna frame</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>tuki</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 Lukitse näyttö</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Olemme kehittäneet täysin uusi app!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Mukauttaa Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Tarkkuus. Mukauttaa näyttökoko.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Eri kuvaformaatteja.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Kuvat.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Kentän käyttäjän tietoa.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Paljon enemmän mahdollisuuksia.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Uusi ja aivan loistava moottorin Luo uusi lukittava näyttö uudestaan ja uudestaan. Ja ilman ruudukon mallina. Tämä app helppo ja tuo ääretön erilaisia yhdistelmiä.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Testi nyt</value>
+</data>
+
+
+
+
+
+</root>

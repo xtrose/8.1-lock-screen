@@ -1,0 +1,604 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>haqqında</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Accent rəngi</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 Kilid ekranı</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>fon rəngi</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>Kilid ekranı dəyişdirici</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Bu app almaq</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>buraya basın</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>rəng</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Copy qovluq</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Resimleri surəti</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>image Kes</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>qovluq sil</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Images silinsin?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ! Adını daxil edin !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ! Artıq istifadəsi və ya yalnış karakterleri adı !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR : Bu proqram üçün fon agentləri istifadəçi tərəfindən aradan qaldırıldı !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>(təsadüfi)</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>çərçivə rəngi</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>çərçivə ölçüsü</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>məlumat rəngi</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>məlumat şəffaflıq</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>artıq seçilmiş</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>xtrose kimi</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Siz heç bildirib ki, mən sizin fon yeniləmə bilməz.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>qovluq</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Təsadüfi qovluq seçin</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Seçmək üçün heç bir qovluq var. İlk bir qovluq və idxal şəkillər yaratmaq .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Seçilmiş qovluqda heç bir şəkil yoxdur. Qovluq və idxal şəkillər açın.</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Yeni qovluq yarat</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>yeni adı</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>yox</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>xəbərdarlıq</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>yox</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>bəli</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>açıq qovluq</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Digər xtrose proqram</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Telefon fon</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Shekil</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Bu app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>qovluq adını dəyişmək</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>seçmək</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Köçürmək üçün resimleri seçin</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Silmək üçün resimleri seçin</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>rəngi seçin</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Mənbə və hədəf eynidir</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Kilidi ekran dəyişdirin</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Yüklemek üçün təşəkkür edirik</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Yüklemek üçün təşəkkür edirik</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>şəffaf</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>XƏBƏRDARLIQ!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>bəli</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>saat</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Lock ekran image ( klik )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>dəqiqə</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>dəqiqə</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Bu app alınması üçün təşəkkür edirik</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial Version Vaxtı !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial Version Vaxtı ! Apps yaratmaq üçün çox vaxt başa gələcək. Bu iş üçün qiyməti baha deyil. Kilidi ekranlar Şəkillər yaratmaq davam etmək üçün, app almaq lazımdır . Təşəkkür edirik!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Deneme versiyası</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>ümumi</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Böyük fon şəkilləri yaratmaq üçün bu proqram istifadə edin. Parametrləri Bu yük sizin üçün mövcuddur. Sizin background image hər otuz dəqiqə yeniden edir. Bu proqram fon xidmət dayanır ki, ola bilər. Daha başlamaq üçün ərizə sadəcə açılan olmalıdır.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>müxtəlifnövlü</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Isterseniz dərəcəsi yaxşı bu proqram edin. Bu proqram ilə bağlı problemlər varsa , onda əlaqə dəstək olun ! Suallar və məsələlər təhlil heç bir şey itirmişdir.
+Çox sağ olun !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Shekil</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>, Bir qovluq yarada onu açmaq və bir çox images kimi, idxal .
+Images idxal hər image uyğunlaşdırılmalıdır bilər.
+Siz tez bir tamamilə müxtəlif fon yaratmaq üçün birdən çox qovluq yarada.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>təlimat</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Ayarları</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Bu fon ayarları page düzəlişlər edilə bilər. Fon tətbiqi proqram qurulubsa, background image hər keçid üçün yeniden edir. Yeni yaradılmış image dərhal onun qəbulu kontrol edə bilərsiniz , belə ki, göstərilir.</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>dəstək</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>keçmək üçün ekran basın</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Asanlıqla Windows 8.1 kimi bir kilidi ekran yaradır.
+Öz şəkillər istifadə edin və kilidi ekran hər yarım saat dəyişir necə.
+Bunun üçün mövcud bir çox variantları var.
+Siz heyran olacaq!</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>Kilid ekranı</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Background Image</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>divar kağızı</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>layihə</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>əlavə etmək</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>surəti</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>sil</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>əlavə</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>hamısını seçmək</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>fərdi əlavə</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>bütün işaretini</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>kəsişmək</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>bütün Shekil</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>yaxın</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>əvvəlki</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>saxlanılan images</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>seçmək</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>avtomatik</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Əlavə etmək üçün resimleri seçin</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>dəvət</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>sizing</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>yuxarıda məlumat</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Ayarları Saxla</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Copy şəkillər</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>image Kes</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>images Cut</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>qovluq</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>Yaradılma</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>yeni yarat</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Biz onların kilidi ekran dəyişə bilərsiniz ki, kilidi ekran app kimi app istifadə edin</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>mənim</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random Qovluq</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Random image</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>profili seçmək</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>silmək</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>profile silmek</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Rename Profile</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>rekord</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>kontekstində seçin</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Profil tətbiq olduqda cari ayarları silinir</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>batarya məlumat</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>dil</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Dil seçin</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Tətbiqi yenidən başladın</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Dil Seçin</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>links</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Saxla ve paylaşabilirsiniz</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>sağ</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>sola</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>sağa dönün</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Saxla ve paylaşabilirsiniz</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Böyük fon şəkilləri yaratmaq üçün bu proqram istifadə edin. Bunun üçün siz ayarları hazır ton təşkil edir. Sizin fon yenə hər yarım saat yaradılmışdır.
+Windows Phone fon xidmətləri üçün aktiv İnternet bağlantısı tələb edir. İnternet mövcud heç bir əlaqəsi ilə, background image yeniden bilməz.
+Təəssüf ki, yalnız kiçik bir yaddaş fon xidmət üçün mövcud məhdudlaşdırır. Bu background xidmət istifadə dayanır ki, ola bilər. Yenidən başlamaq lazımdır , yalnız tətbiq açdı. Bu problemin digər renk ayarları müəyyən edilə bilər.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Yaratmaq üçün mətbuat</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>Components</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>açılış</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>sonra</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>yox</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>qiymətləndirmək</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Bu proqram kimi görünür .
+Apps proqram vaxt aparan və çətindir.
+A yaxşı qiymətləndirilməsi us daha da yaymaq kömək edə bilər.
+
+çox sağ olun</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Başlanğıc logo göstər</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Shekil Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Xtrose ilə əlaqə</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>Framework</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>quraşdırıb</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Connection .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Connection Failed</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Birləşdirilmiş ötüb və ya heç bir zaman</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Download .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Fayl artıq mövcuddur</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>No komponentləri mövcuddur</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>saxla</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Bu çərçivə silmək istəyirsiniz?
+
+Silinmiş çərçivəsində yalnız online quraşdırılması vasitəsilə bərpa edilə bilər .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Frame silinə bilməz .
+
+Bu son çərçivəsində edir. Quraşdırılmış ən azı bir olmalıdır .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>seleksiya</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>bərpa etmək</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>əlaqə</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Aradan qaldırılması üçün bir çərçivə seçin. Əvvəlcədən quraşdırılmış çərçivəsində bərpa etmək üçün buraya basın .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Bütün əvvəlcədən quraşdırılmış çərçivəsində bərpa</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>dəstək</value>
+  </data>
+</root>

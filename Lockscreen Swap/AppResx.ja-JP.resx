@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>約</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>アクセントの色</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1ロック画面</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>背景色</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>ロック画面</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>このアプリを購入</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>ここをクリック</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>色</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>コピーフォルダ</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>に画像をコピーします</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>画像をカット</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>フォルダーを削除する</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>画像を削除しますか？</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ！名前を入力してください！</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ！既に使用または無効な文字で名前！</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR：このアプリケーションのバックグラウンドエージェントがユーザーによって使用不可にされました！</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>（ランダム）</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>フレームの色</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>フレームサイズ</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>情報色</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>情報の透明性</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>すでに選択</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>xtrose様</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>あなたは、言いませんでしたので、私はあなたの背景を更新することはできません。</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>ランダムなフォルダを設定</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>選択するフォルダがありません。最初のフォルダとインポートの写真を作成します。</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>選択したフォルダ内に画像がありません。フォルダとインポート画像を開きます。</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>新しいフォルダーを作成する</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>新名称</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>しない</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>しない</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>開いたフォルダ</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>その他xtroseアプリ</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>電話背景</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>レートこのアプリ</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>フォルダー名を変更する</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>選択する</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>コピーする画像を選択</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>削除する画像を選択</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>色を設定</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>ソースとターゲットは同じです</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>ロック画面を変更</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>ダウンロードしていただき、ありがとうございます</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>ダウンロードしていただき、ありがとうございます</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>透明な</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告！</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>時間</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>営業時間</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>ロック画面の画像（クリック）</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>分</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>このアプリをお買い上げいただき、誠にありがとうございます</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>トライアル版は期限切れ！</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>トライアル版は期限切れ！アプリケーションを作成するには多くの時間がかかります。この仕事のための価格は高価ではありません。ロック画面の画像を作成して続行するには、アプリを購入しなければなりません。ありがとうございました！</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>体験版</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>一般的な</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>偉大な背景画像を作成するには、このアプリケーションを使用します。設定のこの負荷は、あなたに用意されています。あなたの背景画像が30分ごとに再作成されます。これはアプリケーションのバックグラウンドサービスを停止しているが起こる可能性があります。再びそれを起動するには、アプリケーションは単純に開く必要があります。</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>種々雑多な</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>あなたが好きな場合は速度の良いこのアプリケーションをしてください。このアプリケーションで問題が発生した場合、その連絡先をサポートしてください！疑問や問題がレビューで何を失っていない。
+どうもありがとう！</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>写真</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>、フォルダを作成し、それを開いて、多くの画像のように、インポートします。
+画像のインポートは、各画像を位置合わせすることができるとき。
+あなたはすぐに完全に異なる背景を作成するために複数のフォルダを作成することができます。</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>説明書</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>設定</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>背景は設定ページで調整できます。バックグラウンド·アプリケーションとして設定され、背景画像がスイッチごとに再作成されます。新しく作成されたイメージはすぐにその設定を確認することができるように、表示されます。</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>スキップするには、画面をクリックしてください</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>簡単にWindows 8.1のようなロック画面を作成します。
+自分の写真を使用して、あなたのロック画面は、すべての半時間がどのように変化するかを参照してください。
+このための利用可能な多くのオプションがあります。
+あなた驚かれることでしょう！</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>ロック画面</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>背景画像</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>壁紙</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>デザイン</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>加える</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>コピー</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>明確な</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>もっと追加</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>すべて選択</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>個人が追加された</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>すべて選択解除</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>交差</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>すべての写真</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>近い</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>保存された画像</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>選択する</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>自動的に</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>追加する画像を選択</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>招待</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>サイズ剤</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>上記の情報</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>プロフィール</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>設定を保存</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>コピー·イメージ</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>画像をカット</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>画像を切り取る</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>フォルダ</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>作成</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>新しい作成</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>我々は彼らのロック画面を変更することができますロック画面アプリとしてアプリを使用して</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>私の</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>ランダムフォルダ</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>ランダム画像</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>プロファイルを選択します</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>削除する</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>プロファイルを削除</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>プロフィールの名前を変更</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>記録</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>コンテキストを選択</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>プロファイルが適用されるときに現在の設定が削除され</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>バッテリ情報</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>言語</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>言語を変更</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>アプリケーションを再起動</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>言語を選択</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>リンク</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>保存と共有</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>左折</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>右折</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>保存と共有</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>偉大な背景画像を作成するには、このアプリケーションを使用します。この目的のために、設定の準備がトンです。あなたの背景画像が再び半時間ごとに作成されます。
+Windows Phoneのバックグラウンドサービスのアクティブなインターネット接続が必要です。インターネット存在への接続なしで、背景画像が再作成することができません。
+残念なことに、わずかなメモリはバックグラウンドサービスの利用を制限します。これは、バックグラウンドサービスなどの利用を停止することが起こるかもしれません。再びそれを起動する必要があります、だけ単にアプリケーションを開いた。この問題の他のカラー設定によっては、固定することができる。</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>作成するには、を押して</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>コンポーネント</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>オープニング</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>後で</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>しない</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>評価する</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>あなたはこのアプリケーションが好きなようだ。
+アプリプログラムは、時間がかかり、困難である。
+良い評価はさらにそれを広めるために私たちを助けることができる。
+
+どうもありがとうございました</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>起動時にロゴを表示する</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>絵タイルerstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>xtroseと接続</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>[詳細設定]</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>フレームワーク</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>インストール</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>オンライン</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>接続.....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>接続に失敗しました</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>超過または時刻を合わせていない</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>ダウンロード.....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>ファイルがすでに存在している</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>いいえコンポーネントが存在しない</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>あなたはこのフレームワークを削除しますか？
+
+削除されたフレームは、オンラインでのみインストール経由で復元することができます。</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>フレームを削除することはできません。
+
+これはあなたの最後のフレームである。インストールされ、少なくとも1が存在する必要があります。</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>選択</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>復元する</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>連絡</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>それをアンインストールするフレームを選択してください。プリインストールされたフレームを復元するには、ここをクリックしてください。</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>すべてのプリインストールされたフレームを復元する</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>サポート</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 のロック画面を します。</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>我々 は完全に新しいアプリを開発した !</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>は、Windows 10 に適応。</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>高い解像度を します。ディスプレイのサイズに適応します。</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>別の画像形式を します。</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>背景画像を します。</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>ユーザー情報のフィールドを します。</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>多くの機会を します。</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>新しいと絶対に華麗な エンジンが再び新しいロック画面を作成します。テンプレートとしてグリッドなし。これは簡単にアプリとの組み合わせの無限の多様性をもたらします。</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>今テストを します。</value>
+</data>
+
+
+
+
+
+</root>

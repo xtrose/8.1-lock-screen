@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>umbes</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Accent värvi</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 lukustuskuva</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>tausta värv</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>lukustuskuva</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Osta see app</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>kliki siia</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>värv</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopeeri kausta</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopeeri pildid</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Lõika pilt</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Kustuta kaust</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Kustuta pildid ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ! Sisestage nimi !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ! Nimi on juba kasutusel või vigane tähemärki!</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>VIGA: Taust agendid see taotlus on blokeeritudkasutaja !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( juhuslikult )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>raami värv</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>raami suurus</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Info värv</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Info läbipaistvus</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>juba valitud</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>nagu xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Sa ütlesid, et ei ole , nii et ma ei saa uuendada oma taustast.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Määra juhuslik kausta</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Ei ole kaustade valimiseks . Esimese lookaust ja import pilte.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Puudub pilt valitud kausta. Avage kaust ja import pilte.</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Loo uus kaust</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>uus nimi</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>teade</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>ei</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>jah</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Ava kaust</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Muud xtrose Apps</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Telefon tausta</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Pildid</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Hinda seda app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Muuda kausta</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>valima</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Valige kopeeritavad pildid</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Valige kustutatavad pildid</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Määra värvus</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Seaded</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Allikas ja eesmärk on üks ja sama</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Muuda lukustuskuva</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Täname allalaadimine</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Täname allalaadimine</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>läbipaistev</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>HOIATUS!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jah</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>tund</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>tööaeg</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Lock ekraanipildi ( kliki )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>protokoll</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Täname, et ostsite selle app</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial versioon aegunud!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial versioon aegunud! Et luua apps maksab palju aega . Hind selle töö eest ei ole kallis . Et jätkata luua lock ekraani pildid , peate ostmaapp. Täname!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Trial versioon</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>üldine</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Selle rakenduse kasutamiseks luua suurepärane taust . See koormate seaded on teile kättesaadavaks. Teie taustapilt taasloodi iga kolmkümmend minutit. Võib juhtuda, et lõpetab taustal teenus käesoleva taotluse . Et alustada uuesti , et taotlus tuleb avada lihtsalt .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>muu</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Palun määra hea see taotlus , kui soovite. Kui teil on probleeme selle rakenduse , siis võtke abi ! Küsimused ja probleemid on kadunud midagi kommentaare .
+Tänan teid väga !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Pildid</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Looge kaust , avage see ja importima nii palju pilte.
+Kui impordi pilte iga pilt võib viia .
+Saate luua mitu kaustu kiiresti luua täiesti erineva taustaga.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Juhendid</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Seaded</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Tausta saab muuta seadete lehel . On määratudtaotluse tausta taotluse taustapilt taasloodi iga lüliti . Äsja loodud pilt on ekraanil, nii et saate kohe kontrollida oma seade.</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>toetama</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>kliki ekraani vahele</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Hõlpsasti luualock ekraani Windows 8.1.
+Kasutage oma pildid ja näha, kuidas teie lukk ekraan muutub iga poole tunni kohta.
+Seal on palju võimalusi saadaval .
+Sul on üllatunud !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>lukustuskuva</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Taustapildi</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>tapeet</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>disain</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>lisama</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Kopeeri</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>selge</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>veel lisatud</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>vali kõik</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individuaalne lisatud</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>Tühista kõik valikud</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>lõikuma</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Kõik pildid</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>lähim</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>eelmine</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>salvestatud pilte</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>valima</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automaatselt</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Vali pilte lisada</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>kutsub</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>Suuruse</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Ülaltoodud teave</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profiil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Salvesta seaded</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Kopeeri pildid</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Lõika pilt</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Lõika pilte</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>Folder</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>loodud</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Loo uus</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Kasutage app nagu lock screen app , et me saame muuta oma lukk ekraan</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>minu</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random Folder</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Juhuslik pilt</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Valige konto</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>kustutama</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Kustuta konto</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Rename Profile</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>rekord</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Vali kontekst</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Kehtivad seaded kustutatakse, kuiprofiil on rakendatud</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Aku teave</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>keel</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Keele</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Taaskäivitage rakendus</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Vali keel</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>lingid</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Salvesta ja jaga</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>õigus</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>keera vasakule</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>keerata paremale</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Salvesta ja jaga</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Selle rakenduse kasutamiseks luua suurepärane taust . Selleks te olete valmis tonni seaded. Teie taustapilt on loodud iga poole tunni tagant uuesti.
+Windows Phone on vaja aktiivset Interneti-ühendust tausta teenuseid. Kellel ei ole Interneti-ühendust ei ole, taustapilt ei saa taasloodi .
+Kahjuks ainult väike mälu piirata saadaval taustal teenust. Võib juhtuda, et lõpetab taustal teenus selliseks kasutuseks. Vaja alustada uuesti , vaid lihtsalt avas taotluse. Muud värvi seadeid selle probleemi saab fikseeritud.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Vajuta , et luua</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponendid</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>avamine</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>pärast</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>mitte</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>hindama</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Paistab, et sul meeldib see rakendus.
+Apps programm on aeganõudev ja keeruline .
+Hea hinnangu aitavad meil levitada seda veelgi.
+
+suur aitäh</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Näita logo käivitamisel</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Pildid Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Ühenda xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Advanced Settings</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>raamistik</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>installid</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Connection .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>ühendus ebaõnnestus</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Ületatud või ei ole ühendatud aeg</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Lae alla .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Fail on juba olemas</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>No koostisaineid</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>päästma</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Kas te soovite kustutada selle raames ?
+
+Kustutatud raami saab taastada ainult läbi online paigaldamine .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Raam ei saa kustutada .
+
+See on sinu viimane kaader . Siin peab olema vähemalt üks paigaldatud.</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>valik</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>taastama</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>kontakt</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Valiraam eemaldage see. Vajuta siia, et taastada eelnevalt paigaldatud raami.</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Taasta kõik eelinstalleeritud raam</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>toetus</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10,0 lukk ekraan</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Oleme välja töötanud täiesti uue appi!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Kohandatud Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Kõrgema resolutsiooniga. Kohandatud kuvasuurust.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Eri vormingutes.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Tausta pildid.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Kasutaja informations välja.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Palju rohkem võimalusi.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Uued ja täiesti geniaalne mootori loob teie uus lukk ekraan ja jälle. Ilma grid mallina. See app lihtne teha ja toob lõpmatu erinevaid kombinatsioone.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Test nüüd</value>
+</data>
+
+
+
+
+
+</root>

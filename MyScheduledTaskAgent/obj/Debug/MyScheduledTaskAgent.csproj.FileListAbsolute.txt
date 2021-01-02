@@ -1,0 +1,70 @@
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\Lockscreen Swap\Lockscreen Swap\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\Bin\Debug\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\MyScheduledTaskAgent\obj\Debug\MyScheduledTaskAgent.pdb

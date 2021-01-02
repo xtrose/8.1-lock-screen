@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>over</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>accentkleur</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 vergrendelingsscherm</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>achtergrondkleur</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>vergrendelingsscherm</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Koop deze app</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>klik hier</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>kleur</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>kopieerbronmap</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Afbeeldingen kopiëren naar</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Snijd afbeelding</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>map verwijderen</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Afbeeldingen verwijderen ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>FOUT ! Voer de naam !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>FOUT ! Naam al in gebruik is of ongeldige tekens !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>FOUT : Achtergrond agenten voor deze toepassing zijn uitgeschakeld door de gebruiker !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( willekeurige )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>framekleur</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>framemaat</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>info kleur</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>info transparantie</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>reeds geselecteerd</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>net xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>U zei nee , dus ik kan je achtergrond niet bijwerken .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Set willekeurige map</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Er is geen mappen te selecteren . Maak eerst een map en import foto's .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Er is geen beeld in de geselecteerde map . Open de map en import foto's .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Nieuwe map maken</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nieuwe naam</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>niet</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>kennisgeving</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>niet</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Open de map</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Andere xtrose Apps</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>telefoon achtergrond</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>foto's</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Beoordeel deze app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>map hernoemen</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>kiezen</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Kies beelden om te kopiëren</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Selecteer afbeeldingen te verwijderen</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>set kleur</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Bron en doel zijn hetzelfde</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Lock -scherm wijzigen</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Bedankt voor het downloaden</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Bedankt voor het downloaden</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>transparant</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>WAARSCHUWING!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>uur</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Schermbeeld slot ( klik )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minuut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>notulen</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Dank u voor de aanschaf van deze app</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial Version Vervallen !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial Version Vervallen ! Om apps te maken zal een hoop tijd gekost . De prijs voor dit werk is niet duur . Te blijven maken lock schermen Images , moet u de app te kopen . Dank je wel !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>proefversie</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>algemeen</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Gebruik deze toepassing om grote achtergrond beelden te creëren . Deze ladingen van instellingen zijn beschikbaar voor u . Het imago van uw achtergrond is iedere dertig minuten opnieuw . Het kan gebeuren dat de achtergrondservice van deze aanvrage stopt . Om het weer te starten , moet de applicatie eenvoudig worden geopend .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Diversen</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Gelieve uw goed deze toepassing als je wilt. Als u problemen met deze toepassing hebben , neem dan contact support ! Vragen en problemen hebben niets verloren in de beoordelingen .
+Heel erg bedankt !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>foto's</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Maak een map , open het en importeren , zoals veel afbeeldingen .
+Wanneer de invoer van beelden kan elk beeld worden afgestemd .
+U kunt meerdere mappen om snel een compleet andere achtergrond te maken .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>instructies</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>instellingen</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>De achtergrond kan worden aangepast op de pagina met instellingen . Is ingesteld op de toepassing als achtergrond applicatie , wordt de achtergrondafbeelding opnieuw voor elke schakelaar . De nieuw gecreëerde beeld wordt weergegeven , zodat u meteen haar instelling kunt controleren .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>ondersteunen</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>klik het scherm over te slaan</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Maak eenvoudig een lock screen als in Windows 8.1 .
+Gebruik uw eigen foto's en zie hoe uw slot scherm verandert elk half uur .
+Er zijn vele opties beschikbaar voor deze .
+Je zult versteld staan ​​!</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>vergrendelingsscherm</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>achtergrond Afbeelding</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>behang</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>ontwerp</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>toevoegen</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>kopiëren</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>duidelijk</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>meer toegevoegde</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>alles selecteren</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individuele toegevoegd</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>Selectie ongedaan maken</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>snijden</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Alle foto's</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>dichtstbijzijnde</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>vorig</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>opgeslagen afbeeldingen</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>kiezen</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automatisch</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Selecteer afbeeldingen aan toe te voegen</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>nodigt</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>Sizing</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Bovenstaande informatie</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profiel</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Instellingen opslaan</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Kopieer afbeeldingen</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Snijd afbeelding</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>gesneden beelden</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>gemaakt</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Maak een nieuwe</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Gebruik de app als lock screen app die wij hun lock -scherm kunt wijzigen</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>mijn</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random Map</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Willekeurige afbeelding</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>profiel selecteren</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>verwijderen</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>profiel verwijderen</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Hernoem profiel</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>record</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Selecteer context</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>De huidige instellingen worden gewist wanneer het profiel wordt toegepast</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informatie over de batterij</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>taal</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Taal wijzigen</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Start de toepassing opnieuw</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Selecteer Taal</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>koppelingen</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Opslaan en delen</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>rechts</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>linksaf</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>rechtsaf</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Opslaan en delen</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Gebruik deze toepassing om grote achtergrond beelden te creëren . Hiervoor bent u klaar ton van de instellingen . De achtergrondafbeelding wordt gecreëerd om de dertig minuten nieuwe .
+Windows Phone vereist een actieve internetverbinding voor achtergrond diensten . Zonder verbinding met het internet bestaat, kan de achtergrond niet worden gereconstrueerd .
+Helaas is slechts een klein geheugen limiet voor de service op de achtergrond . Het kan gebeuren dat de achtergrondservice dergelijke aanslagen . Moeten het alleen opnieuw te beginnen opent u de toepassing eenvoudig. Door andere kleurinstellingen van dit probleem kan worden opgelost.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Druk op om te creëren</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>onderdelen</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>opening</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>later</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>niet</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>schatten</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Je lijkt om deze toepassing willen.
+Applicaties programma is tijdrovend en lastig .
+Een goede evaluatie kan ons helpen om het verder te verspreiden.
+
+heel hartelijk bedankt</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Tonen logo bij het opstarten</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Foto Tegel erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Verbinden met xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>geavanceerde instellingen</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>kader</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>Installeert</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Aansluiting .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>verbinding mislukt</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Overschreden of niet gecombineerd tijd</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Download .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Bestand bestaat</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Geen onderdelen aanwezig zijn</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>besparen</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Wilt u dit kader verwijderen?
+
+Verwijderde frame kan alleen worden hersteld via de online installatie .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Frame kan niet worden verwijderd .
+
+Dit is je laatste frame . Er moet minstens een geïnstalleerd .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>selectie</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>herstellen</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Kies een frame om het te verwijderen . Klik hier om de vooraf geïnstalleerde kader herstellen.</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Herstel alle voorgemonteerd frame</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>ondersteuning</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 Slotscherm</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Hebben we een volledig nieuwe app!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Aangepast aan Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Hogere resolutie. Aangepast aan de weergavegrootte.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Verschillende beeldformaten.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Achtergrondafbeeldingen.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Veld voor gebruiker informatie.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Veel meer mogelijkheden.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>De nieuwe en absoluut briljant motor maakt uw nieuwe slotscherm opnieuw en opnieuw. En zonder raster als een sjabloon. Dit maken de app gemakkelijk en brengt een oneindige verscheidenheid van combinaties.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Test nu</value>
+</data>
+
+
+
+
+
+</root>

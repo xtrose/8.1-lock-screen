@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>về</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>màu nhấn</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 màn hình khóa</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>màu nền</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>màn hình khóa đổi</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Mua ứng dụng này</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>nhấp vào đây</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>màu</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>sao chép thư mục</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Sao chép ảnh vào</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>cắt hình ảnh</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>xóa thư mục</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Xóa hình ảnh ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>LỖI ! Nhập tên !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>LỖI ! Tên đã được sử dụng hoặc các ký tự không hợp lệ !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>LỖI : chất nền cho ứng dụng này đã bị vô hiệu hóa bởi người sử dụng !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( ngẫu nhiên )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>khung màu</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>kích thước khung hình</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Thông tin màu</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Thông tin minh bạch</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>được chọn</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>như xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Bạn nói không , vì vậy tôi không thể cập nhật nền của bạn.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>thư mục</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Thiết lập thư mục ngẫu nhiên</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Không có thư mục để lựa chọn. Đầu tiên tạo ra một thư mục và nhập khẩu hình ảnh .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Không có hình ảnh trong thư mục đã chọn . Mở thư mục và hình ảnh nhập khẩu.</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Tạo thư mục mới</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>tên mới</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>thông báo</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>mở thư mục</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Xtrose ứng dụng khác</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>nền điện thoại</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tỷ lệ ứng dụng này</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Đổi tên thư mục</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>chọn</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Chọn hình ảnh để sao chép</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Chọn hình ảnh để xóa</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>thiết lập màu</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>cài đặt</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Nguồn và mục tiêu là như nhau</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Thay đổi màn hình khóa</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Cảm ơn bạn đã tải về</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Cảm ơn bạn đã tải về</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>minh bạch</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Chú ý !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>vâng</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>giờ</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Khóa hình ảnh màn hình ( nhấp chuột)</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>phút</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Cảm ơn bạn đã mua ứng dụng này</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Phiên bản dùng thử hết hạn ! Để tạo ra các ứng dụng sẽ tốn rất nhiều thời gian . Giá cho công việc này là không tốn kém. Tiếp tục tạo khóa màn hình hình ảnh , bạn phải mua các ứng dụng. Cảm ơn bạn!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>phiên bản dùng thử</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>chung</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Sử dụng ứng dụng này để tạo ra hình ảnh nền tuyệt vời. Điều này vô số các thiết lập có sẵn cho bạn . Hình nền của bạn được tái tạo mỗi ba mươi phút. Nó có thể xảy ra mà dừng lại các dịch vụ nền của ứng dụng này. Để bắt đầu lại một lần nữa , các ứng dụng phải được mở đơn giản.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>linh tinh</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Vui lòng đánh giá tốt ứng dụng này nếu bạn muốn. Nếu bạn có vấn đề với ứng dụng này, sau đó xin vui lòng liên hệ hỗ trợ ! Câu hỏi và vấn đề này đã bị mất không có gì trong phần đánh giá.
+Cảm ơn bạn rất nhiều!</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>hình ảnh</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Tạo một thư mục , mở nó và nhập khẩu , như nhiều hình ảnh .
+Khi nhập khẩu hình ảnh mỗi hình ảnh có thể được sắp xếp .
+Bạn có thể tạo nhiều thư mục để nhanh chóng tạo ra một nền tảng hoàn toàn khác nhau .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>hướng dẫn</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>cài đặt</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Các nền có thể được điều chỉnh trên trang cài đặt . Được thiết lập ứng dụng như một ứng dụng nền , hình nền được tái tạo cho mỗi chuyển đổi . Những hình ảnh mới được tạo ra sẽ được hiển thị , do đó bạn ngay lập tức có thể kiểm tra thiết lập của nó .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>hỗ trợ</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>nhấp vào màn hình để bỏ qua</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Dễ dàng tạo ra một màn hình khóa như trong Windows 8.1.
+Sử dụng hình ảnh của mình và xem cách màn hình khóa của bạn thay đổi mỗi nửa giờ.
+Có rất nhiều tùy chọn có sẵn cho việc này.
+Bạn sẽ ngạc nhiên !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>màn hình khóa</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Hình ảnh nền</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>hình nền</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>thiết kế</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>thêm</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>sao chép</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>rõ ràng</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>thêm hơn</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>chọn tất cả</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>cá nhân bổ sung</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>bỏ chọn tất cả</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>giao nhau</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>toàn bộ ảnh</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>gần nhất</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>trước</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>hình ảnh được lưu trữ</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>chọn</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>tự động</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Chọn hình ảnh để thêm</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>mời</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>kích thước</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Thông tin hàng đầu</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>hồ sơ cá nhân</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Lưu Cài đặt</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>bản sao hình ảnh</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>cắt hình ảnh</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>cắt hình ảnh</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>thư mục</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>tạo ra</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>tạo mới</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Sử dụng các ứng dụng như ứng dụng khóa màn hình mà chúng ta có thể thay đổi màn hình khóa của họ</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>của tôi</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>ngẫu nhiên thư mục</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>hình ảnh ngẫu nhiên</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>chọn hồ sơ</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>xóa</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>xóa hồ sơ cá nhân</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>đổi tên hồ sơ</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>ghi</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>chọn bối cảnh</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Các thiết lập hiện tại sẽ bị xóa khi hồ sơ được áp dụng</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Xem thông tin pin</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>ngôn ngư</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>thay đổi ngôn ngữ</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Khởi động lại ứng dụng</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>chọn ngôn ngữ</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>liên kết</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Lưu và chia sẻ</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>ngay</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>rẽ trái</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>rẽ phải</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Lưu và chia sẻ</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Sử dụng ứng dụng này để tạo ra hình ảnh nền tuyệt vời. Với mục đích này , bạn có sẵn sàng tấn các thiết lập . Hình nền của bạn được tạo ra mỗi nửa giờ một lần nữa.
+Cửa sổ điện thoại yêu cầu kết nối Internet đang hoạt động cho các dịch vụ nền . Không có kết nối với Internet tồn tại, hình nền không thể được tái tạo.
+Thật không may , chỉ có một bộ nhớ nhỏ hạn chế có sẵn cho các dịch vụ nền . Nó có thể xảy ra mà dừng lại các dịch vụ nền tảng sử dụng đó. Cần phải bắt đầu lại một lần nữa , chỉ chỉ cần mở ứng dụng. Bởi các thiết lập màu sắc khác của vấn đề này có thể được cố định.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Báo chí để tạo ra</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>thành phần</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>mở</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>sau</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>không</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>đánh giá</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Bạn có vẻ thích ứng dụng này.
+Chương trình ứng dụng là tốn thời gian và khó khăn.
+Một đánh giá tốt có thể giúp chúng ta nên mở rộng hơn nữa .
+
+cảm ơn bạn rất nhiều</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Hiển thị biểu trưng lúc khởi động</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Hình ảnh Ngói erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Kết nối với xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Thiết lập nâng cao</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>khuôn khổ</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>cài đặt</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>trực tuyến</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Kết nối .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Không kết nối</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Thời gian vượt quá hoặc không kết hợp</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Tải về .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Tập tin đã tồn tại</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Không có thành phần có mặt</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>tiết kiệm</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Bạn có muốn xóa khuôn khổ này ?
+
+Khung xóa chỉ có thể được khôi phục thông qua việc cài đặt trực tuyến .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Khung không thể bị xóa.
+
+Đây là khung hình cuối cùng của bạn. Phải có ít nhất một cài đặt.</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>lựa chọn</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>khôi phục</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>Liên hệ</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Chọn một khung để gỡ bỏ cài đặt nó . Click vào đây để khôi phục lại các khung hình cài đặt sẵn.</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Khôi phục lại tất cả các khung được cài đặt sẵn</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>hỗ trợ</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 khóa màn hình</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Chúng tôi đã phát triển một ứng dụng hoàn toàn mới!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Thích nghi với Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Độ phân giải cao. Thích nghi với kích thước màn hình.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Định dạng hình ảnh khác nhau.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Hình ảnh nền.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Lĩnh vực cho người sử dụng thông tin.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Nhiều nhiều cơ hội hơn.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Mới và hoàn toàn rực rỡ động cơ tạo ra màn hình khóa mới của bạn một lần nữa và một lần nữa. Và không có lưới điện như là một bản mẫu. Điều này làm cho các ứng dụng dễ dàng và mang đến cho một đa dạng vô hạn của kết hợp.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Thử nghiệm bây giờ</value>
+</data>
+
+
+
+
+
+</root>

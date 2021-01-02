@@ -1,0 +1,642 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>tentang</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>aksen warna</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 layar penguncian</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>warna latar belakang</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>layar penguncian</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Beli aplikasi ini</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>klik di sini</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>warna</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Salin folder</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Menyalin gambar ke</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>potong gambar</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Hapus folder</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Hapus gambar ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERROR ! Masukkan nama !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERROR ! Nama sudah digunakan atau karakter yang tidak valid !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERROR : Latar Belakang agen untuk aplikasi ini telah dinonaktifkan oleh pengguna !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( random )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>warna bingkai</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>ukuran frame</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Info warna</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Info transparansi</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>sudah dipilih</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>seperti xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Anda mengatakan tidak , jadi saya tidak dapat memperbarui latar belakang Anda .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Set folder acak</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Tidak ada folder untuk memilih . Pertama membuat folder dan impor gambar .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Tidak ada gambar dalam folder yang dipilih . Buka folder dan gambar impor .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Buat folder baru</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nama baru</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>pemberitahuan</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Buka folder</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Aplikasi xtrose Lainnya</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>latar belakang telepon</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>gambar</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Tingkat aplikasi ini</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Ubah nama folder</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>memilih</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Pilih gambar untuk menyalin</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Pilih gambar untuk menghapus</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>mengatur warna</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Sumber dan target yang sama</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Ubah kunci layar</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Terima kasih telah mengunduh</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Terima kasih telah mengunduh</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>jelas</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>PERINGATAN !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ya</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>jam</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Gambar layar Lock ( klik )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>menit</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Terima kasih telah membeli aplikasi ini</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial Version Expired !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial Version Expired ! Untuk membuat aplikasi akan menghabiskan banyak waktu . Harga untuk pekerjaan ini tidak mahal . Untuk melanjutkan membuat kunci layar Images , Anda harus membeli aplikasi . Terima kasih !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>versi uji coba</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>umum</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Gunakan aplikasi ini untuk membuat gambar latar belakang yang besar . Ini banyak pengaturan yang tersedia untuk Anda . Gambar latar belakang Anda diciptakan setiap tiga puluh menit . Ini mungkin terjadi bahwa menghentikan layanan latar belakang dari aplikasi ini . Untuk memulai lagi , aplikasi tersebut harus dibuka sederhana.</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>bermacam-macam</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Silakan menilai baik aplikasi ini jika Anda suka . Jika Anda memiliki masalah dengan aplikasi ini , maka silakan hubungi dukungan ! Pertanyaan dan masalah kehilangan apa-apa di Review .
+Terima kasih banyak !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>gambar</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Membuat folder , membukanya dan impor , karena banyak gambar .
+Ketika impor gambar masing-masing gambar dapat disejajarkan .
+Anda dapat membuat beberapa folder untuk dengan cepat menciptakan latar belakang yang sama sekali berbeda .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>instruksi</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Pengaturan</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Latar belakang dapat disesuaikan pada halaman pengaturan . Apakah mengatur aplikasi sebagai aplikasi background , gambar latar belakang diciptakan untuk setiap switch . Citra yang baru dibuat ditampilkan, sehingga Anda dapat langsung memeriksa setelan .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>mendukung</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>klik layar untuk melewatkan</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Mudah membuat layar kunci seperti pada Windows 8.1 .
+Gunakan gambar Anda sendiri dan melihat bagaimana layar kunci Anda berubah setiap setengah jam .
+Ada banyak pilihan yang tersedia untuk ini .
+Anda akan kagum !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>layar penguncian</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Gambar Latar</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>kertas dinding</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>disain</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>menambahkan</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Kopi</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>jelas</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>tambah</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>pilih semua</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individu ditambahkan</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>batalkan semua</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>memotong</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>semua Gambar</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>terdekat</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>sebelumnya</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>gambar yang tersimpan</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>memilih</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>secara otomatis</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Pilih gambar untuk menambahkan</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>mengundang</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>perekat</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Informasi di atas</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Simpan Pengaturan</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Salin gambar</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>potong gambar</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>potong gambar</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>map</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>dibuat</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Buat baru</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Gunakan aplikasi seperti aplikasi lock screen yang kita dapat mengubah layar kunci mereka</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>saya</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>acak Folder</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>random image</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Pilih Profil</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>menghapus</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Hapus profil</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Rename Profil</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>catatan</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Pilih konteks</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Pengaturan saat ini dihapus saat profil tersebut diterapkan</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informasi baterai</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>bahasa</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Ganti Bahasa</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Restart aplikasi</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Pilih Bahasa</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>Link</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Simpan dan berbagi</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>kanan</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>belok kiri</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>belok kanan</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Simpan dan berbagi</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Gunakan aplikasi ini untuk membuat gambar latar belakang yang besar . Untuk tujuan ini , Anda siap ton pengaturan . Gambar latar belakang Anda dibuat setiap setengah jam lagi.
+Windows Phone membutuhkan koneksi Internet aktif untuk layanan latar belakang . Dengan tidak ada koneksi ke Internet ada, gambar latar belakang tidak dapat diciptakan .
+Sayangnya , hanya memori kecil membatasi tersedia untuk layanan latar belakang . Ini mungkin terjadi bahwa menghentikan layanan latar belakang penggunaan tersebut . Harus mulai lagi , hanya membuka aplikasi tersebut . Dengan pengaturan warna lain dari masalah ini bisa diperbaiki .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Tekan untuk membuat</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponen</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>pembukaan</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>kemudian</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>tidak</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>mengevaluasi</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Anda tampaknya seperti aplikasi ini .
+Program aplikasi ini memakan waktu dan sulit .
+Sebuah evaluasi yang baik dapat membantu kita untuk menyebarkan lebih lanjut .
+
+Terima kasih banyak</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Tampilkan logo di startup</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Gambar Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Terhubung dengan xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Pengaturan Lanjutan</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>kerangka</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>Pemasangan</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Connection .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>koneksi Gagal</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Melebihi atau tidak digabung waktu</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Unduh .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>File sudah ada</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Tidak ada komponen yang hadir</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>menyimpan</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Apakah Anda ingin menghapus framework ini ?
+
+Bingkai Dihapus hanya dapat dikembalikan melalui instalasi online.</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Bingkai tidak dapat dihapus .
+
+Ini adalah frame terakhir Anda . Harus ada setidaknya satu diinstal .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>seleksi</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>mengembalikan</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>kontak</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Pilih bingkai untuk uninstall . Klik di sini untuk mengembalikan frame pra-instal .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Pulihkan semua kerangka pra-instal</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>mendukung</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 Mengunci layar</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Kami telah mengembangkan sebuah aplikasi yang sama sekali baru!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Disesuaikan Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Resolusi yang lebih tinggi. Disesuaikan dengan ukuran layar.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Format gambar yang berbeda.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Gambar latar belakang.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Lapangan untuk informasi pengguna.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Banyak kesempatan.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Baru dan benar-benar brilian mesin menciptakan mengunci layar Anda baru lagi dan lagi. Dan tanpa grid sebagai template. Ini membuat aplikasi mudah dan membawa berbagai kombinasi tak terbatas.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Test sekarang</value>
+</data>
+
+
+
+
+</root>

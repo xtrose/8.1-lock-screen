@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>despre</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>culoare de accent</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 ecran de blocare</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>culoarea de fundal</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>ecran de blocare</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Cumpara această aplicație</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>click aici</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>culoare</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>director de copiere</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Copia imagini de</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>taie imagine</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>șterge dosar</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Ștergeți imaginile ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>EROARE ! Introduceți numele !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>EROARE ! Nume deja în uz sau caractere nevalide !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>EROARE : agenți de fond pentru această aplicație a fost dezactivat de către utilizator !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( aleator )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>culoarea cadrului</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>dimensiune cadru</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>culoare Info</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>transparență info</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>deja selectat</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>ca xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Ai spus nu , deci eu nu pot actualiza fundal .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>dosar</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Set dosar aleatoriu</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Nu există nici o directoare pentru a selecta . Primul a crea un folder și import imagini .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Nu există nici o imagine în dosarul selectat . Deschideți directorul și imagini de import .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Creare folder nou</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nume nou</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>notificare</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Deschidere folder</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Alte aplicații xtrose</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>fundal telefon</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>fotografii</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Rata această aplicație</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Redenumire dosar</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>selecta</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Copia imagini</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Selectați imaginile pentru a șterge</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Set culoare</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Sursă și țintă sunt aceleași</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Schimba ecranul de blocare</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Vă mulțumim pentru descărcarea</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Vă mulțumim pentru descărcarea</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>transparent</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>ATENȚIE !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>da</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>oră</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>ore</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Imaginea de pe ecran de blocare ( click )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Vă mulțumim pentru achiziționarea acestei aplicații</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Versiune de încercare a expirat!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Versiune de încercare a expirat! Pentru a crea aplicații va costa o multime de timp . Pretul pentru acest lucru nu este scump . Pentru a continua crearea de ecrane de blocare Imagini , trebuie să cumpere aplicația . Vă mulțumim !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>versiune de încercare</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>general</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Folosiți această aplicație pentru a crea imagini de fundal mari . Această mulțime de setări sunt disponibile pentru tine . Imaginea de fundal este recreat la fiecare treizeci de minute. Se poate întâmpla ca opreste serviciul de fond a acestei cereri . Pentru a porni din nou , cererea trebuie să fie deschis pur și simplu .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Diverse</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Vă rugăm să evaluați bine această aplicație dacă doriți . Dacă ai probleme cu această cerere , atunci vă rugăm să contactați asistența ! Întrebări și probleme au pierdut nimic în comentarii .
+Vă mulțumesc foarte mult !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>fotografii</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Creați un folder , deschideți-l și import , ca mai multe imagini .
+Când importul de imagini fiecare imagine pot fi aliniate .
+Puteți crea mai multe foldere pentru a crea rapid un fundal complet diferite .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>instrucțiuni</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Setări</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Fundalul poate fi ajustat pe pagina de setări . Este stabilit cererea ca o cerere de fundal , imaginea de fundal este recreat pentru fiecare comutator . Imaginea este afișată nou creat , astfel încât să puteți verifica imediat setarea .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>sprijini</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>faceți clic pe ecran pentru a trece</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Usor de a crea un ecran de blocare ca în Windows 8.1 .
+Utilizați propriile imagini și a vedea cât de ecran de blocare se schimbă la fiecare jumătate de oră .
+Există mai multe opțiuni disponibile pentru aceasta .
+Vei fi uimit !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>ecran de blocare</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Imagine de fundal</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>tapet</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>proiect</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>adăuga</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>copierea</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>clar</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>mai adăugat</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>selectați toate</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individuală a adăugat</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>deselecta toate</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>intersecta</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>toate imaginile</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>cel mai apropiat</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>anterior</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>imaginilor stocate</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>selecta</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automat</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Selectați imaginile pentru a adăuga</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>invită</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>dimensionarea</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Informaţiile de mai sus</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Salvare setări</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Copiați imaginile</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>taie imagine</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Tăiați imagini</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>dosar</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>creat</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Creați o nouă</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Folosiți aplicația ca app de blocare a ecranului pe care le putem schimba ecranul de blocare</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>meu</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Folder aleatorie</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>imagine aleatoare</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Selectați profilul</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>șterge</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>șterge profilul</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>redenumi Profil</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>record</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Selectați context</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Setările curente sunt șterse atunci când este aplicat profilul</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informaþii despre acumulator</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>limbă</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Modificare limbă</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Reporniți aplicația</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Selectați limba</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>Link-uri</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Salvați și împărtășiți</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>dreapta</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>viraj la stânga</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>la dreapta</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Salvați și împărtășiți</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Folosiți această aplicație pentru a crea imagini de fundal mari . În acest scop , sunteți gata de tone de setări . Imaginea de fundal este creat din nou la fiecare jumătate de oră .
+Windows Phone necesită o conexiune activă la Internet pentru servicii de background . Cu nici o conexiune la Internet există , imaginea de fundal nu poate fi recreat .
+Din păcate , limita disponibilă doar o amintire mic pentru serviciul de fundal . Se poate întâmpla ca opreste serviciu de fundal o astfel de utilizare . Trebuie să-l înceapă din nou , abia deschis aplicația . De alte setări de culoare de această problemă poate fi fix .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Apăsați pentru a crea</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>componente</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>deschidere</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>mai târziu</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>nu</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>evalua</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Se pare să-i placă această aplicație .
+Programul Apps este consumatoare de timp și dificil .
+O evaluare bun ne poate ajuta să -l răspândească în continuare .
+
+mulțumesc mult</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Arată logo-ul la pornire</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Poze Placi erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Conectează-te cu xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Setări avansate</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>cadru</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>instalează</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Conexiune .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>conexiune eșuată</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Timp de depășit sau nu combinate</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Descărcați .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Fișierul există deja</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Nu sunt componente sunt prezente</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>salva</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Nu doriți să ștergeți acest cadru ?
+
+Cadru șterse pot fi restaurate numai prin instalarea on-line .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Cadru nu pot fi șterse .
+
+Aceasta este ultima ta cadru . Trebuie să existe cel puțin un instalată .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>selecție</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>restabili</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>contact</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Alegeți un cadru să-l dezinstalați . Click aici pentru a restabili cadrul pre- instalat .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Restaurare toate cadru pre -instalat</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>suport</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 Ecran de blocare</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Ne-am dezvoltat o aplicatie complet nou!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Adaptate Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Rezoluţie mai mare. Adaptate la dimensiunea de afişare.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Formate de imagini diferite.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Imagini de fundal.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Câmp pentru utilizator informatii.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Multe mai multe oportunităţi.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Nou şi absolut genial motor creează noul ecran de blocare din nou şi din nou. Si fara grila ca un şablon. Acest lucru face app uşor şi aduce o varietate infinită de combinaţii.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Testul acum</value>
+</data>
+
+
+
+
+
+</root>

@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>Om</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Accent färg</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 låsskärm</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>bakgrundsfärg</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>låsskärm växlare</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Köp den här appen</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>klicka här</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Färg</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopiera mapp</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopiera bilder till</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Skär bild</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>radera mappen</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Radera bilder ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>FEL ! Ange namn !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>FEL ! Namn som redan är i bruk eller ogiltiga tecken !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>FEL : Bakgrund medel för denna ansökan har inaktiverats av användaren !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( random )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>Ramfärg</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>ramstorlek</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Info färg</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Info öppenhet</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>redan valts</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>Liksom xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Du sa nej , så jag kan inte uppdatera din bakgrund .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>Mapp</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Ställ slumpmässig mapp</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Det finns inga mappar att välja . Först skapa en mapp och importera bilder .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Det finns ingen bild i vald mapp . Öppna mappen och bilderna import .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Skapa ny mapp</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nytt namn</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>inte</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>underrättelse</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>inte</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>öppna mapp</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Andra xtrose appar</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Telefon bakgrund</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Betygsätt denna app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Döp mappen</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>välj</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Välj bilder att kopiera</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Välj bilder som ska raderas</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Ställ färg</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Källa och mål är samma</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Ändra skärmlåset</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Tack för att du laddar ner</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Tack för att du laddar ner</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>transparent</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>VARNING !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>ja</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>timme</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>timmar</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Lås skärmbilden ( klicka )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minut</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minuter</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Tack för att du köpt denna app</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Trial Version gått ut!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Trial Version gått ut! Att skapa appar kommer att kosta en hel del tid . Priset för detta arbete är inte dyrt . För att fortsätta skapa låsskärmar Images , måste du köpa programmet . Tack !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Trial version</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>Allmänt</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Använd detta program för att skapa stora bakgrundsbilder . Detta massor av inställningar är tillgängliga för dig . Din bakgrundsbild återskapas varje trettio minuter . Det kan hända att stoppar bakgrundstjänsten av denna ansökan. För att starta den igen , måste ansökan öppnas enkelt .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Övrigt</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Bedöm bra det här programmet om du vill . Om du har problem med denna ansökan , vänligen kontakta support ! Frågor och frågor har förlorat något i recensioner .
+Tack så mycket !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>Bilder</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Skapa en mapp , öppna den och importera så många bilder .
+När importen av bilder varje bild kan anpassas .
+Du kan skapa flera mappar för att snabbt skapa en helt annan bakgrund .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>Instruktioner</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>Inställningar</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Bakgrunden kan justeras på inställningssidan . Sätts ansökan som en bakgrund ansökan , men bakgrundsbilden återskapas för varje switch . Den nyskapade bilden visas , så att du omedelbart kan kontrollera dess inställning .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>Klicka skärmen för att hoppa</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Skapa enkelt en låsskärmen som i Windows 8.1 .
+Använd dina egna bilder och se hur ditt lås skärmen ändras varje halvtimme .
+Det finns många alternativ för detta .
+Du kommer att bli förvånad !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>låsskärm</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>bakgrundsbild</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>Bakgrund</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>Design</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>Lägg</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Kopiera</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>rensa</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>mer tillsattes</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>välj alla</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individ tillsattes</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>avmarkera alla</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>skär</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>alla bilder</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>närmast</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>föregående</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>lagrade bilder</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>välj</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automatiskt</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Välj bilder att lägga</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>inbjuder</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>dimensionering</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Ovanstående information</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>Profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Spara inställningar</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Kopiera bilder</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Skär bild</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Skär bilder</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>Mapp</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>Skapad</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Skapa nytt</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Använd appen som låsskärmen app som vi kan förändra deras låsskärmen</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>Min</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random Mapp</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Slumpmässig bild</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Välj profil</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>ta bort</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>radera profil</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Byt namn Profil</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>post</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Välj sammanhang</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>De aktuella inställningarna raderas när profilen tillämpas</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Batterie information</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>Språk</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>ändra språk</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Starta programmet</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Välj språk</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>länkar</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Spara och dela</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>höger</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>sväng vänster</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>sväng höger</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Spara och dela</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Använd detta program för att skapa stora bakgrundsbilder . För detta ändamål , är du redo massor av inställningar . Din bakgrundsbild skapas varje halvtimme igen .
+Windows Phone kräver en aktiv Internetanslutning för bakgrunden tjänster . Med ingen anslutning till Internet finns, kan bakgrundsbilden inte återskapas .
+Tyvärr , bara ett litet minne begränsar tillgängligt för bakgrunden tjänsten . Det kan hända att stoppar bakgrundstjänsten sådan användning. Måste börja igen , bara öppnade programmet . Av övriga färginställningar för detta problem kan åtgärdas .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Tryck för att skapa</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponenter</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>Öppning</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>Senare</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>Inte</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>Utvärdera</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Du verkar gilla det här programmet .
+Applikationer programmet är tidskrävande och svårt.
+En bra utvärdering kan hjälpa oss att sprida den vidare .
+
+Tack så mycket</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Visa logotyp vid start</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Bilder Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Anslut med xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Avancerade inställningar</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>Framework</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>Installationer</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>Online</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Anslutning .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Anslutning misslyckades</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Överskrids eller inte kombinerade tid</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Nedladdning .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Filen finns redan</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Inga komponenter finns</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>Spara</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Vill du ta bort denna ram ?
+
+Bort ram kan endast återställas via online- installationen .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Frame kan inte raderas .
+
+Det här är din sista bildrutan . Det måste finnas minst en installerad .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>Val</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>Återställ</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>Kontakt</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Välj en ram för att avinstallera det . Klicka här för att återställa förinstallerade ram .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Återställ alla förinstallerade ram</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>Stöd</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 Låsskärmen</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Har vi utvecklat en helt ny app!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Anpassat till Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Högre upplösning. Anpassade till skärmstorleken.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Olika bildformat.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Bakgrundsbilder.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Fältet för användaren informationer.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Många fler möjligheter.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Den nya och fullständigt lysande motorn skapar nya låsskärmen igen och igen. Och utan rutnät som mall. Detta gör app enkelt och ger en oändlig mängd olika kombinationer.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Test nu</value>
+</data>
+
+
+
+
+
+</root>

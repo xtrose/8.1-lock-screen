@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>par</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Accent krāsas</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 bloķēšanas ekrāns</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>fona krāsa</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>bloķēšanas ekrāns mainītājs</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Pirkt šo lietotni</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>noklikšķiniet šeit</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>krāsa</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Kopēt mapē</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Kopēt attēlus</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Cut attēlu</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Dzēst mapi</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Izdzēst attēlus ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>KĻŪDA ! Ievadiet vārdu !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>KĻŪDA ! Nosauciet jau izmanto vai nederīgas rakstzīmes !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>KĻŪDA : Fona aģenti šajā pieteikumā ir atspējojis lietotājs !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>( izlases )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>rāmja krāsa</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>rāmja izmērs</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Info krāsa</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Info pārredzamība</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>jau ir atlasīti</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>tāpat xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Jūs teicāt nē, tāpēc es nevaru atjaunināt savu fona .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>mape</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Uzstādīt izlases mapi</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Nav mapes , lai izvēlētos. Vispirms izveidot mapi un importa attēlus.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Nav izvēlētajā mapē attēlu . Atveriet mapi un importa attēlus .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Izveidot jaunu mapi</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>jaunais nosaukums</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>nav</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>paziņojums</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>nav</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Atvērt mapi</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Citas xtrose Apps</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Tālrunis fona</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>attēli</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Vērtēt šo programmu</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>pārdēvēt mapi</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>atlasīt</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Izvēlieties attēlu, lai kopētu</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Izvēlieties attēlu, lai izdzēstu</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Uzstādīt krāsu</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>iestatījumi</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Avots un mērķis ir tāds pats</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Mainīt bloķēšanas ekrānu</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Paldies par lejupielādi</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Paldies par lejupielādi</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>caurspīdīgs</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>BRĪDINĀJUMS !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>jā</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>stunda</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>laiks</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Lock ekrāna attēlu ( klikšķi )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minūte</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>protokols</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Paldies, ka iegādājāties šo lietotni</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Izmēģinājuma versija beidzies !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Izmēģinājuma versija beidzies ! Lai izveidotu progr maksās daudz laika . Par šo darbu cena nav dārga . Lai turpinātu izveidotu atslēga ekrāni attēlus , jums ir nopirkt app . Paldies!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>izmēģinājuma versija</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>vispārējs</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Izmantojiet šo programmu, lai izveidotu lielu fona attēlus . Šī uzstādījumu slodzes ir pieejami Jums . Jūsu fona attēls ir pārbūvēts ik pēc trīsdesmit minūtēm . Tā var gadīties, ka pārtrauc fona pakalpojumu, par šo pieteikumu . Lai sāktu to vēlreiz ,pieteikums ir jāatver vienkārši .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Dažādi</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Lūdzu, novērtējiet labu šo pieteikumu, ja vēlaties. Ja Jums ir problēmas ar šo pieteikumu , tad, lūdzu, sazinieties ar atbalsta ! Jautājumi un jautājumi ir zaudējuši neko pārskatīšanas .
+Thank you very much !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>attēli</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Izveidot mapi , atveriet to un importēt , tik daudz attēlu .
+Jaattēlu importu katru attēlu var pielīdzināt .
+Jūs varat izveidot vairākas mapes , lai ātri izveidot pavisam citu fona .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>instrukcijas</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>iestatījumi</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Fona var pielāgot iestatījumu lapā . Ir noteikts , ka pieteikumu kā fona pieteikumu ,fona attēls tiek pārbūvēts par katru slēdzi . Jaunizveidotā attēls tiek rādīts , lai jūs varētu nekavējoties pārbaudīt savu iestatījumu .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>atbalstīt</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>noklikšķiniet uz ekrāna, lai pārietu</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Viegli izveidot bloķēšanas ekrānu kā 8.1 Windows .
+Izmantot savus attēlus un redzēt, kā jūsu atslēga ekrāns mainās ik pēc pusstundas .
+Ir daudzas iespējas, kas pieejamas šim .
+Jūs būsiet pārsteigti !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>bloķēšanas ekrāns</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>fona attēls</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>tapete</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>dizains</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>pievienot</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>kopēt</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>skaidrs</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>vairāk pievienotās</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>izvēlēties visus</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individuālā pievienotās</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>Atcelt visu</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>krustot</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Visas Bildes</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>tuvākais</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>iepriekšējā</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>saglabātos attēlus</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>atlasīt</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automātiski</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Izvēlieties attēlu, lai pievienotu</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>aicina</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>Izmēru</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Informāciju iepriekš norādītajos laukos</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profils</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Saglabāt iestatījumus</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>kopēt attēlus</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Cut attēlu</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>samazināt attēlus</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>mape</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>izveidots</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Izveidot jaunu</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Izmantojiet app kā atslēga ekrāna app, ka mēs varam mainīt savu bloķēšanas ekrānu</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>mans</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Random mape</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Nejauša bilde</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Izvēlieties profilu</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>izdzēst</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Dzēst profilu</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>pārdēvēt profilu</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>ieraksts</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Izvēlieties kontekstu</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Pašreizējie iestatījumi tiek izdzēsti, kadprofils ir piemērota</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informācija par akumulatoru</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>valoda</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>valodas maiņa</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Restart pieteikumu</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Izvēlieties valodu</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>saites</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Saglabāt un dalīties</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>tiesības</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>nogriezieties pa kreisi</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>nogriezieties pa labi</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Saglabāt un dalīties</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Izmantojiet šo programmu, lai izveidotu lielu fona attēlus . Šim nolūkam , jūs esat gatavi t uzstādījumus . Jūsu fona attēls tiek veidots katru pusstundu vēlreiz.
+Windows Phone ir nepieciešams aktīvs interneta savienojums fona pakalpojumiem . Bez savienojuma ar internetu pastāv ,fona attēlu nevar pārbūvēts .
+Diemžēl tikaineliela atmiņas ierobežo pieejamas fona pakalpojumu. Tā var gadīties, ka pārtrauc fona pakalpojumu šādu izmantošanu . Ir nepieciešams, lai sāktu to vēlreiz , tikai tikko uzsākusi pieteikumu . Ar citu krāsu iestatījumus šo problēmu var noteikt.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Press , lai izveidotu</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>komponenti</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>atklāšana</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>vēlāk</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>nav</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>novērtēt</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Jūs, šķiet, piemēram, šo pieteikumu.
+Apps programma ir laikietilpīgs un sarežģīts .
+Labs novērtējums var palīdzēt mums izplatīt to tālāk .
+
+thank you very much</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Parādīt logo pie startēšanas</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Bildes Flīžu erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Savienot ar xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Papildu iestatījumi</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>ietvars</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>instalē</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>tiešsaistē</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Savienojums .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>savienojums neizdevās</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Pārsniegts vai nav apvienotas laiks</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Lejupielādēt .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Fails jau eksistē</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Nav sastāvdaļas ir klāt</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>glābt</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Vai jūs vēlaties izdzēst šo sistēmu ?
+
+Svītrots rāmis var atjaunot tikai caur tiešsaistes uzstādīšanu .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Rāmis nevar izdzēst .
+
+Šī ir jūsu pēdējā rāmis . Jābūt vismaz viena instalēts.</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>atlase</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>atjaunot</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>kontakts</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Izvēlēties rāmi atinstalēt to. Klikšķiniet šeit, lai atjaunotu iepriekš instalēta rāmi.</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Atjaunot visu iepriekš instalēta rāmis</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>atbalsts</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10,0 Lock Screen</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>Mēs esam izstrādājuši pilnīgi jaunu app !</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Jāpielāgo Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Augstāku izšķirtspēju. Pielāgot displeja lielumu.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Dažādus attēla formātus.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Fona attēlus.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Par lietotāja informācijas laukā.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Daudz vairāk iespēju.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Jauns un absolūti izcili dzinējs rada jaunas slēdzenes ekrāns atkal un atkal. Un bez režģa kā veidni. Tas atvieglotu app un rada bezgalīgu visdažādākās kombinācijas.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Tagad tests</value>
+</data>
+
+
+
+
+
+</root>

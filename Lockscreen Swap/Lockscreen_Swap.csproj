@@ -1,0 +1,552 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{45735A35-F95A-40C5-BBAF-CBA8AC80894C}</ProjectGuid>
+    <ProjectTypeGuids>{C089C8C0-30E0-4E22-80C0-CE093F111A43};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Lockscreen_Swap</RootNamespace>
+    <AssemblyName>Lockscreen Swap</AssemblyName>
+    <TargetFrameworkIdentifier>WindowsPhone</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v8.0</TargetFrameworkVersion>
+    <SilverlightVersion>$(TargetFrameworkVersion)</SilverlightVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>ar-SA%3baz-Latn-AZ%3bbe-BY%3bbg-BG%3bca-ES%3bcs-CZ%3bda-DK%3bde-DE%3bel-GR%3ben-GB%3bes-ES%3bes-MX%3bfa-IR%3bfi-FI%3bfil-PH%3bfr-FR%3bhe-IL%3bhi-IN%3bhr-HR%3bhu-HU%3bid-ID%3bit-IT%3bja-JP%3bko-KR%3blt-LT%3blv-LV%3bmk-MK%3bms-MY%3bnb-NO%3bnl-NL%3bpl-PL%3bpt-BR%3bpt-PT%3bro-RO%3bru-RU%3bsk-SK%3bsq-AL%3bsr-Latn-CS%3bsv-SE%3bth-TH%3btr-TR%3buk-UA%3bvi-VN%3bzh-CN%3bzh-TW%3ben</SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>81Lockscreen.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>Lockscreen_Swap.App</SilverlightAppEntry>
+    <ValidateXaml>true</ValidateXaml>
+    <MinimumVisualStudioVersion>11.0</MinimumVisualStudioVersion>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|ARM' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\ARM\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|ARM' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\ARM\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT;WINDOWS_PHONE</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ClassFolders.cs" />
+    <Compile Include="ClassLanguages.cs" />
+    <Compile Include="ClassMediaImage.cs" />
+    <Compile Include="ClassPictures.cs" />
+    <Compile Include="ClassImagesOnline.cs" />
+    <Compile Include="LocalizedResx.cs" />
+    <Compile Include="LocalizedStrings.cs" />
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\10_0_Lock_Screen.xaml.cs">
+      <DependentUpon>10_0_Lock_Screen.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Components.xaml.cs">
+      <DependentUpon>Components.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CopyFolder.xaml.cs">
+      <DependentUpon>CopyFolder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreateFolder.xaml.cs">
+      <DependentUpon>CreateFolder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\CreateProfil.xaml.cs">
+      <DependentUpon>CreateProfil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\EditFolder.xaml.cs">
+      <DependentUpon>EditFolder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\ImagesImporter.xaml.cs">
+      <DependentUpon>ImagesImporter.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Instructions.xaml.cs">
+      <DependentUpon>Instructions.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Language.xaml.cs">
+      <DependentUpon>Language.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Profiles.xaml.cs">
+      <DependentUpon>Profiles.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RenameFolder.xaml.cs">
+      <DependentUpon>RenameFolder.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RenameProfil.xaml.cs">
+      <DependentUpon>RenameProfil.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Support.xaml.cs">
+      <DependentUpon>Support.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Resources\AppResources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AppResx.de-DE.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResx.de-DE.resx</DependentUpon>
+    </Compile>
+    <Compile Include="AppResx.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>AppResx.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\10_0_Lock_Screen.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Components.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CopyFolder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CreateFolder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\CreateProfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\EditFolder.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Pages\ImagesImporter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Instructions.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Language.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Profiles.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RenameFolder.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RenameProfil.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\Support.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppResLib.dll.0407.mui" />
+    <Content Include="AppResLib.dll.0409.mui" />
+    <Content Include="AppResLib.dll.0410.mui" />
+    <Content Include="AppResLib.dll.0809.mui" />
+    <Content Include="AppResLib.dll.0401.mui" />
+    <Content Include="AppResLib.dll.0402.mui" />
+    <Content Include="AppResLib.dll.0403.mui" />
+    <Content Include="AppResLib.dll.0404.mui" />
+    <Content Include="AppResLib.dll.0405.mui" />
+    <Content Include="AppResLib.dll.0406.mui" />
+    <Content Include="AppResLib.dll.0408.mui" />
+    <Content Include="AppResLib.dll.040b.mui" />
+    <Content Include="AppResLib.dll.040c.mui" />
+    <Content Include="AppResLib.dll.040d.mui" />
+    <Content Include="AppResLib.dll.040e.mui" />
+    <Content Include="AppResLib.dll.0411.mui" />
+    <Content Include="AppResLib.dll.0412.mui" />
+    <Content Include="AppResLib.dll.0413.mui" />
+    <Content Include="AppResLib.dll.0414.mui" />
+    <Content Include="AppResLib.dll.0415.mui" />
+    <Content Include="AppResLib.dll.0416.mui" />
+    <Content Include="AppResLib.dll.0418.mui" />
+    <Content Include="AppResLib.dll.0419.mui" />
+    <Content Include="AppResLib.dll.041a.mui" />
+    <Content Include="AppResLib.dll.041b.mui" />
+    <Content Include="AppResLib.dll.041c.mui" />
+    <Content Include="AppResLib.dll.041d.mui" />
+    <Content Include="AppResLib.dll.041e.mui" />
+    <Content Include="AppResLib.dll.041f.mui" />
+    <Content Include="AppResLib.dll.0421.mui" />
+    <Content Include="AppResLib.dll.0422.mui" />
+    <Content Include="AppResLib.dll.0423.mui" />
+    <Content Include="AppResLib.dll.0424.mui" />
+    <Content Include="AppResLib.dll.0425.mui" />
+    <Content Include="AppResLib.dll.0426.mui" />
+    <Content Include="AppResLib.dll.0427.mui" />
+    <Content Include="AppResLib.dll.0429.mui" />
+    <Content Include="AppResLib.dll.042a.mui" />
+    <Content Include="AppResLib.dll.042c.mui" />
+    <Content Include="AppResLib.dll.042f.mui" />
+    <Content Include="AppResLib.dll.0439.mui" />
+    <Content Include="AppResLib.dll.043e.mui" />
+    <Content Include="AppResLib.dll.0464.mui" />
+    <Content Include="AppResLib.dll.0804.mui" />
+    <Content Include="AppResLib.dll.080a.mui" />
+    <Content Include="AppResLib.dll.0816.mui" />
+    <Content Include="AppResLib.dll.0c0a.mui" />
+    <None Include="packages.config" />
+    <None Include="Properties\AppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Properties\WMAppManifest.xml">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="AppResLib.dll" />
+    <Content Include="AppResLibLangNeutral.dll" />
+    <Content Include="Assets\AlignmentGrid.png" />
+    <Content Include="Assets\AppBar\add.png" />
+    <Content Include="Assets\ApplicationIcon.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileMedium.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\FlipCycleTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileMediumLarge.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Assets\Tiles\IconicTileSmall.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Icon.png" />
+    <Content Include="Images\appbar.add.multiple.png" />
+    <Content Include="Images\appbar.add.png" />
+    <Content Include="Images\appbar.arrow.left.png" />
+    <Content Include="Images\appbar.arrow.right.png" />
+    <Content Include="Images\appbar.cut.auto.png" />
+    <Content Include="Images\appbar.cut.png" />
+    <Content Include="Images\appbar.delete.png" />
+    <Content Include="Images\appbar.copy.png" />
+    <Content Include="Images\appbar.rotate.clockwise.png" />
+    <Content Include="Images\appbar.rotate.counterclockwise.png" />
+    <Content Include="Images\buy.png" />
+    <Content Include="Images\Copy.Dark.png" />
+    <Content Include="Images\Copy.Light.png" />
+    <Content Include="Images\Cut.Dark.png" />
+    <Content Include="Images\Cut.Light.png" />
+    <Content Include="Images\Delete.Dark.png" />
+    <Content Include="Images\Delete.Light.png" />
+    <Content Include="Images\Edit.Dark.png" />
+    <Content Include="Images\Edit.Light.png" />
+    <Content Include="Images\Facebook.png" />
+    <Content Include="Images\Folder.Add.Dark.png" />
+    <Content Include="Images\Folder.Add.Light.png" />
+    <Content Include="Images\Folder.Dark.png" />
+    <Content Include="Images\Folder.Light.png" />
+    <Content Include="Images\Globe.Dark.png" />
+    <Content Include="Images\Globe.Light.png" />
+    <Content Include="Images\ImgLS10.png" />
+    <Content Include="Images\ImgLS10Logo.png" />
+    <Content Include="Images\Info.png" />
+    <Content Include="Images\Instruction.Dark.png" />
+    <Content Include="Images\Instruction.Light.png" />
+    <Content Include="Images\LockscreenImage.jpg" />
+    <Content Include="Images\Logo.Dark.png" />
+    <Content Include="Images\Logo.Light.png" />
+    <Content Include="Images\Profile.Dark.png" />
+    <Content Include="Images\Profile.Light.png" />
+    <Content Include="Images\Profile.Save.Dark.png" />
+    <Content Include="Images\Profile.Save.Light.png" />
+    <Content Include="Images\rate.png" />
+    <Content Include="Images\Settings.Dark.png" />
+    <Content Include="Images\Settings.Light.png" />
+    <Content Include="Images\Share.Dark.png" />
+    <Content Include="Images\Share.Light.png" />
+    <Content Include="Images\StartUp\Logo800_1.png" />
+    <Content Include="Images\StartUp\Logo800_2.png" />
+    <Content Include="Images\StartUp\Logo800_2_black.png" />
+    <Content Include="Images\StartUp\Schein.png" />
+    <Content Include="Images\StartUp\Schein_black.png" />
+    <Content Include="Images\StylesImages\1.png" />
+    <Content Include="Images\StylesImages\2.png" />
+    <Content Include="Images\StylesImages\3.png" />
+    <Content Include="Images\StylesImages\4.png" />
+    <Content Include="Images\StylesImages\5.png" />
+    <Content Include="Images\StylesImages\6.png" />
+    <Content Include="Images\StylesImages\7.png" />
+    <Content Include="Images\StylesImages\8.png" />
+    <Content Include="Images\StylesImages\9.png" />
+    <Content Include="Images\Support.Dark.png" />
+    <Content Include="Images\Support.Light.png" />
+    <Content Include="Images\xtrose.png" />
+    <Content Include="NoImage.jpg" />
+    <Content Include="Styles\1.txt" />
+    <Content Include="Styles\2.txt" />
+    <Content Include="Styles\3.txt" />
+    <Content Include="Styles\4.txt" />
+    <Content Include="Styles\5.txt" />
+    <Content Include="Styles\6.txt" />
+    <Content Include="Styles\7.txt" />
+    <Content Include="Styles\8.txt" />
+    <Content Include="Styles\9.txt" />
+    <Content Include="Toolkit.Content\ApplicationBar.Cancel.png" />
+    <Content Include="Toolkit.Content\ApplicationBar.Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="AppResx.ar-SA.resx" />
+    <EmbeddedResource Include="AppResx.Az-Latn-AZ.resx" />
+    <EmbeddedResource Include="AppResx.be-BY.resx" />
+    <EmbeddedResource Include="AppResx.bg-BG.resx" />
+    <EmbeddedResource Include="AppResx.ca-ES.resx" />
+    <EmbeddedResource Include="AppResx.cs-CZ.resx" />
+    <EmbeddedResource Include="AppResx.da-DK.resx" />
+    <EmbeddedResource Include="AppResx.el-GR.resx" />
+    <EmbeddedResource Include="AppResx.en-EN.resx" />
+    <EmbeddedResource Include="AppResx.en-GB.resx" />
+    <EmbeddedResource Include="AppResx.en-US.resx" />
+    <EmbeddedResource Include="AppResx.en.resx" />
+    <EmbeddedResource Include="AppResx.es-ES.resx" />
+    <EmbeddedResource Include="AppResx.es-MX.resx" />
+    <EmbeddedResource Include="AppResx.et-EE.resx" />
+    <EmbeddedResource Include="AppResx.fa-IR.resx" />
+    <EmbeddedResource Include="AppResx.fi-FI.resx" />
+    <EmbeddedResource Include="AppResx.fil-PH.resx" />
+    <EmbeddedResource Include="AppResx.fr-FR.resx" />
+    <EmbeddedResource Include="AppResx.he-IL.resx" />
+    <EmbeddedResource Include="AppResx.hi-IN.resx" />
+    <EmbeddedResource Include="AppResx.hr-HR.resx" />
+    <EmbeddedResource Include="AppResx.hu-HU.resx" />
+    <EmbeddedResource Include="AppResx.id-ID.resx" />
+    <EmbeddedResource Include="AppResx.it-IT.resx" />
+    <EmbeddedResource Include="AppResx.ja-JP.resx" />
+    <EmbeddedResource Include="AppResx.ko-KR.resx" />
+    <EmbeddedResource Include="AppResx.lt-LT.resx" />
+    <EmbeddedResource Include="AppResx.lv-LV.resx" />
+    <EmbeddedResource Include="AppResx.mk-MK.resx" />
+    <EmbeddedResource Include="AppResx.ms-MY.resx" />
+    <EmbeddedResource Include="AppResx.nb-NO.resx" />
+    <EmbeddedResource Include="AppResx.nl-NL.resx" />
+    <EmbeddedResource Include="AppResx.pl-PL.resx" />
+    <EmbeddedResource Include="AppResx.pt-BR.resx" />
+    <EmbeddedResource Include="AppResx.pt-PT.resx" />
+    <EmbeddedResource Include="AppResx.ro-RO.resx" />
+    <EmbeddedResource Include="AppResx.ru-RU.resx" />
+    <EmbeddedResource Include="AppResx.sk-SK.resx" />
+    <EmbeddedResource Include="AppResx.sl-SL.resx" />
+    <EmbeddedResource Include="AppResx.sq-AL.resx" />
+    <EmbeddedResource Include="AppResx.sr-Latn-CS.resx" />
+    <EmbeddedResource Include="AppResx.sv-SE.resx" />
+    <EmbeddedResource Include="AppResx.th-TH.resx" />
+    <EmbeddedResource Include="AppResx.tr-TR.resx" />
+    <EmbeddedResource Include="AppResx.uk-UA.resx" />
+    <EmbeddedResource Include="AppResx.vi-VN.resx" />
+    <EmbeddedResource Include="AppResx.zh-CN.resx" />
+    <EmbeddedResource Include="AppResx.zh-TW.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ar-SA.resx" />
+    <EmbeddedResource Include="Resources\AppResources.az-Latn-AZ.resx" />
+    <EmbeddedResource Include="Resources\AppResources.be-BY.resx" />
+    <EmbeddedResource Include="Resources\AppResources.bg-BG.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ca-ES.resx" />
+    <EmbeddedResource Include="Resources\AppResources.cs-CZ.resx" />
+    <EmbeddedResource Include="Resources\AppResources.da-DK.resx" />
+    <EmbeddedResource Include="Resources\AppResources.de-DE.resx" />
+    <EmbeddedResource Include="Resources\AppResources.el-GR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en-GB.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en-US.resx" />
+    <EmbeddedResource Include="Resources\AppResources.en.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es-ES.resx" />
+    <EmbeddedResource Include="Resources\AppResources.es-MX.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fa-IR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fi-FI.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fil-PH.resx" />
+    <EmbeddedResource Include="Resources\AppResources.fr-FR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.he-IL.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hi-IN.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hr-HR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.hu-HU.resx" />
+    <EmbeddedResource Include="Resources\AppResources.id-ID.resx" />
+    <EmbeddedResource Include="Resources\AppResources.it-IT.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ja-JP.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ko-KR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lt-LT.resx" />
+    <EmbeddedResource Include="Resources\AppResources.lv-LV.resx" />
+    <EmbeddedResource Include="Resources\AppResources.mk-MK.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ms-MY.resx" />
+    <EmbeddedResource Include="Resources\AppResources.nb-NO.resx" />
+    <EmbeddedResource Include="Resources\AppResources.nl-NL.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pl-PL.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-BR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.pt-PT.resx" />
+    <EmbeddedResource Include="Resources\AppResources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppResx.de-DE.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResx.de-DE.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AppResx.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>AppResx.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Resources\AppResources.ro-RO.resx" />
+    <EmbeddedResource Include="Resources\AppResources.ru-RU.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sk-SK.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sq-AL.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sr-Latn-CS.resx" />
+    <EmbeddedResource Include="Resources\AppResources.sv-SE.resx" />
+    <EmbeddedResource Include="Resources\AppResources.th-TH.resx" />
+    <EmbeddedResource Include="Resources\AppResources.tr-TR.resx" />
+    <EmbeddedResource Include="Resources\AppResources.uk-UA.resx" />
+    <EmbeddedResource Include="Resources\AppResources.vi-VN.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-CN.resx" />
+    <EmbeddedResource Include="Resources\AppResources.zh-TW.resx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Coding4Fun.Toolkit.Audio">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Audio.2.0.6\lib\windowsphone8\Coding4Fun.Toolkit.Audio.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Controls">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Controls.2.0.6\lib\windowsphone8\Coding4Fun.Toolkit.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Net">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Net.2.0.6\lib\windowsphone8\Coding4Fun.Toolkit.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="Coding4Fun.Toolkit.Storage">
+      <HintPath>..\packages\Coding4Fun.Toolkit.Storage.2.0.6\lib\windowsphone8\Coding4Fun.Toolkit.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.SharpZLib.Phone">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ICSharpCode.SharpZLib.Phone.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.Controls">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.Filtering">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Filtering.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.IO.Bmp">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Bmp.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.IO.Gif">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Gif.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.IO.Png">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.IO.Png.dll</HintPath>
+    </Reference>
+    <Reference Include="ImageTools.Utils">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\ImageTools.Utils.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Phone.Controls.Toolkit">
+      <HintPath>..\..\..\[VORLAGEN]\Local Database Sample\C#\sdkLocalDatabaseCS\Library\Microsoft.Phone.Controls.Toolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="PhoneCodeContractsAssemblies">
+      <HintPath>..\packages\ImageTools.0.3.1\lib\sl3-wp\PhoneCodeContractsAssemblies.dll</HintPath>
+    </Reference>
+    <Reference Include="WriteableBitmapExWinPhone">
+      <HintPath>..\packages\WriteableBitmapEx.1.0.7.0\lib\WindowsPhone8\WriteableBitmapExWinPhone.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\MyScheduledTaskAgent\MyScheduledTaskAgent.csproj">
+      <Project>{5CC32537-BCA8-460A-9383-B6C447BDCC00}</Project>
+      <Name>MyScheduledTaskAgent</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).$(TargetFrameworkVersion).Overrides.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\$(TargetFrameworkIdentifier)\$(TargetFrameworkVersion)\Microsoft.$(TargetFrameworkIdentifier).CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions />
+</Project>

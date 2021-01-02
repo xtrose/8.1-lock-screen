@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>о</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>Акцентирование цветом</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 экрана блокировки</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>цвет фона</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>экрана блокировки</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Купить это приложение</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>нажмите здесь</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>цвет</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Скопируйте папку</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Копировать изображения на</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>Вырезать изображение</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>Удалить папку</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Удалите изображения ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ОШИБКА ! Введите имя!</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ОШИБКА ! Имя уже используется или недопустимые символы !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ОШИБКА: Фон агентов для этого приложения был отключен пользователем !</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>(случайные )</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>цвет рамы</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>размер кадра</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Информация цвета</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Информация прозрачности</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>уже выбран</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>Как xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Вы не сказали, нет, поэтому я не могу обновить фоне.</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>папка</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Набор случайных папку</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Там нет папок , чтобы выбрать . Сначала создайтепапку и импорта изображений .</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Там нет изображения в выбранной папке. Открыть папку и импорта изображений .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Создать новую папку</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>новое наименование</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>уведомление</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Открыть папку</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Другие приложения xtrose</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Телефон фоне</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>картинки</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Оценить это приложение</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>Переименовать</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>выбирать</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Выберите изображения для копирования</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Выберите изображения для удаления</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Установить цвет</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Исходный и целевой такие же</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Изменение блокировки экрана</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Спасибо за загрузку</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Спасибо за загрузку</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>прозрачный</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>ВНИМАНИЕ !</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>да</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>час</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>часов</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Экран блокировки изображения ( клик )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>минута</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>минут</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Благодарим Вас за покупку этого приложения</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Пробная версия Истекло !</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Пробная версия Истекло ! Для создания приложений будет стоить много времени . Цена за эту работу не дорого. Для продолжения создания блокировки экрана изображения , вы должны купить приложение . Спасибо!</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Пробная версия</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>общий</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Используйте это приложение , чтобы создать большое фоновых изображений . Это нагрузок настройки доступны для вас. Фоновое изображение воссоздается каждые тридцать минут . Может случиться, что останавливает фоновую службу этого приложения. Чтобы запустить его снова , приложение должно быть открыто просто .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>смешанный</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>Оцените, пожалуйста, хорошие это приложение , если вам нравится . Если у вас есть проблемы с этим приложением , то обращайтесь в службу поддержки ! Вопросы и проблемы, ничего не потеряли в отзывах.
+Большое спасибо !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>картинки</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Создайте папку, откройте ее и импортировать , так как многие изображений.
+Когда импорт изображений Каждое изображение может быть выровнены.
+Вы можете создать несколько папок для быстрого создания совершенно другой фон .</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>инструкции</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>настройки</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Фон может быть скорректирована на странице настроек . Это установить приложение как фоновое приложение , фоновое изображение воссоздается для каждого коммутатора . Вновь созданное изображение отображается , так что вы можете сразу же проверить его настройку.</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>поддерживать</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>нажмите экран , чтобы пропустить</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Легко создаватьэкран блокировки , как в Windows 8.1.
+Используйте ваши собственные фотографии и увидеть, как ваш экран блокировки меняется каждые полчаса.
+Есть много вариантов, доступных для этого .
+Вы будете поражены !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>экрана блокировки</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>Фоновое изображение</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>обои</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>дизайн</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>добавлять</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>Скопируйте</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>очистить</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>более и более присоединялось</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>выбрать все</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>отдельные добавил</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>Очистить все</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>пересекаться</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>Все фотографии</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>ближайший</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>предыдущий</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>Сохраненные изображения</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>выбирать</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>автоматически</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Выберите изображения , чтобы добавить</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>приглашает</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>калибровка</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Выше информации</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>профиль</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Сохранить настройки</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Копировать изображения</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>Вырезать изображение</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Вырезать изображения</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>папка</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>созданный</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>Создать новую</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Используйте приложение как приложение блокировки экрана , что мы можем изменить их блокировки экрана</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>мое</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>Случайные Папка</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Случайная фотография</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Выберите профиль</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>удалять</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>Удалить профиль</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Переименовать профиль</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>запись</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Выберите контекст</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Текущие настройки удаляются, когда применяется профиль</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Информация об аккумуляторах</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>язык</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>Изменить язык</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Перезапустите приложение</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Выбор языка</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>связи</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Сохранить и поделиться</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>право</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>повернуть налево</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>повернуть направо</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Сохранить и поделиться</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Используйте это приложение , чтобы создать большое фоновых изображений . С этой целью вы готовы т настройки. Ваша Фоновое изображение создается каждые полчаса снова.
+Windows Phone требует активного подключения к Интернету для фоновых служб . При отсутствии подключения к Интернету существует, фоновое изображение не может быть воссоздан .
+К сожалению, лишь небольшое ограничение памяти доступны для фоновой службы . Может случиться, что останавливает фоновую службу такого использования. Нужно запустить его снова , только что открылся приложения. Другие настройки цвета эта проблема может быть исправлена.</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Нажмите, чтобы создать</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>Компоненты</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>открытие</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>позже</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>не</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>оценивать</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Вы , кажется, нравится это приложение .
+Программа приложения занимает много времени и трудно .
+Хороший оценка может помочь нам распространить его дальше.
+
+большое спасибо</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Показать логотип при запуске</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Фотографии Плитка erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Связаться с xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Расширенные настройки</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>рамки</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>Установок</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>онлайн</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Соединения .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Не удалось установить соединение</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Превысил или не сочетается время</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Скачать .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Файл уже существует</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Не содержит компонентов, присутствуют</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>экономить</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Вы хотите удалить эти рамки ?
+
+Удаленные рама может быть восстановлена ​​только через онлайн- установки.</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Рама не могут быть удалены .
+
+Это ваш последний кадр . Там должно быть по крайней мере тот, который установлен .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>выбор</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>восстановление</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>контакт</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Выберите кадр , чтобы удалить его. Нажмите сюда, чтобы восстановить предварительно установленной кадр .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Восстановить все предварительно установленной кадр</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>поддержка</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 блокировки экрана</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>, Мы разработали совершенно новый app!</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Приспособлены к Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Высокое разрешение. С учетом размера отображения.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Различных форматов изображений.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Фон фотографии.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Поле для пользователя информации.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Много больше возможностей.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>Новые и совершенно блестящая двигатель создает ваш новый экран замка снова и снова. И без сетки как шаблон. Это делает приложение легко и приносит бесконечное разнообразие комбинаций.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Теперь тест</value>
+</data>
+
+
+
+
+
+</root>

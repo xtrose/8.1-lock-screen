@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2012/deployment" AppPlatformVersion="8.0">
+  <DefaultLanguage xmlns="" code="en" />
+  <Languages xmlns="">
+    <Language code="ar-SA" />
+    <Language code="az-Latn-AZ" />
+    <Language code="be-BY" />
+    <Language code="bg-BG" />
+    <Language code="ca-ES" />
+    <Language code="cs-CZ" />
+    <Language code="da-DK" />
+    <Language code="de-DE" />
+    <Language code="el-GR" />
+    <Language code="en-GB" />
+    <Language code="en-US" />
+    <Language code="es-ES" />
+    <Language code="es-MX" />
+    <Language code="fa-IR" />
+    <Language code="fi-FI" />
+    <Language code="fil-PH" />
+    <Language code="fr-FR" />
+    <Language code="he-IL" />
+    <Language code="hi-IN" />
+    <Language code="hr-HR" />
+    <Language code="hu-HU" />
+    <Language code="id-ID" />
+    <Language code="it-IT" />
+    <Language code="ja-JP" />
+    <Language code="ko-KR" />
+    <Language code="lt-LT" />
+    <Language code="lv-LV" />
+    <Language code="mk-MK" />
+    <Language code="ms-MY" />
+    <Language code="nb-NO" />
+    <Language code="nl-NL" />
+    <Language code="pl-PL" />
+    <Language code="pt-BR" />
+    <Language code="pt-PT" />
+    <Language code="ro-RO" />
+    <Language code="ru-RU" />
+    <Language code="sk-SK" />
+    <Language code="sq-AL" />
+    <Language code="sr-Latn-CS" />
+    <Language code="sv-SE" />
+    <Language code="th-TH" />
+    <Language code="tr-TR" />
+    <Language code="uk-UA" />
+    <Language code="vi-VN" />
+    <Language code="zh-CN" />
+    <Language code="zh-TW" />
+    <Language code="en" />
+  </Languages>
+  <App xmlns="" ProductID="{45735a35-f95a-40c5-bbaf-cba8ac80894c}" Title="@AppResLib.dll,-100" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="Moses Rivera" Description="8.1 Lock Screen" Publisher="xtrose" PublisherID="{c093f16a-7668-4ccb-a7ef-4c9e1aadb19d}">
+    <IconPath IsRelative="true" IsResource="false">Icon.png</IconPath>
+    <Capabilities>
+      <Capability Name="ID_CAP_MEDIALIB_PHOTO" />
+      <Capability Name="ID_CAP_NETWORKING" />
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" NavigationPage="MainPage.xaml" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="Lockscreen_SwapToken" TaskName="_default">
+        <TemplateFlip>
+          <SmallImageURI IsRelative="true" IsResource="false">Icon.png</SmallImageURI>
+          <Count>0</Count>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Icon.png</BackgroundImageURI>
+          <Title>@AppResLib.dll,-200</Title>
+          <BackContent>
+          </BackContent>
+          <BackBackgroundImageURI IsRelative="true" IsResource="false">
+          </BackBackgroundImageURI>
+          <BackTitle>
+          </BackTitle>
+          <DeviceLockImageURI IsRelative="true" IsResource="false">
+          </DeviceLockImageURI>
+          <HasLarge>False</HasLarge>
+        </TemplateFlip>
+      </PrimaryToken>
+    </Tokens>
+    <Extensions>
+      <Extension ExtensionName="LockScreen_Background" ConsumerID="{111DFF24-AA15-4A96-8006-2BFF8122084F}" TaskID="_default" />
+      <Extension ExtensionName="Photos_Extra_Hub" ConsumerID="{5B04B775-356B-4AA0-AAF8-6491FFEA5632}" TaskID="_default" />
+    </Extensions>
+    <ScreenResolutions>
+      <ScreenResolution Name="ID_RESOLUTION_WVGA" />
+      <ScreenResolution Name="ID_RESOLUTION_WXGA" />
+      <ScreenResolution Name="ID_RESOLUTION_HD720P" />
+    </ScreenResolutions>
+  </App>
+</Deployment>

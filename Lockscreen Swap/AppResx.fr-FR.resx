@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>sur</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>La couleur d'accent</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1 écran de verrouillage</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Couleur de fond</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>Changeur écran de verrouillage</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>Acheter cette application</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>cliquez ici</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>Couleur</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>Copier le dossier</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>Copier des images à</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>couper l'image</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>supprimer dossier</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>Supprimez les images ?</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>ERREUR ! Entrez le nom !</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>ERREUR ! Nom déjà utilisé ou des caractères non valides !</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>ERREUR: les agents de fond pour cette application ont été désactivés par l'utilisateur!</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>(aléatoire)</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>Couleur du cadre</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>Taille de l'image</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>Couleur Info</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>Infos transparence</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>déjà sélectionné</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>comme xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>Vous avez dit non, donc je ne peux pas mettre à jour votre fond .</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>dossier</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>Réglez dossier aléatoire</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>Il n'ya pas de dossiers pour sélectionner . D'abord, créez un dossier et l'importation des photos.</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>Il n'y a pas d'image dans le dossier sélectionné . Ouvrez le dossier et importer des images .</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>Créer un nouveau dossier</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>nouveau nom</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>pas</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>déclaration</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>pas</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>oui</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>Ouvrir le dossier</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>Autres Apps xtrose</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>Fond de téléphone</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>photos</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Noter cette app</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>renommer dossier</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>sélectionner</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>Sélectionnez les images à copier</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>Sélectionnez les images à supprimer</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>Définir la couleur</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>réglages</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>Source et cible sont les mêmes</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>Changer l'écran de verrouillage</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>Merci d'avoir téléchargé</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>Merci d'avoir téléchargé</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>transparent</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>ATTENTION!</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>oui</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>heure</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>heures</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>Image de l'écran de verrouillage ( clic )</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>minute</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>minutes</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>Merci d'avoir acheté cette application</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>Version d'essai expirée!</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>Version d'essai expirée! Pour créer des applications va coûter beaucoup de temps. Le prix de ce travail n'est pas cher. Pour continuer à créer blocage écrans Images , vous devez acheter l'application. Je vous remercie !</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>Version d'essai</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>général</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>Utilisez cette application pour créer de superbes images de fond . Ceci charge de réglages sont disponibles pour vous . Votre image de fond est recréé toutes les trente minutes. Il peut arriver que l'interruption du service de fond de cette application. Pour le redémarrer , l'application doit être ouverte simplement .</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>Divers</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>S'il vous plaît taux de bon cette application si vous le souhaitez. Si vous avez des problèmes avec cette application, alors s'il vous plaît contactez le support ! Questions et enjeux n'ont rien perdu dans les commentaires .
+Merci beaucoup !</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>photos</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>Créez un dossier , ouvrir et importer , autant d'images .
+Lorsque l'importation d'images chaque image peut être aligné.
+Vous pouvez créer plusieurs dossiers pour créer rapidement un fond complètement différent.</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>directives</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>réglages</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>Le fond peut être ajusté sur la page des paramètres . Est fixé à l'application comme une application d'arrière-plan , l'image de fond est recréé pour chaque commutateur . L'image nouvellement créé est affiché, afin que vous puissiez vérifier immédiatement son cadre .</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>soutenir</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>cliquez sur l'écran pour sauter</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>Facilement créer un écran de verrouillage de Windows 8.1.
+Utilisez vos propres photos et voyez comment votre écran de verrouillage change à chaque demi-heure.
+Il ya plusieurs options disponibles pour cela.
+Vous serez étonné !</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>écran de verrouillage</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>image de fond</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>Fond d'écran</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>conception</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>Ajouter</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>copiez</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>effacer</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>plus ajouté</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>tout sélectionner</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>individu ajouté</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>désélectionner tous</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>se croiser</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>toutes les photos</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>le plus proche</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>précédent</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>images stockées</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>sélectionner</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>automatiquement</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>Sélectionnez les images à ajouter</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>invite</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>dimensionnement</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>Informations supérieur</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>profil</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>Enregistrer les paramètres</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>Copiez les images</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>couper l'image</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>Coupez images</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>dossier</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>établi</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>créer un nouveau</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>Utilisez l'application comme application de verrouillage d'écran que nous pouvons changer leur écran de verrouillage</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>mon</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>dossier aléatoire</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>Image aléatoire</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>Sélectionnez le profil</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>supprimer</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>supprimer le profil</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>Renommer le profil</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>enregistrement</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>Sélectionnez contexte</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>Les paramètres actuels sont supprimés lorsque le profil est appliqué</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>Informations sur la batterie</value>
+  </data>
+<data name="Z03_Language" xml:space="preserve">
+    <value>langue</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>changer la langue</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>Redémarrez l'application</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>Sélectionnez la langue</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>liens</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>Enregistrer et partager</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>droite</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>tourner à gauche</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>tourner à droite</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>Enregistrer et partager</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>Utilisez cette application pour créer de superbes images de fond . A cet effet, vous êtes prêts tonnes de réglages. Votre image de fond est créée à nouveau toutes les demi- heures .
+Windows Phone nécessite une connexion Internet active pour les services d'arrière-plan . En l'absence de connexion à l' Internet existe, l'image d'arrière-plan ne peut pas être recréé.
+Malheureusement , seule une petite limite de mémoire disponible pour le service de base . Il peut arriver que le service s'arrête fond une telle utilisation. Nécessité de redémarrer , juste d'ouvrir l'application. Par d'autres paramètres de couleur de ce problème peut être résolu .</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>Appuyez sur pour créer</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>composants</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>ouverture</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>plus tard</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>pas</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>évaluer</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>Vous semblez aimer cette application .
+Programme des applications est longue et difficile .
+Une bonne évaluation peut nous aider à répandre davantage.
+
+merci beaucoup</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>Afficher le logo au démarrage</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>Photos Tile erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>Connectez-vous avec xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>Paramètres avancés</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>cadre</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>S'installe</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>en ligne</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>Connexion .....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>Échec de la connexion</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>Temps dépassé ou non combinée</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>Télécharger .....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>Fichier existe déjà</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>Aucun des composants sont présents</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>sauver</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>Voulez-vous supprimer ce cadre ?
+
+Cadre supprimé ne peut être restauré par l'installation en ligne .</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>Cadre ne peut pas être supprimé .
+
+C'est votre dernière image . Il doit y avoir au moins une installation .</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>sélection</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>restaurer</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>Contacter</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>Choisissez un cadre pour le désinstaller. Cliquez ici pour rétablir le cadre pré-installé .</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>Restaurer tout cadre pré-installé</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>soutien</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>D'écran de serrure 10,0</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>, Nous avons développé une toute nouvelle app !</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>Adapté à Windows 10.</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>Une résolution plus élevée. Adaptés à la taille de l'écran.</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>Formats d'image.</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>Images d'arrière-plan.</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>Champ d'informations utilisateur.</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>Beaucoup plus de possibilités.</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>La nouvelle et absolument génial moteur crée votre nouvel écran de verrouillage encore et encore. Et sans grille comme gabarit. Cela l'application facile et apporte une variété infinie de combinaisons.</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>Test maintenant</value>
+</data>
+
+
+
+
+
+</root>

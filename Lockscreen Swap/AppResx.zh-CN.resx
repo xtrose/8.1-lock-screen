@@ -1,0 +1,643 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="About" xml:space="preserve">
+    <value>关于</value>
+  </data>
+  <data name="AccentColor" xml:space="preserve">
+    <value>强调色</value>
+  </data>
+  <data name="AppName" xml:space="preserve">
+    <value>8.1锁定屏幕</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>背景颜色</value>
+  </data>
+  <data name="BackgroundTask" xml:space="preserve">
+    <value>锁屏换</value>
+  </data>
+  <data name="Buy" xml:space="preserve">
+    <value>购买此应用程序</value>
+  </data>
+  <data name="ClickHere" xml:space="preserve">
+    <value>点击这里</value>
+  </data>
+  <data name="Color" xml:space="preserve">
+    <value>颜色</value>
+  </data>
+  <data name="CopyFolder" xml:space="preserve">
+    <value>复制文件夹</value>
+  </data>
+  <data name="CopyImagesTo" xml:space="preserve">
+    <value>将影像复制到</value>
+  </data>
+  <data name="CutImage" xml:space="preserve">
+    <value>剪切图像</value>
+  </data>
+  <data name="DeleteFolder" xml:space="preserve">
+    <value>删除文件夹</value>
+  </data>
+  <data name="DeleteImages" xml:space="preserve">
+    <value>删除图片吗？</value>
+  </data>
+  <data name="ErrorEnterName" xml:space="preserve">
+    <value>错误！输入您的名字！</value>
+  </data>
+  <data name="ErrorName" xml:space="preserve">
+    <value>错误！名称已被使用或无效字符！</value>
+  </data>
+  <data name="ExError" xml:space="preserve">
+    <value>错误：由用户代理的后台用于此应用程序已被禁用！</value>
+  </data>
+  <data name="FolderRandom" xml:space="preserve">
+    <value>（随机）</value>
+  </data>
+  <data name="FrameColor" xml:space="preserve">
+    <value>框的颜色</value>
+  </data>
+  <data name="FrameSize" xml:space="preserve">
+    <value>帧大小</value>
+  </data>
+  <data name="InfoColor" xml:space="preserve">
+    <value>信息的颜色</value>
+  </data>
+  <data name="InfoTransparency" xml:space="preserve">
+    <value>信息透明度</value>
+  </data>
+  <data name="IsSet" xml:space="preserve">
+    <value>已选定</value>
+  </data>
+  <data name="Like" xml:space="preserve">
+    <value>像xtrose</value>
+  </data>
+  <data name="LockhelperInfo" xml:space="preserve">
+    <value>你说没有，所以我不能更新的背景。</value>
+  </data>
+  <data name="LockscreenFolder" xml:space="preserve">
+    <value>夹</value>
+  </data>
+  <data name="LockscreenRandom" xml:space="preserve">
+    <value>设置随机文件夹</value>
+  </data>
+  <data name="MsgNoFolder" xml:space="preserve">
+    <value>有没有选择的文件夹。首先创建一个文件夹，导入图片。</value>
+  </data>
+  <data name="MsgNoPicture" xml:space="preserve">
+    <value>所选文件夹中没有图像。打开文件夹，并导入图片。</value>
+  </data>
+  <data name="NewFolder" xml:space="preserve">
+    <value>创建新的文件夹</value>
+  </data>
+  <data name="NewName" xml:space="preserve">
+    <value>新名称</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>通知</value>
+  </data>
+  <data name="Off" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="On" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="OpenFolder" xml:space="preserve">
+    <value>打开文件夹</value>
+  </data>
+  <data name="Other" xml:space="preserve">
+    <value>其他xtrose应用程序</value>
+  </data>
+  <data name="PhoneBackground" xml:space="preserve">
+    <value>电话背景</value>
+  </data>
+  <data name="Pictures" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>评价这个应用程序</value>
+  </data>
+  <data name="RenameFolder" xml:space="preserve">
+    <value>重命名文件夹</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="SelectCopy" xml:space="preserve">
+    <value>选择要复制的图像</value>
+  </data>
+  <data name="SelectDelete" xml:space="preserve">
+    <value>选择要删除的图像</value>
+  </data>
+  <data name="SetColor" xml:space="preserve">
+    <value>设置颜色</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="SourceTarget" xml:space="preserve">
+    <value>源和目标相同</value>
+  </data>
+  <data name="TaskInfo" xml:space="preserve">
+    <value>更改锁屏</value>
+  </data>
+  <data name="Thanks" xml:space="preserve">
+    <value>感谢您下载</value>
+  </data>
+  <data name="ThankYou" xml:space="preserve">
+    <value>感谢您下载</value>
+  </data>
+  <data name="Transparent" xml:space="preserve">
+    <value>透明</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>警告！</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>是</value>
+  </data>
+  <data name="Hour" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="Hours" xml:space="preserve">
+    <value>小时</value>
+  </data>
+  <data name="LockscreenImage" xml:space="preserve">
+    <value>锁定屏幕图像（点击）</value>
+  </data>
+  <data name="Minute" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="Minutes" xml:space="preserve">
+    <value>分钟</value>
+  </data>
+  <data name="PurchaseNote" xml:space="preserve">
+    <value>感谢您购买此应用程序</value>
+  </data>
+  <data name="TrialExpired" xml:space="preserve">
+    <value>试用版过期！</value>
+  </data>
+  <data name="TrialNote" xml:space="preserve">
+    <value>试用版过期！要创建的应用程序将花费大量的时间。对这项工作的价格也不是很贵。要继续创建锁屏图片，你必须购买的应用程序。谢谢你！</value>
+  </data>
+  <data name="TrialVersion" xml:space="preserve">
+    <value>试用版</value>
+  </data>
+  <data name="InstGeneralHeader" xml:space="preserve">
+    <value>一般</value>
+  </data>
+  <data name="InstGeneralTXT" xml:space="preserve">
+    <value>使用此应用程序，创造了巨大的背景图像。设置此负载提供给您。你的背景图像重建每三十分钟。它可能发生，本申请的背景服务停止。再次启动它，必须将应用程序简单地打开。</value>
+  </data>
+  <data name="InstMiscellaneousHeader" xml:space="preserve">
+    <value>杂项</value>
+  </data>
+  <data name="InstMiscellaneousTXT" xml:space="preserve">
+    <value>如果你喜欢，请给予好的评价此应用。如果您有与此应用程序的问题，那么请联系支持！问题和问题中的评论已经失去了什么。
+非常感谢您！</value>
+  </data>
+  <data name="InstPictureHeader" xml:space="preserve">
+    <value>图片</value>
+  </data>
+  <data name="InstPictureTXT" xml:space="preserve">
+    <value>创建一个文件夹，打开它，并导入，尽可能多的图像。
+当导入的图像，每个图像可以对齐。
+您可以创建多个文件夹中快速创建一个完全不同的背景。</value>
+  </data>
+  <data name="Instructions" xml:space="preserve">
+    <value>说明</value>
+  </data>
+  <data name="InstSettingsHeader" xml:space="preserve">
+    <value>设置</value>
+  </data>
+  <data name="InstSettingsTXT" xml:space="preserve">
+    <value>可以调整背景设置“页上。作为一个后台应用程序设置应用程序，背景图像重建每个开关。新创建的图像显示，让你可以立即检查其设置。</value>
+  </data>
+  <data name="InstSupportHeader" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  <data name="StartUpInfo" xml:space="preserve">
+    <value>点击屏幕跳过</value>
+  </data>
+  <data name="AAA" xml:space="preserve">
+    <value>轻松地创建一个在Windows 8.1的锁屏。
+使用自己的图片，怎么看你的锁屏改变每半小时一班。
+有许多选项可用于此。
+你会惊讶！</value>
+  </data>
+  <data name="AA1" xml:space="preserve">
+    <value>锁定屏幕</value>
+  </data>
+  <data name="AA2" xml:space="preserve">
+    <value>背景图片</value>
+  </data>
+  <data name="AA3" xml:space="preserve">
+    <value>壁纸</value>
+  </data>
+  <data name="AA4" xml:space="preserve">
+    <value>设计</value>
+  </data>
+  <data name="Z01_Add" xml:space="preserve">
+    <value>加</value>
+  </data>
+  <data name="Z01_Copy" xml:space="preserve">
+    <value>复制</value>
+  </data>
+  <data name="Z01_Delete" xml:space="preserve">
+    <value>清除</value>
+  </data>
+  <data name="Z01_MultipleAdd" xml:space="preserve">
+    <value>更增添了</value>
+  </data>
+  <data name="Z01_SelectAll" xml:space="preserve">
+    <value>选择所有</value>
+  </data>
+  <data name="Z01_SingleAdd" xml:space="preserve">
+    <value>个人</value>
+  </data>
+  <data name="Z01_UnselectAll" xml:space="preserve">
+    <value>取消选择所有</value>
+  </data>
+  <data name="Z01_Cut" xml:space="preserve">
+    <value>相交</value>
+  </data>
+  <data name="Z01_AllPictures" xml:space="preserve">
+    <value>所有图片</value>
+  </data>
+  <data name="Z01_Next" xml:space="preserve">
+    <value>最接近</value>
+  </data>
+  <data name="Z01_Previous" xml:space="preserve">
+    <value>前</value>
+  </data>
+  <data name="Z01_SavedPictures" xml:space="preserve">
+    <value>存储图像</value>
+  </data>
+  <data name="Z01_Select" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Z01_CutAuto" xml:space="preserve">
+    <value>自动</value>
+  </data>
+  <data name="Z01_MsgSelectImage" xml:space="preserve">
+    <value>选择要添加的图像</value>
+  </data>
+  <data name="Z01_Loading" xml:space="preserve">
+    <value>邀请</value>
+  </data>
+  <data name="Z02_InfoSize" xml:space="preserve">
+    <value>浆纱</value>
+  </data>
+  <data name="Z02_InfoTop" xml:space="preserve">
+    <value>信息顶部</value>
+  </data>
+  <data name="Z02_Profile" xml:space="preserve">
+    <value>轮廓</value>
+  </data>
+  <data name="Z02_SaveSettings" xml:space="preserve">
+    <value>保存设置</value>
+  </data>
+  <data name="Z02_Images" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Z02_CopyPictures" xml:space="preserve">
+    <value>复制图像</value>
+  </data>
+  <data name="Z02_CutPicture" xml:space="preserve">
+    <value>剪切图像</value>
+  </data>
+  <data name="Z02_CutPictures" xml:space="preserve">
+    <value>切图像</value>
+  </data>
+  <data name="Z02_Folders" xml:space="preserve">
+    <value>夹</value>
+  </data>
+  <data name="Z02_Generated" xml:space="preserve">
+    <value>创建</value>
+  </data>
+  <data name="Z02_GenerateNew" xml:space="preserve">
+    <value>创建新</value>
+  </data>
+  <data name="Z02_InfoStart" xml:space="preserve">
+    <value>锁屏应用程序使用的应用程序，我们可以改变自己的锁屏</value>
+  </data>
+  <data name="Z02_My" xml:space="preserve">
+    <value>我的</value>
+  </data>
+  <data name="Z02_RandomFolder" xml:space="preserve">
+    <value>随机文件夹</value>
+  </data>
+  <data name="Z02_RandomPicture" xml:space="preserve">
+    <value>随机图片</value>
+  </data>
+  <data name="Z02_ApplyProfile" xml:space="preserve">
+    <value>选择模式</value>
+  </data>
+  <data name="Z02_DELETE" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="Z02_DeleteProfile" xml:space="preserve">
+    <value>删除个人资料</value>
+  </data>
+  <data name="Z02_RenameProfile" xml:space="preserve">
+    <value>重命名简介</value>
+  </data>
+  <data name="Z02_Save" xml:space="preserve">
+    <value>记录</value>
+  </data>
+  <data name="Z02_SelectFrames" xml:space="preserve">
+    <value>选择上下文</value>
+  </data>
+  <data name="Z02_WarningSetProfil" xml:space="preserve">
+    <value>配置文件时，应用当前设置将被删除</value>
+  </data>
+  <data name="Z02_BatteryInfo" xml:space="preserve">
+    <value>电池信息</value>
+  </data>
+  <data name="Z03_Language" xml:space="preserve">
+    <value>语</value>
+  </data>
+  <data name="Z03_NoteLanguage" xml:space="preserve">
+    <value>更改语言</value>
+  </data>
+  <data name="Z03_NoteLanguage2" xml:space="preserve">
+    <value>重新启动应用程序</value>
+  </data>
+  <data name="Z03_SelectLanguage" xml:space="preserve">
+    <value>选择语言</value>
+  </data>
+  <data name="Z03_Left" xml:space="preserve">
+    <value>链接</value>
+  </data>
+  <data name="Z03_NoteShare" xml:space="preserve">
+    <value>保存并共享</value>
+  </data>
+  <data name="Z03_Right" xml:space="preserve">
+    <value>右</value>
+  </data>
+  <data name="Z03_RotateLeft" xml:space="preserve">
+    <value>左转</value>
+  </data>
+  <data name="Z03_RotateRight" xml:space="preserve">
+    <value>右转</value>
+  </data>
+  <data name="Z03_Share" xml:space="preserve">
+    <value>保存并共享</value>
+  </data>
+  <data name="Z03_InstGeneralNew" xml:space="preserve">
+    <value>使用此应用程序，创造了巨大的背景图像。为了这个目的，你是设置的就绪万吨。你的背景图像创建每半小时一次。
+Windows Phone的后台服务需要激活的Internet连接。没有连接到互联网的存在，不能被重新创建背景图像。
+不幸的是，只有一小内存限制的后台服务。它可能发生，停止的背景服务，例如使用。需要再次启动它，才刚刚开业的应用程序。其他颜色设置可以修复这个问题。</value>
+  </data>
+  <data name="Z04_ClickToCreate" xml:space="preserve">
+    <value>按创建</value>
+  </data>
+  <data name="Z04_Components" xml:space="preserve">
+    <value>组件</value>
+  </data>
+  <data name="Z04_Open" xml:space="preserve">
+    <value>开盘</value>
+  </data>
+  <data name="Z04_RateLater" xml:space="preserve">
+    <value>后来</value>
+  </data>
+  <data name="Z04_RateNever" xml:space="preserve">
+    <value>不</value>
+  </data>
+  <data name="Z04_RateNow" xml:space="preserve">
+    <value>评价</value>
+  </data>
+  <data name="Z04_RateText" xml:space="preserve">
+    <value>你似乎很喜欢这个应用程序。
+应用程序是非常耗时和困难。
+良好的评估可以帮助我们进一步传播它。
+
+非常感谢</value>
+  </data>
+  <data name="Z04_ShowLogo" xml:space="preserve">
+    <value>标志显示在启动时</value>
+  </data>
+  <data name="Z04_ShowTile" xml:space="preserve">
+    <value>图片瓷砖erstellen</value>
+  </data>
+  <data name="Z04_Connecting" xml:space="preserve">
+    <value>连接与xtrose</value>
+  </data>
+  <data name="Z04_Extended" xml:space="preserve">
+    <value>高级设置</value>
+  </data>
+  <data name="Z04_Frames" xml:space="preserve">
+    <value>骨架</value>
+  </data>
+  <data name="Z04_Installed" xml:space="preserve">
+    <value>已安装</value>
+  </data>
+  <data name="Z04_Online" xml:space="preserve">
+    <value>在线</value>
+  </data>
+  <data name="Z04_ConnectingNow" xml:space="preserve">
+    <value>连接.....</value>
+  </data>
+  <data name="Z04_ConnectionFailed" xml:space="preserve">
+    <value>连接失败</value>
+  </data>
+  <data name="Z04_ConnectionTimeOut" xml:space="preserve">
+    <value>超过或不合并时间</value>
+  </data>
+  <data name="Z04_Downloading" xml:space="preserve">
+    <value>下载.....</value>
+  </data>
+  <data name="Z04_Exists" xml:space="preserve">
+    <value>文件已经存在</value>
+  </data>
+  <data name="Z04_NoComponentsOnline" xml:space="preserve">
+    <value>任何组件都存在</value>
+  </data>
+  <data name="Z04_Save" xml:space="preserve">
+    <value>节省</value>
+  </data>
+  <data name="Z04_DeleteFrame" xml:space="preserve">
+    <value>你要删除这个框架？
+
+删除帧只能通过在线安装恢复。</value>
+  </data>
+  <data name="Z04_LastFrame" xml:space="preserve">
+    <value>帧不能被删除。
+
+这是你的最后一帧。必须有至少一个安装。</value>
+  </data>
+  <data name="Z04_Selection" xml:space="preserve">
+    <value>选择</value>
+  </data>
+  <data name="Z04_BtnRestore" xml:space="preserve">
+    <value>恢复</value>
+  </data>
+  <data name="Z04_Contact" xml:space="preserve">
+    <value>联系</value>
+  </data>
+  <data name="Z04_Restore" xml:space="preserve">
+    <value>选择一个框架来卸载它。点击这里恢复预装框架。</value>
+  </data>
+  <data name="Z04_RestoreNote" xml:space="preserve">
+    <value>恢复所有预安装架</value>
+  </data>
+  <data name="Z04_Support" xml:space="preserve">
+    <value>支持</value>
+  </data>
+  
+  
+  
+  
+  <data name="Z05_10_0_LockScreen" xml:space="preserve">
+<value>10.0 锁定屏幕</value>
+</data>
+  <data name="Z05_T1" xml:space="preserve">
+<value>我们开发了一个完全新的应用程序的 !</value>
+</data>
+  <data name="Z05_T2" xml:space="preserve">
+<value>适应 Windows 10。</value>
+</data>
+  <data name="Z05_T3" xml:space="preserve">
+<value>更高的分辨率。适应的显示大小。</value>
+</data>
+  <data name="Z05_T4" xml:space="preserve">
+<value>不同的图像格式。</value>
+</data>
+  <data name="Z05_T5" xml:space="preserve">
+<value>背景图片。</value>
+</data>
+  <data name="Z05_T6" xml:space="preserve">
+<value>为用户信息的字段。</value>
+</data>
+  <data name="Z05_T7" xml:space="preserve">
+<value>更多的机会。</value>
+</data>
+  <data name="Z05_T8" xml:space="preserve">
+<value>新和绝对精彩引擎再次创建新的锁定屏幕。而作为模板的网格。这使应用程序很容易，带来无限多种组合。</value>
+</data>
+  <data name="Z05_TestNow" xml:space="preserve">
+<value>现在 测试</value>
+</data>
+
+
+
+
+
+</root>

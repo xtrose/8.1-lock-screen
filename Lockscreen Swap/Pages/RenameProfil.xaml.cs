@@ -1,0 +1,277 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Net;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Navigation;
+using Microsoft.Phone.Controls;
+using Microsoft.Phone.Shell;
+//Zum laden von Qellcodes und zum erstellen und auslesem von Dateien
+using System.IO;
+//Zum erstellen und auslesem von Dateien
+using System.IO.IsolatedStorage;
+//Zum erweiterten schneiden von strings
+using System.Text.RegularExpressions;
+//Zum speichern von Bildern in den Isolated Storage
+using System.Windows.Media.Imaging;
+using System.Windows.Resources;
+using Microsoft.Xna.Framework.Media;
+using Microsoft.Phone.Tasks;
+using Microsoft.Phone;
+using System.Windows.Media;
+//Um Battery Leistung auszulesen
+using Windows.Phone.Devices.Power;
+//Um auszulesen ob Handy geladen wird;
+using Microsoft.Phone.Info;
+//Für Listbox Update
+using System.Collections.ObjectModel;
+//Background Agent
+using Microsoft.Phone.Scheduler;
+//Für Benachrichtigung vor beenden
+using System.ComponentModel;
+
+
+
+
+
+namespace Lockscreen_Swap.Pages
+{
+    public partial class RenameProfil : PhoneApplicationPage
+    {
+
+
+
+
+
+        // Wird zum Start der Seite geladen
+        //-----------------------------------------------------------------------------------------------------------------
+        public RenameProfil()
+        {
+            //Komponenten laden
+            InitializeComponent();
+
+            //Bild ändern
+            Color backgroundColor = (Color)Application.Current.Resources["PhoneBackgroundColor"];
+            string temp = Convert.ToString(backgroundColor);
+            if (temp != "#FF000000")
+            {
+                ImgTop.Source = new BitmapImage(new Uri("Images/Edit.Light.png", UriKind.Relative));
+                ImgTop.Opacity = 0.1;
+            }
+        }
+        //-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+        //Allgemeine Variabeln
+        //-----------------------------------------------------------------------------------------------------------------
+        //IsoStore file erstellen
+        IsolatedStorageFile file = IsolatedStorageFile.GetUserStoreForApplication();
+        //Style Name
+        string FolderName;
+        //-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+        // Wird bei jedem Aufruf der Seite geladen
+        //-----------------------------------------------------------------------------------------------------------------
+        protected override void OnNavigatedTo(NavigationEventArgs e)
+        {
+            //Variable für Ordner ermitteln
+            int ProfilID = Convert.ToInt32(NavigationContext.QueryString["profile"]);
+            string[] AllProfiles = file.GetFileNames("/Profile/");
+            FolderName = AllProfiles[ProfilID];
+            FolderName = Regex.Replace(FolderName, ".txt", "");
+            base.OnNavigatedTo(e);
+
+            //Style Name
+            TBFolderName.Text = FolderName;
+        }
+        //-----------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+        //Prüfen ob Return gedrückt wurde
+        //-----------------------------------------------------------------------------------------------------------------
+        private void TBFolderName_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            //Prüfen ob Return gedrückt wurde
+            string tempkey = Convert.ToString(e.Key);
+            if (tempkey == "Enter")
+            {
+                //";" Zeichen herauslöschen
+                TBFolderName.Text = Regex.Replace(TBFolderName.Text, ";", "");
+                //Prüfen ob noch Zeichen vorhanden
+                if (TBFolderName.Text.Length > 0)
+                {
+                    //Prüfen ob leere Eingabe und zurücksetzen
+                    bool temp = Regex.IsMatch(TBFolderName.Text, @"^[a-zA-Z0-9 ]+$");
+                    temp = true;
+                    if (temp == false)
+                    {
+                        MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                        TBFolderName.Text = FolderName;
+                    }
+                    else
+                    {
+                        if (FolderName == TBFolderName.Text)
+                        {
+                            NavigationService.GoBack();
+                        }
+                        else
+                        {
+                            //Prüfen ob Ordner bereits besteht
+                            if (!file.FileExists("/Profile/" + TBFolderName.Text + ".txt"))
+                            {
+                                try
+                                {
+                                    //Profil kopieren und löschen
+                                    file.CopyFile("/Profile/" + FolderName + ".txt", "/Profile/" + TBFolderName.Text + ".txt");
+                                    file.DeleteFile("/Profile/" + FolderName + ".txt");
+
+                                    //Navigation zurück
+                                    NavigationService.GoBack();
+                                }
+                                catch
+                                {
+                                    MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                                    TBFolderName.Text = FolderName;
+                                }
+                            }
+                            //Wenn Ordner bereits besteht
+                            else
+                            {
+                                MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                                TBFolderName.Text = FolderName;
+                            }
+                        }
+                    }
+                }
+                else
+                {
+                    MessageBox.Show(Lockscreen_Swap.AppResx.ErrorEnterName);
+                    TBFolderName.Text = FolderName;
+                }
+
+                //Focus zurücksetzen
+                //Focus();
+            }
+        }
+        //---------------------------------------------------------------------------------------------------------  
+
+
+
+
+
+        //Back Button
+        //---------------------------------------------------------------------------------------------------------------------------------
+        protected override void OnBackKeyPress(CancelEventArgs e)
+        {
+            //Prüfen ob Name anders
+            if (FolderName != TBFolderName.Text)
+            {
+                //Speichern
+                if (MessageBox.Show("", Lockscreen_Swap.AppResx.RenameFolder + "?", MessageBoxButton.OKCancel) == MessageBoxResult.OK)
+                {
+                    //";" Zeichen herauslöschen
+                    TBFolderName.Text = Regex.Replace(TBFolderName.Text, ";", "");
+                    //Prüfen ob noch Zeichen vorhanden
+                    if (TBFolderName.Text.Length > 0)
+                    {
+                        //Prüfen ob leere Eingabe und zurücksetzen
+                        bool temp = Regex.IsMatch(TBFolderName.Text, @"^[a-zA-Z0-9 ]+$");
+                        temp = true;
+                        if (temp == false)
+                        {
+                            MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                            TBFolderName.Text = FolderName;
+                            //Zurück oder beenden abbrechen
+                            e.Cancel = true;
+                        }
+                        else
+                        {
+                            if (FolderName == TBFolderName.Text)
+                            {
+                                NavigationService.GoBack();
+                            }
+                            else
+                            {
+                                //Prüfen ob Ordner bereits besteht
+                                if (!file.FileExists("/Profile/" + TBFolderName.Text + ".txt"))
+                                {
+                                    try
+                                    {
+                                        //Profil kopieren und löschen
+                                        file.CopyFile("/Profile/" + FolderName + ".txt", "/Profile/" + TBFolderName.Text + ".txt");
+                                        file.DeleteFile("/Profile/" + FolderName + ".txt");
+
+                                        //Navigation zurück
+                                        NavigationService.GoBack();
+                                    }
+                                    catch
+                                    {
+                                        MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                                        TBFolderName.Text = FolderName;
+                                    }
+                                }
+                                //Wenn Ordner bereits besteht
+                                else
+                                {
+                                    MessageBox.Show(Lockscreen_Swap.AppResx.ErrorName);
+                                    TBFolderName.Text = FolderName;
+                                    //Zurück oder beenden abbrechen
+                                    e.Cancel = true;
+                                }
+                            }
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show(Lockscreen_Swap.AppResx.ErrorEnterName);
+                        TBFolderName.Text = FolderName;
+                        //Zurück oder beenden abbrechen
+                        e.Cancel = true;
+                    }
+                }
+            }
+        }
+        //---------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+        //Ordner mit gesamten Inhalt löschen
+        //---------------------------------------------------------------------------------------------------------
+        public void DeleteDirectory(string target_dir)
+        {
+            try
+            {
+                //Ordner löschen
+                IsolatedStorageFile file2 = IsolatedStorageFile.GetUserStoreForApplication();
+                string[] files = file2.GetFileNames(target_dir);
+                //string[] dirs = file11.GetDirectoryNames(target_dir);
+                foreach (string file in files)
+                {
+                    file2.DeleteFile(target_dir + file);
+                }
+                file2.DeleteDirectory(target_dir);
+            }
+            catch
+            {
+            }
+        }
+        //---------------------------------------------------------------------------------------------------------
+
+
+
+
+    }
+}

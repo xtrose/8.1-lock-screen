@@ -1,0 +1,848 @@
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\81Lockscreen.xap
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Audio.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Net.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Storage.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Pages\CopyFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Pages\CreateFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Pages\EditFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Pages\ImageViewer.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Pages\RenameFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen Swap.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.it-IT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\Bin\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sq-AL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lockscreen\8.1 Lockscreen\Lockscreen Swap\obj\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\ApplicationIcon.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-US\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sr-Latn-CS\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\AppManifest.xaml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Properties\WMAppManifest.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\81Lockscreen.xap
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Audio.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Net.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Storage.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csprojResolveAssemblyReference.cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\App.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\MainPage.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CopyFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateProfil.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\EditFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\ImagesImporter.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Profiles.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameFolder.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameProfil.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.g.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-EN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sl-SL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ar-SA.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.Az-Latn-AZ.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.be-BY.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.bg-BG.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ca-ES.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.cs-CZ.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.da-DK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.el-GR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-GB.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-US.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-ES.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-MX.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.et-EE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fa-IR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fi-FI.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fil-PH.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fr-FR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.he-IL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hi-IN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hr-HR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hu-HU.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.id-ID.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.it-IT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ja-JP.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ko-KR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lt-LT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lv-LV.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.mk-MK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ms-MY.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nb-NO.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nl-NL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pl-PL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-BR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-PT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ro-RO.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ru-RU.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sk-SK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sq-AL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sr-Latn-CS.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sv-SE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.th-TH.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.tr-TR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.uk-UA.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.vi-VN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-CN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-TW.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ar-SA.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.az-Latn-AZ.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.be-BY.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.bg-BG.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ca-ES.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.cs-CZ.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.da-DK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.el-GR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-GB.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-US.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-ES.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-MX.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fa-IR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fi-FI.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fil-PH.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fr-FR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.he-IL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hi-IN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hr-HR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hu-HU.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.id-ID.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.it-IT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ja-JP.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ko-KR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lt-LT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lv-LV.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.mk-MK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ms-MY.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nb-NO.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nl-NL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pl-PL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-BR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-PT.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ro-RO.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ru-RU.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sk-SK.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sq-AL.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sr-Latn-CS.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sv-SE.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.th-TH.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.tr-TR.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.uk-UA.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.vi-VN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-CN.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-TW.resources
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csproj.GenerateResource.Cache
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-US\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sr-Latn-CS\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.dll
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.pdb
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\XapCacheFile.xml
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Instructions.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Language.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Components.g.cs
+D:\Eigene Dateien\Projekte\Windows Phone\8.1 Lock Screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Support.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\ApplicationIcon.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\AppManifest.xaml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Properties\WMAppManifest.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\81Lockscreen.xap
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Audio.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Controls.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Net.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Storage.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.xml
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csprojResolveAssemblyReference.cache
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\App.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\MainPage.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\10_0_Lock_Screen.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Components.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CopyFolder.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateFolder.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateProfil.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\EditFolder.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\ImagesImporter.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Instructions.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Language.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Profiles.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameFolder.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameProfil.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Support.g.cs
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.g.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-EN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sl-SL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ar-SA.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.Az-Latn-AZ.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.be-BY.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.bg-BG.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ca-ES.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.cs-CZ.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.da-DK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.el-GR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-GB.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-US.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-ES.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-MX.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.et-EE.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fa-IR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fi-FI.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fil-PH.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fr-FR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.he-IL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hi-IN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hr-HR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hu-HU.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.id-ID.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.it-IT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ja-JP.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ko-KR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lt-LT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lv-LV.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.mk-MK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ms-MY.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nb-NO.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nl-NL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pl-PL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-BR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-PT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ro-RO.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ru-RU.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sk-SK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sq-AL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sv-SE.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.th-TH.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.tr-TR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.uk-UA.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.vi-VN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-CN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-TW.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ar-SA.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.az-Latn-AZ.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.be-BY.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.bg-BG.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ca-ES.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.cs-CZ.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.da-DK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.de-DE.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.el-GR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-GB.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-US.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-ES.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-MX.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fa-IR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fi-FI.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fil-PH.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fr-FR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.he-IL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hi-IN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hr-HR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hu-HU.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.id-ID.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.it-IT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ja-JP.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ko-KR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lt-LT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lv-LV.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.mk-MK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ms-MY.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nb-NO.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nl-NL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pl-PL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-BR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-PT.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ro-RO.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ru-RU.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sk-SK.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sq-AL.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sv-SE.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.th-TH.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.tr-TR.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.uk-UA.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.vi-VN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-CN.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-TW.resources
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csproj.GenerateResource.Cache
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\XapCacheFile.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\ApplicationIcon.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileMedium.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\FlipCycleTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileMediumLarge.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Assets\Tiles\IconicTileSmall.png
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\AppManifest.xaml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Properties\WMAppManifest.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\81Lockscreen.xap
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Audio.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Controls.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Net.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\Coding4Fun.Toolkit.Storage.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\MyScheduledTaskAgent.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ICSharpCode.SharpZLib.Phone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Controls.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Filtering.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Bmp.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Gif.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.IO.Png.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\ImageTools.Utils.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\PhoneCodeContractsAssemblies.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\Bin\Release\WriteableBitmapExWinPhone.xml
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csprojResolveAssemblyReference.cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\App.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\MainPage.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\10_0_Lock_Screen.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Components.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CopyFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\CreateProfil.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\EditFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\ImagesImporter.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Instructions.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Language.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Profiles.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameFolder.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\RenameProfil.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Pages\Support.g.cs
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.g.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-EN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sl-SL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sr-Latn-CS.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ar-SA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.Az-Latn-AZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.be-BY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.bg-BG.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ca-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.cs-CZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.da-DK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.el-GR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-GB.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en-US.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.en.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.es-MX.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.et-EE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fa-IR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fi-FI.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fil-PH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.fr-FR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.he-IL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hi-IN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hr-HR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.hu-HU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.id-ID.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.it-IT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ja-JP.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ko-KR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lt-LT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.lv-LV.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.mk-MK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ms-MY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nb-NO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.nl-NL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pl-PL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-BR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.pt-PT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ro-RO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.ru-RU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sk-SK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sq-AL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.sv-SE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.th-TH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.tr-TR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.uk-UA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.vi-VN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-CN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.zh-TW.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ar-SA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.az-Latn-AZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.be-BY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.bg-BG.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ca-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.cs-CZ.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.da-DK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.de-DE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.el-GR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-GB.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en-US.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.en.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-ES.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.es-MX.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fa-IR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fi-FI.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fil-PH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.fr-FR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.he-IL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hi-IN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hr-HR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.hu-HU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.id-ID.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.it-IT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ja-JP.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ko-KR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lt-LT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.lv-LV.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.mk-MK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ms-MY.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nb-NO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.nl-NL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pl-PL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-BR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.pt-PT.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.AppResx.de-DE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ro-RO.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.ru-RU.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sk-SK.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sq-AL.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.sv-SE.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.th-TH.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.tr-TR.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.uk-UA.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.vi-VN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-CN.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.Resources.AppResources.zh-TW.resources
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen_Swap.csproj.GenerateResource.Cache
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ar-SA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Az-Latn-AZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\be-BY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\bg-BG\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ca-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\cs-CZ\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\da-DK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\el-GR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-GB\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en-US\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\en\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-ES\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\es-MX\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\et-EE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fa-IR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fi-FI\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fil-PH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\fr-FR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\he-IL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hi-IN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hr-HR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\hu-HU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\id-ID\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\it-IT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ja-JP\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ko-KR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lt-LT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\lv-LV\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\mk-MK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ms-MY\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nb-NO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\nl-NL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pl-PL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-BR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\pt-PT\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ro-RO\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\ru-RU\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sk-SK\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sq-AL\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\sv-SE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\th-TH\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\tr-TR\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\uk-UA\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\vi-VN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-CN\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\zh-TW\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\de-DE\Lockscreen Swap.resources.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.dll
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\Lockscreen Swap.pdb
+D:\Moses\Projekte\Windows\Windows Phone\8.1 Lock screen\8.1 Lock Screen\Lockscreen Swap\obj\Release\XapCacheFile.xml
